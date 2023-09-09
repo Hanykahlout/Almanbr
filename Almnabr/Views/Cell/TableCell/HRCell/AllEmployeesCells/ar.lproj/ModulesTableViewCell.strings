@@ -1,0 +1,27 @@
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "D1g-ys-Q1A"; */
+"D1g-ys-Q1A.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "FbW-Uu-5Yh"; */
+"FbW-Uu-5Yh.text" = "Label";
+
+/* Class = "UILabel"; text = "Action"; ObjectID = "LAE-0g-O9A"; */
+"LAE-0g-O9A.text" = "الإجراءات";
+
+/* Class = "UILabel"; text = "Module Ids\t"; ObjectID = "Lj8-5l-1ar"; */
+"Lj8-5l-1ar.text" = "معرفات الوحدة";
+
+/* Class = "UILabel"; text = "Module"; ObjectID = "NU9-qK-SgO"; */
+"NU9-qK-SgO.text" = "وحدة";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "gPx-Wn-Nmm"; */
+"gPx-Wn-Nmm.text" = "Label";
+
+/* Class = "UILabel"; text = "On Date"; ObjectID = "h14-Ut-g40"; */
+"h14-Ut-g40.text" = "في تاريخ";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "jiJ-5i-cUR"; */
+"jiJ-5i-cUR.text" = "Label";
+
+/* Class = "UILabel"; text = "Writer"; ObjectID = "qDI-QD-qr6"; */
+"qDI-QD-qr6.text" = "كاتب";

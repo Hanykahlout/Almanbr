@@ -1,0 +1,21 @@
+
+/* Class = "UITextField"; placeholder = "Membership Number"; ObjectID = "Rsr-l7-SbC"; */
+"Rsr-l7-SbC.placeholder" = "رقم العضوية";
+
+/* Class = "UILabel"; text = "Education Details"; ObjectID = "bdE-RE-s6m"; */
+"bdE-RE-s6m.text" = "تفاصيل التعليم";
+
+/* Class = "UITextField"; placeholder = "Membership Expiry Date Arabic"; ObjectID = "jnJ-7c-laH"; */
+"jnJ-7c-laH.placeholder" = "تاريخ انتهاء العضوية بالعربية";
+
+/* Class = "UITextField"; placeholder = "lang_human_resources_rating_degree"; ObjectID = "qnv-II-BbN"; */
+"qnv-II-BbN.placeholder" = "درجة تصنيف الموارد البشرية";
+
+/* Class = "UITextField"; placeholder = "Graduation Year"; ObjectID = "tMn-Wf-VEU"; */
+"tMn-Wf-VEU.placeholder" = "سنة التخرج";
+
+/* Class = "UITextField"; placeholder = "Membership Expiry Date English"; ObjectID = "uW2-hS-mi2"; */
+"uW2-hS-mi2.placeholder" = "تاريخ انتهاء العضوية بالإنجليزية";
+
+/* Class = "UITextField"; placeholder = "Graduation"; ObjectID = "ujy-ST-CYJ"; */
+"ujy-ST-CYJ.placeholder" = "تخرُّج";

@@ -1,0 +1,114 @@
+
+/* Class = "UILabel"; text = "Attachments:"; ObjectID = "0Mh-DS-Riy"; */
+"0Mh-DS-Riy.text" = "المرفقات:";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "0WU-NC-p6H"; */
+"0WU-NC-p6H.text" = "Label";
+
+/* Class = "UILabel"; text = "Languages:"; ObjectID = "129-93-x1P"; */
+"129-93-x1P.text" = "اللغة:";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "1eJ-7O-L4L"; */
+"1eJ-7O-L4L.text" = "Label";
+
+/* Class = "UILabel"; text = "Subject:"; ObjectID = "2hR-25-Vf6"; */
+"2hR-25-Vf6.text" = "موضوعات:";
+
+/* Class = "UILabel"; text = "Issued Number:"; ObjectID = "4H4-aq-QNW"; */
+"4H4-aq-QNW.text" = "رقم المصدر:";
+
+/* Class = "UILabel"; text = "To Organization:"; ObjectID = "9HQ-dH-w2x"; */
+"9HQ-dH-w2x.text" = "إلى المنظمة:";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "ECd-4c-RgA"; */
+"ECd-4c-RgA.text" = "Label";
+
+/* Class = "UILabel"; text = "Employee Name A"; ObjectID = "IPR-G8-SdV"; */
+"IPR-G8-SdV.text" = "اسم الموظف A";
+
+/* Class = "UILabel"; text = "Issue Date English:"; ObjectID = "MZ2-GQ-DYU"; */
+"MZ2-GQ-DYU.text" = "تاريخ الإصدار انجليزي:";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "MlE-Ih-fXi"; */
+"MlE-Ih-fXi.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "Mlr-nn-Yuc"; */
+"Mlr-nn-Yuc.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "Nte-9q-zGU"; */
+"Nte-9q-zGU.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "Nxd-j8-uaT"; */
+"Nxd-j8-uaT.text" = "Label";
+
+/* Class = "UILabel"; text = "From:"; ObjectID = "Owx-nJ-LL3"; */
+"Owx-nJ-LL3.text" = "من:";
+
+/* Class = "UILabel"; text = "Job Title A:"; ObjectID = "P2F-ha-YMx"; */
+"P2F-ha-YMx.text" = "المهنة حسب الإقامة A";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "Qr2-M6-l4i"; */
+"Qr2-M6-l4i.text" = "Label";
+
+/* Class = "UILabel"; text = "Description:"; ObjectID = "S0k-mj-e9M"; */
+"S0k-mj-e9M.text" = "وصف:";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "Vwk-Mr-rqZ"; */
+"Vwk-Mr-rqZ.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "YO4-B1-ffw"; */
+"YO4-B1-ffw.text" = "Label";
+
+/* Class = "UILabel"; text = "Job Title B:"; ObjectID = "YUy-QK-lX7"; */
+"YUy-QK-lX7.text" = "المهنة حسب الإقامة B";
+
+/* Class = "UILabel"; text = "Markers:"; ObjectID = "ZMc-ub-hbh"; */
+"ZMc-ub-hbh.text" = "علامات:";
+
+/* Class = "UILabel"; text = "Employee Name C"; ObjectID = "dGm-K7-y6a"; */
+"dGm-K7-y6a.text" = "اسم الموظف C";
+
+/* Class = "UILabel"; text = "Reviewers:"; ObjectID = "fRT-98-9NZ"; */
+"fRT-98-9NZ.text" = "المراجعون:";
+
+/* Class = "UILabel"; text = "Signature & Stamp"; ObjectID = "gfX-To-4Lu"; */
+"gfX-To-4Lu.text" = "السيرة الذاتية";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "gw3-JD-kUc"; */
+"gw3-JD-kUc.text" = "Label";
+
+/* Class = "UILabel"; text = "Job Title C:"; ObjectID = "kLU-Z3-N69"; */
+"kLU-Z3-N69.text" = "المهنة حسب الإقامة C";
+
+/* Class = "UILabel"; text = "Employee Name B"; ObjectID = "kp9-7P-oVJ"; */
+"kp9-7P-oVJ.text" = "اسم الموظف B";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "ncr-uW-qw8"; */
+"ncr-uW-qw8.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "pah-Ya-naQ"; */
+"pah-Ya-naQ.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "pu5-k8-8vd"; */
+"pu5-k8-8vd.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "raX-c6-n0f"; */
+"raX-c6-n0f.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "tRl-rV-e3o"; */
+"tRl-rV-e3o.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "tty-9H-zHQ"; */
+"tty-9H-zHQ.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "ugM-Dw-BDX"; */
+"ugM-Dw-BDX.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "v79-jJ-v47"; */
+"v79-jJ-v47.text" = "Label";
+
+/* Class = "UILabel"; text = "Issue Date Arabic:"; ObjectID = "vN5-AT-sYe"; */
+"vN5-AT-sYe.text" = "تاريخ الإصدار عربي:";
+
+/* Class = "UILabel"; text = "Receipient:"; ObjectID = "yFC-ha-5Oj"; */
+"yFC-ha-5Oj.text" = "المستلم:";

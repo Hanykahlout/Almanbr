@@ -1,0 +1,9 @@
+
+/* Class = "UILabel"; text = "Notes"; ObjectID = "6QT-PD-r7x"; */
+"6QT-PD-r7x.text" = "ملحوظات";
+
+/* Class = "UITextField"; placeholder = "Search...."; ObjectID = "Jhd-zq-nkp"; */
+"Jhd-zq-nkp.placeholder" = "بحث....";
+
+/* Class = "UILabel"; text = "All"; ObjectID = "a3F-Nc-SmD"; */
+"a3F-Nc-SmD.text" = "الجميع";

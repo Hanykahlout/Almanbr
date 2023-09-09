@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="DroidKufi-Regular.ttf">
+            <string>DroidArabicKufi</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="SubTaskTVCell" rowHeight="51" id="KGk-i7-Jjw" customClass="SubTaskTVCell" customModule="Almnabr" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="51"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="51"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ods-gg-Cy4">
+                        <rect key="frame" x="10" y="10" width="300" height="31"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="hr0-Ra-jP8">
+                                <rect key="frame" x="227" y="5" width="68" height="19"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="z72-oo-8Rd">
+                                        <rect key="frame" x="0.0" y="0.0" width="15.5" height="19"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="19" id="XEc-OK-U5x"/>
+                                            <constraint firstAttribute="width" constant="15.5" id="ZE0-m4-1QQ"/>
+                                        </constraints>
+                                        <color key="tintColor" red="0.1019607843" green="0.21176470589999999" blue="0.39607843139999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" image="eye"/>
+                                        <connections>
+                                            <action selector="viewAction:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="n7F-mV-jRp"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xi8-Ju-Cgh">
+                                        <rect key="frame" x="25.5" y="2" width="15.5" height="15"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="15" id="mqY-Ql-mpj"/>
+                                            <constraint firstAttribute="width" constant="15.5" id="xGC-l3-Cdq"/>
+                                        </constraints>
+                                        <color key="tintColor" red="0.1019607843" green="0.21176470589999999" blue="0.39607843139999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" image="editing"/>
+                                        <connections>
+                                            <action selector="didDownloadButtonPressd:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="Gz1-LI-c83"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cVq-DX-ccQ">
+                                        <rect key="frame" x="51" y="0.0" width="17" height="19"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="19" id="axd-FB-ZF2"/>
+                                            <constraint firstAttribute="width" constant="17" id="zLQ-tn-382"/>
+                                        </constraints>
+                                        <color key="tintColor" systemColor="systemRedColor"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" image="trash" catalog="system"/>
+                                        <connections>
+                                            <action selector="didDeleteButtonPressd:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="NW8-MO-vR6"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="3" translatesAutoresizingMaskIntoConstraints="NO" id="BhD-ex-gdV">
+                                <rect key="frame" x="35" y="5" width="182" height="21"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="TNs-LV-wLd">
+                                        <rect key="frame" x="0.0" y="0.0" width="32" height="21"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QCw-bt-e1Y">
+                                                <rect key="frame" x="0.0" y="0.0" width="32" height="21"/>
+                                                <fontDescription key="fontDescription" name="DroidArabicKufi" family="Droid Arabic Kufi" pointSize="13"/>
+                                                <color key="textColor" red="0.1019607843" green="0.21176470589999999" blue="0.39607843139999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DMo-2i-iyB">
+                                                <rect key="frame" x="0.0" y="21" width="142" height="0.0"/>
+                                                <string key="text">End Date: 2022-05-17 00:00:00
+</string>
+                                                <fontDescription key="fontDescription" name="DroidArabicKufi" family="Droid Arabic Kufi" pointSize="10"/>
+                                                <color key="textColor" systemColor="systemGray2Color"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                            <collectionView hidden="YES" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="XNv-0Z-0gS">
+                                <rect key="frame" x="10" y="-1" width="280" height="30"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="Egw-QO-KxV"/>
+                                </constraints>
+                                <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="I6Q-zs-vg5">
+                                    <size key="itemSize" width="128" height="128"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <connections>
+                                    <outlet property="dataSource" destination="KGk-i7-Jjw" id="Lbf-t9-L9H"/>
+                                    <outlet property="delegate" destination="KGk-i7-Jjw" id="Qu5-ke-rqd"/>
+                                </connections>
+                            </collectionView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h4t-8W-hl2">
+                                <rect key="frame" x="5" y="5.5" width="20" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="20" id="QVF-gE-neR"/>
+                                    <constraint firstAttribute="height" constant="20" id="nfa-Ja-nnb"/>
+                                </constraints>
+                                <color key="tintColor" red="0.1019607843" green="0.21176470589999999" blue="0.39607843139999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" image="square" catalog="system"/>
+                                <connections>
+                                    <action selector="didCheckButtonPressd:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="co1-hK-9X7"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="hr0-Ra-jP8" secondAttribute="trailing" constant="5" id="329-iq-GGR"/>
+                            <constraint firstItem="h4t-8W-hl2" firstAttribute="leading" secondItem="Ods-gg-Cy4" secondAttribute="leading" constant="5" id="6eW-DF-ayc"/>
+                            <constraint firstAttribute="bottom" secondItem="BhD-ex-gdV" secondAttribute="bottom" constant="5" id="9EL-A2-DKi"/>
+                            <constraint firstItem="hr0-Ra-jP8" firstAttribute="leading" secondItem="BhD-ex-gdV" secondAttribute="trailing" constant="10" id="B9k-K1-Xix"/>
+                            <constraint firstAttribute="trailing" secondItem="XNv-0Z-0gS" secondAttribute="trailing" constant="10" id="BCf-nW-KEN"/>
+                            <constraint firstItem="XNv-0Z-0gS" firstAttribute="top" secondItem="TNs-LV-wLd" secondAttribute="bottom" constant="8" symbolic="YES" id="BFT-Uz-NTr"/>
+                            <constraint firstItem="h4t-8W-hl2" firstAttribute="centerY" secondItem="Ods-gg-Cy4" secondAttribute="centerY" id="Chv-et-j9Z"/>
+                            <constraint firstItem="XNv-0Z-0gS" firstAttribute="leading" secondItem="Ods-gg-Cy4" secondAttribute="leading" constant="10" id="Hmh-Jb-bkF"/>
+                            <constraint firstItem="BhD-ex-gdV" firstAttribute="top" secondItem="Ods-gg-Cy4" secondAttribute="top" constant="5" id="Qyh-y0-R7h"/>
+                            <constraint firstAttribute="bottom" secondItem="XNv-0Z-0gS" secondAttribute="bottom" constant="2" id="X8D-xE-WX2"/>
+                            <constraint firstItem="BhD-ex-gdV" firstAttribute="leading" secondItem="h4t-8W-hl2" secondAttribute="trailing" constant="10" id="XDF-Tt-QTw"/>
+                            <constraint firstItem="hr0-Ra-jP8" firstAttribute="top" secondItem="Ods-gg-Cy4" secondAttribute="top" constant="5" id="eag-NL-B1y"/>
+                            <constraint firstAttribute="height" constant="31" id="rzE-Gg-t8h"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="XNv-0Z-0gS"/>
+                            </mask>
+                        </variation>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="Ods-gg-Cy4" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="38P-SS-tja"/>
+                    <constraint firstAttribute="trailing" secondItem="Ods-gg-Cy4" secondAttribute="trailing" constant="10" id="3oX-Th-4YA"/>
+                    <constraint firstAttribute="bottom" secondItem="Ods-gg-Cy4" secondAttribute="bottom" constant="10" id="MxE-uB-Ulr"/>
+                    <constraint firstItem="Ods-gg-Cy4" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="dPv-mU-cBJ"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="btnCheck" destination="h4t-8W-hl2" id="Z1K-RT-CeJ"/>
+                <outlet property="btnDownload" destination="xi8-Ju-Cgh" id="6yW-MW-rv6"/>
+                <outlet property="collection" destination="XNv-0Z-0gS" id="l08-mO-i1v"/>
+                <outlet property="deleteEditStackView" destination="hr0-Ra-jP8" id="HXC-NZ-EUy"/>
+                <outlet property="lblDate" destination="DMo-2i-iyB" id="rS9-8P-KnD"/>
+                <outlet property="lblTitle" destination="QCw-bt-e1Y" id="VFc-05-Tez"/>
+                <outlet property="viewBack" destination="Ods-gg-Cy4" id="aHC-Bs-Gox"/>
+            </connections>
+            <point key="canvasLocation" x="134.78260869565219" y="-1.6741071428571428"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="editing" width="170.5" height="170.5"/>
+        <image name="eye" width="170.5" height="170.5"/>
+        <image name="square" catalog="system" width="128" height="114"/>
+        <image name="trash" catalog="system" width="121" height="128"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemGray2Color">
+            <color red="0.68235294117647061" green="0.68235294117647061" blue="0.69803921568627447" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemRedColor">
+            <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

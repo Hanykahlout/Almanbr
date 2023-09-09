@@ -1,0 +1,30 @@
+
+/* Class = "UITextField"; placeholder = "Search...."; ObjectID = "7yf-J9-afe"; */
+"7yf-J9-afe.placeholder" = "بحث....";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "B1e-xA-kBG"; */
+"B1e-xA-kBG.text" = "Label";
+
+/* Class = "UILabel"; text = "Expiry Date"; ObjectID = "KgO-a1-1ME"; */
+"KgO-a1-1ME.text" = "تاريخ انتهاء الصلاحية";
+
+/* Class = "UILabel"; text = "Graduation Year"; ObjectID = "QVI-Gt-Rrm"; */
+"QVI-Gt-Rrm.text" = "سنة التخرج";
+
+/* Class = "UILabel"; text = "Membership Number"; ObjectID = "Rcu-Dk-QGZ"; */
+"Rcu-Dk-QGZ.text" = "رقم العضوية";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "Rdj-xn-fLf"; */
+"Rdj-xn-fLf.text" = "Label";
+
+/* Class = "UILabel"; text = "Graduation"; ObjectID = "U3f-C4-UdF"; */
+"U3f-C4-UdF.text" = "تخرُّج";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "bA5-44-p59"; */
+"bA5-44-p59.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "gZK-K7-YhL"; */
+"gZK-K7-YhL.text" = "Label";
+
+/* Class = "UILabel"; text = "Education Details"; ObjectID = "wye-cf-2Ld"; */
+"wye-cf-2Ld.text" = "تفاصيل التعليم";

@@ -1,0 +1,18 @@
+
+/* Class = "UITextField"; placeholder = "Person Name"; ObjectID = "3eD-3X-vUb"; */
+"3eD-3X-vUb.placeholder" = "اسم الشخص";
+
+/* Class = "UITextField"; placeholder = "Email Address"; ObjectID = "HcG-t4-8dL"; */
+"HcG-t4-8dL.placeholder" = "عنوان البريد الالكترونى";
+
+/* Class = "UITextField"; placeholder = "Mobile Number"; ObjectID = "bVn-pn-TY5"; */
+"bVn-pn-TY5.placeholder" = "رقم الهاتف المحمول";
+
+/* Class = "UILabel"; text = "Contact Details"; ObjectID = "gzl-Pr-uqf"; */
+"gzl-Pr-uqf.text" = "بيانات المتصل";
+
+/* Class = "UIButton"; normalTitle = "Submit"; ObjectID = "lu2-Lj-vLg"; */
+"lu2-Lj-vLg.normalTitle" = "اعتماد";
+
+/* Class = "UITextView"; text = "Contact Address..."; ObjectID = "yoR-bm-jyL"; */
+"yoR-bm-jyL.text" = "عنوان الإتصال...";

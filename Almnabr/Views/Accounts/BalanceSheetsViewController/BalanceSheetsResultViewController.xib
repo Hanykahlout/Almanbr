@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="Stack View standard spacing" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="DroidKufi-Regular.ttf">
+            <string>DroidArabicKufi</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="BalanceSheetsResultViewController" customModule="Almnabr" customModuleProvider="target">
+            <connections>
+                <outlet property="emptyDataLabel" destination="oTK-bN-Hmb" id="2VL-cw-kSd"/>
+                <outlet property="mainStackView" destination="UDj-EK-5Sp" id="jYj-rD-Jcl"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hbJ-dm-61L">
+                    <rect key="frame" x="0.0" y="59" width="393" height="793"/>
+                    <subviews>
+                        <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5Wf-gd-6rx">
+                            <rect key="frame" x="10" y="10" width="373" height="753"/>
+                            <subviews>
+                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="UDj-EK-5Sp">
+                                    <rect key="frame" x="0.0" y="0.0" width="373" height="753"/>
+                                </stackView>
+                                <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="There is no Data!!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oTK-bN-Hmb">
+                                    <rect key="frame" x="30" y="357.66666666666669" width="313" height="38"/>
+                                    <fontDescription key="fontDescription" name="DroidArabicKufi" family="Droid Arabic Kufi" pointSize="20"/>
+                                    <color key="textColor" name="AppColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                            <constraints>
+                                <constraint firstItem="oTK-bN-Hmb" firstAttribute="leading" secondItem="5Wf-gd-6rx" secondAttribute="leading" constant="30" id="4R4-KY-cRd"/>
+                                <constraint firstItem="UDj-EK-5Sp" firstAttribute="height" secondItem="5Wf-gd-6rx" secondAttribute="height" priority="250" id="C40-4G-zPN"/>
+                                <constraint firstAttribute="trailing" secondItem="UDj-EK-5Sp" secondAttribute="trailing" id="Fxq-UZ-TMb"/>
+                                <constraint firstItem="oTK-bN-Hmb" firstAttribute="centerY" secondItem="5Wf-gd-6rx" secondAttribute="centerY" id="Pjx-fH-Vjo"/>
+                                <constraint firstAttribute="trailing" secondItem="oTK-bN-Hmb" secondAttribute="trailing" constant="30" id="Xex-7E-6OP"/>
+                                <constraint firstAttribute="bottom" secondItem="UDj-EK-5Sp" secondAttribute="bottom" id="bSd-xq-n0O"/>
+                                <constraint firstItem="UDj-EK-5Sp" firstAttribute="top" secondItem="5Wf-gd-6rx" secondAttribute="top" id="hRb-IG-Wpr"/>
+                                <constraint firstItem="UDj-EK-5Sp" firstAttribute="width" secondItem="5Wf-gd-6rx" secondAttribute="width" id="jWb-VI-34Z"/>
+                                <constraint firstItem="UDj-EK-5Sp" firstAttribute="leading" secondItem="5Wf-gd-6rx" secondAttribute="leading" id="qWJ-89-yRj"/>
+                            </constraints>
+                        </scrollView>
+                    </subviews>
+                    <color key="backgroundColor" red="0.90608113999999995" green="0.91750472780000003" blue="0.92941385509999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="5Wf-gd-6rx" secondAttribute="trailing" constant="10" id="0LU-Xf-pfC"/>
+                        <constraint firstItem="5Wf-gd-6rx" firstAttribute="leading" secondItem="hbJ-dm-61L" secondAttribute="leading" constant="10" id="GYA-PD-vlg"/>
+                        <constraint firstItem="5Wf-gd-6rx" firstAttribute="top" secondItem="hbJ-dm-61L" secondAttribute="top" constant="10" id="RWR-nS-WWQ"/>
+                        <constraint firstAttribute="bottom" secondItem="5Wf-gd-6rx" secondAttribute="bottom" constant="30" id="cpr-HM-5JQ"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" name="AppColor"/>
+            <constraints>
+                <constraint firstItem="hbJ-dm-61L" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="Cwf-VT-nji"/>
+                <constraint firstItem="hbJ-dm-61L" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="CxB-iV-iCN"/>
+                <constraint firstAttribute="bottom" secondItem="hbJ-dm-61L" secondAttribute="bottom" id="F9r-cA-RJc"/>
+                <constraint firstItem="hbJ-dm-61L" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="I5E-2T-knM"/>
+            </constraints>
+            <point key="canvasLocation" x="138.1679389312977" y="20.422535211267608"/>
+        </view>
+    </objects>
+    <resources>
+        <namedColor name="AppColor">
+            <color red="0.10196078431372549" green="0.21176470588235294" blue="0.396078431372549" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+        </namedColor>
+    </resources>
+</document>

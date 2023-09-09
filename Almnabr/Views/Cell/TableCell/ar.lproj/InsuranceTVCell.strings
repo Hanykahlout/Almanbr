@@ -1,0 +1,27 @@
+
+/* Class = "UILabel"; text = "Writer"; ObjectID = "2cB-Ou-gP4"; */
+"2cB-Ou-gP4.text" = "كاتب";
+
+/* Class = "UILabel"; text = "By :ijii"; ObjectID = "9he-tJ-AZ0"; */
+"9he-tJ-AZ0.text" = "بواسطة:";
+
+/* Class = "UILabel"; text = "Date"; ObjectID = "Dva-9o-9Ah"; */
+"Dva-9o-9Ah.text" = "تاريخ";
+
+/* Class = "UILabel"; text = "Name "; ObjectID = "Iyj-RP-aeS"; */
+"Iyj-RP-aeS.text" = "اسم";
+
+/* Class = "UILabel"; text = "Number"; ObjectID = "LgL-lk-O89"; */
+"LgL-lk-O89.text" = "رقم";
+
+/* Class = "UILabel"; text = "Insurance"; ObjectID = "RA9-S7-hRv"; */
+"RA9-S7-hRv.text" = "تأمين";
+
+/* Class = "UILabel"; text = "Update:"; ObjectID = "Zq2-e1-a5a"; */
+"Zq2-e1-a5a.text" = "تحديث:";
+
+/* Class = "UILabel"; text = "Relationship "; ObjectID = "kdm-28-QNm"; */
+"kdm-28-QNm.text" = "علاقة";
+
+/* Class = "UILabel"; text = "ID"; ObjectID = "s8g-Qh-OnW"; */
+"s8g-Qh-OnW.text" = "رقم الموظف";

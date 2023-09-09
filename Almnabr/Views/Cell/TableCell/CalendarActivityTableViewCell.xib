@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21225" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="Stack View standard spacing" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="DroidKufi-Bold.ttf">
+            <string>DroidArabicKufi-Bold</string>
+        </array>
+        <array key="DroidKufi-Regular.ttf">
+            <string>DroidArabicKufi</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="220" id="KGk-i7-Jjw" customClass="CalendarActivityTableViewCell" customModule="Almnabr" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="477" height="220"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="477" height="220"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="# 1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="I05-DD-mAR">
+                        <rect key="frame" x="9.9999999999999982" y="10.000000000000002" width="23.333333333333329" height="30.666666666666671"/>
+                        <fontDescription key="fontDescription" name="DroidArabicKufi" family="Droid Arabic Kufi" pointSize="16"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="0kq-bQ-Stq">
+                        <rect key="frame" x="10" y="50.666666666666664" width="457" height="66.666666666666686"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="OJF-HZ-qAz">
+                                <rect key="frame" x="0.0" y="0.0" width="457" height="57.666666666666664"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="BSy-bJ-aio">
+                                        <rect key="frame" x="0.0" y="0.0" width="224.66666666666666" height="57.666666666666664"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Employee Number" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="b39-dY-3Nq">
+                                                <rect key="frame" x="0.0" y="0.0" width="224.66666666666666" height="26.666666666666668"/>
+                                                <fontDescription key="fontDescription" name="DroidArabicKufi-Bold" family="Droid Arabic Kufi" pointSize="14"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="----" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lgB-Wt-inr">
+                                                <rect key="frame" x="0.0" y="34.666666666666664" width="224.66666666666666" height="23"/>
+                                                <fontDescription key="fontDescription" name="DroidArabicKufi" family="Droid Arabic Kufi" pointSize="12"/>
+                                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="mTu-G5-KKs">
+                                        <rect key="frame" x="232.66666666666663" y="0.0" width="224.33333333333337" height="57.666666666666664"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Employee Name" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BLG-Mt-4I4">
+                                                <rect key="frame" x="0.0" y="0.0" width="224.33333333333334" height="26.666666666666668"/>
+                                                <fontDescription key="fontDescription" name="DroidArabicKufi-Bold" family="Droid Arabic Kufi" pointSize="14"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="----" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mge-rI-vYl">
+                                                <rect key="frame" x="0.0" y="34.666666666666664" width="224.33333333333334" height="23"/>
+                                                <fontDescription key="fontDescription" name="DroidArabicKufi" family="Droid Arabic Kufi" pointSize="12"/>
+                                                <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dg5-DN-BGZ">
+                                <rect key="frame" x="0.0" y="65.666666666666657" width="457" height="1"/>
+                                <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="1" id="bDp-iw-XJt"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                    </stackView>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MiX-Ia-0hF">
+                        <rect key="frame" x="238" y="50.666666666666671" width="1" height="57.666666666666671"/>
+                        <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="1" id="Qdo-2H-04P"/>
+                        </constraints>
+                    </view>
+                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="Ubo-kC-lNL">
+                        <rect key="frame" x="10" y="127.33333333333331" width="457" height="82.666666666666686"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6th-NJ-hvp">
+                                <rect key="frame" x="0.0" y="0.0" width="85" height="82.666666666666671"/>
+                                <color key="tintColor" name="AppColor"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" image="hammer.fill" catalog="system"/>
+                                <connections>
+                                    <action selector="creatViolationAction:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="ykK-Cc-7Jy"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Im-Pb-omp">
+                                <rect key="frame" x="93" y="0.0" width="85" height="82.666666666666671"/>
+                                <color key="tintColor" name="AppColor"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" image="eye.slash.fill" catalog="system"/>
+                                <connections>
+                                    <action selector="cancelViolationAction:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="OOF-O0-3nM"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zw3-jy-caQ">
+                                <rect key="frame" x="186" y="0.0" width="85" height="82.666666666666671"/>
+                                <color key="tintColor" name="AppColor"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" image="eye.fill" catalog="system"/>
+                                <connections>
+                                    <action selector="openDetailsViolationAction:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="lkZ-m0-jHb"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XA8-ap-JoF">
+                                <rect key="frame" x="279" y="0.0" width="85" height="82.666666666666671"/>
+                                <color key="tintColor" name="AppColor"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" image="clock" catalog="system"/>
+                                <connections>
+                                    <action selector="weekRatioViolationAction:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="lHK-9z-fHt"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nQ2-tn-7tP">
+                                <rect key="frame" x="372" y="0.0" width="85" height="82.666666666666671"/>
+                                <color key="tintColor" name="AppColor"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" image="calendar" catalog="system"/>
+                                <connections>
+                                    <action selector="monthRatioViolationAction:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="v10-2N-Ghr"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                    </stackView>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="0kq-bQ-Stq" secondAttribute="trailing" constant="10" id="IXW-mf-40W"/>
+                    <constraint firstItem="I05-DD-mAR" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="K3Q-P1-7ep"/>
+                    <constraint firstItem="Ubo-kC-lNL" firstAttribute="top" secondItem="0kq-bQ-Stq" secondAttribute="bottom" constant="10" id="MVR-PC-SaB"/>
+                    <constraint firstItem="0kq-bQ-Stq" firstAttribute="top" secondItem="I05-DD-mAR" secondAttribute="bottom" constant="10" id="MXP-IS-ggF"/>
+                    <constraint firstAttribute="bottom" secondItem="Ubo-kC-lNL" secondAttribute="bottom" constant="10" id="T16-gH-IJd"/>
+                    <constraint firstItem="MiX-Ia-0hF" firstAttribute="height" secondItem="OJF-HZ-qAz" secondAttribute="height" id="Ucj-7Z-KYk"/>
+                    <constraint firstItem="0kq-bQ-Stq" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="XdV-pq-nwo"/>
+                    <constraint firstItem="Ubo-kC-lNL" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="aJV-V4-m64"/>
+                    <constraint firstItem="MiX-Ia-0hF" firstAttribute="centerX" secondItem="OJF-HZ-qAz" secondAttribute="centerX" id="tfp-hw-Efm"/>
+                    <constraint firstAttribute="trailing" secondItem="Ubo-kC-lNL" secondAttribute="trailing" constant="10" id="tmO-xm-aEy"/>
+                    <constraint firstItem="I05-DD-mAR" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="x6c-co-yWJ"/>
+                    <constraint firstItem="MiX-Ia-0hF" firstAttribute="top" secondItem="0kq-bQ-Stq" secondAttribute="top" id="yBw-jX-ac0"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <connections>
+                <outlet property="countLabel" destination="I05-DD-mAR" id="bHp-ir-beb"/>
+                <outlet property="employeeNameLabel" destination="Mge-rI-vYl" id="Jq9-Vt-KMC"/>
+                <outlet property="employeeNumberLabel" destination="lgB-Wt-inr" id="SgZ-DK-NbG"/>
+            </connections>
+            <point key="canvasLocation" x="233.07692307692307" y="-0.7109004739336493"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="calendar" catalog="system" width="128" height="107"/>
+        <image name="clock" catalog="system" width="128" height="123"/>
+        <image name="eye.fill" catalog="system" width="128" height="80"/>
+        <image name="eye.slash.fill" catalog="system" width="128" height="85"/>
+        <image name="hammer.fill" catalog="system" width="128" height="117"/>
+        <namedColor name="AppColor">
+            <color red="0.098039215686274508" green="0.21176470588235294" blue="0.396078431372549" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+        </namedColor>
+    </resources>
+</document>

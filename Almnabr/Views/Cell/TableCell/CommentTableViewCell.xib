@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="Stack View standard spacing" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="DroidKufi-Regular.ttf">
+            <string>DroidArabicKufi</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" rowHeight="177" id="KGk-i7-Jjw" customClass="CommentTableViewCell" customModule="Almnabr" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="418" height="177"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="418" height="177"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1O7-4I-j3q">
+                        <rect key="frame" x="10" y="10" width="398" height="147"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="default1" translatesAutoresizingMaskIntoConstraints="NO" id="G2R-le-L9a">
+                                <rect key="frame" x="20" y="20" width="30" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="1jk-Wa-LHr"/>
+                                    <constraint firstAttribute="width" constant="30" id="gYF-Q0-XuF"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="corner_radius">
+                                        <real key="value" value="15"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="G8c-Sh-cXh">
+                                <rect key="frame" x="70" y="20" width="308" height="107"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="o5a-wH-Oo4">
+                                        <rect key="frame" x="0.0" y="0.0" width="308" height="20"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="user name" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OdW-OV-hKd">
+                                                <rect key="frame" x="0.0" y="0.0" width="149" height="20"/>
+                                                <fontDescription key="fontDescription" name="DroidArabicKufi" family="Droid Arabic Kufi" pointSize="12"/>
+                                                <color key="textColor" name="AppColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="date" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bak-IB-Mmg">
+                                                <rect key="frame" x="159" y="0.0" width="149" height="20"/>
+                                                <fontDescription key="fontDescription" name="DroidArabicKufi" family="Droid Arabic Kufi" pointSize="12"/>
+                                                <color key="textColor" name="AppColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="b5L-Fs-zYm">
+                                        <rect key="frame" x="0.0" y="25" width="308" height="47"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="comment" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dn8-Vl-eBX">
+                                                <rect key="frame" x="10" y="10" width="288" height="27"/>
+                                                <fontDescription key="fontDescription" name="DroidArabicKufi" family="Droid Arabic Kufi" pointSize="14"/>
+                                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <constraints>
+                                            <constraint firstItem="Dn8-Vl-eBX" firstAttribute="leading" secondItem="b5L-Fs-zYm" secondAttribute="leading" constant="10" id="7Gk-cc-cGp"/>
+                                            <constraint firstAttribute="bottom" secondItem="Dn8-Vl-eBX" secondAttribute="bottom" constant="10" id="Cfb-YH-sww"/>
+                                            <constraint firstItem="Dn8-Vl-eBX" firstAttribute="top" secondItem="b5L-Fs-zYm" secondAttribute="top" constant="10" id="OVN-2S-Cie"/>
+                                            <constraint firstAttribute="trailing" secondItem="Dn8-Vl-eBX" secondAttribute="trailing" constant="10" id="rHG-cu-bsk"/>
+                                        </constraints>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="border_color">
+                                                <color key="value" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="corner_radius">
+                                                <real key="value" value="10"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="shadow_Color">
+                                                <color key="value" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="shadow_Radius">
+                                                <real key="value" value="10"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="size" keyPath="shadow_Offset">
+                                                <size key="value" width="0.0" height="0.0"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="shadow_Opacity">
+                                                <real key="value" value="1"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </view>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="WWP-JB-IMB">
+                                        <rect key="frame" x="0.0" y="77" width="308" height="30"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pb9-uQ-PSe">
+                                                <rect key="frame" x="0.0" y="0.0" width="71" height="30"/>
+                                                <fontDescription key="fontDescription" name="DroidArabicKufi" family="Droid Arabic Kufi" pointSize="12"/>
+                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                <state key="normal" title="Edit">
+                                                    <color key="titleColor" red="0.1019607843" green="0.21176470589999999" blue="0.39607843139999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="editAction:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="dHw-3B-FeP"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KaG-QM-CU2">
+                                                <rect key="frame" x="79" y="0.0" width="71" height="30"/>
+                                                <fontDescription key="fontDescription" name="DroidArabicKufi" family="Droid Arabic Kufi" pointSize="12"/>
+                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                <state key="normal" title="Delete">
+                                                    <color key="titleColor" red="0.1019607843" green="0.21176470589999999" blue="0.39607843139999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="deleteAction:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="M8T-xf-la0"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uho-Kh-qYG">
+                                                <rect key="frame" x="158" y="0.0" width="71" height="30"/>
+                                                <fontDescription key="fontDescription" name="DroidArabicKufi" family="Droid Arabic Kufi" pointSize="12"/>
+                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                <state key="normal" title="Reply">
+                                                    <color key="titleColor" red="0.1019607843" green="0.21176470589999999" blue="0.39607843139999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="replyAction:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="H1w-is-HJN"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ylb-Qm-Pss">
+                                                <rect key="frame" x="237" y="0.0" width="71" height="30"/>
+                                                <fontDescription key="fontDescription" name="DroidArabicKufi" family="Droid Arabic Kufi" pointSize="12"/>
+                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                <state key="normal" title="Replies">
+                                                    <color key="titleColor" red="0.1019607843" green="0.21176470589999999" blue="0.39607843139999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="hideShowRepliesAction:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="bNt-cj-Mrq"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="30" id="n5y-Z9-0fM"/>
+                                        </constraints>
+                                    </stackView>
+                                    <tableView hidden="YES" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="7Ne-dj-jhn">
+                                        <rect key="frame" x="0.0" y="107" width="308" height="300"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="300" id="1aS-7z-brN"/>
+                                        </constraints>
+                                    </tableView>
+                                    <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cjK-Rz-R2N">
+                                        <rect key="frame" x="0.0" y="107" width="308" height="100"/>
+                                        <subviews>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="4J8-25-gf6">
+                                                <rect key="frame" x="60" y="10" width="238" height="40"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <color key="textColor" systemColor="labelColor"/>
+                                                <fontDescription key="fontDescription" name="DroidArabicKufi" family="Droid Arabic Kufi" pointSize="13"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            </textView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Reply here..." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hEq-BN-Lam">
+                                                <rect key="frame" x="70" y="20" width="238" height="25"/>
+                                                <fontDescription key="fontDescription" name="DroidArabicKufi" family="Droid Arabic Kufi" pointSize="13"/>
+                                                <color key="textColor" systemColor="systemGray2Color"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="avatar" translatesAutoresizingMaskIntoConstraints="NO" id="PN2-qF-CYn">
+                                                <rect key="frame" x="10" y="10" width="30" height="30"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="30" id="7e8-z1-yZI"/>
+                                                    <constraint firstAttribute="width" constant="30" id="R7e-1X-c3B"/>
+                                                </constraints>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="corner_radius">
+                                                        <real key="value" value="15"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </imageView>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UVK-tk-UPn">
+                                                <rect key="frame" x="238" y="60" width="50" height="30"/>
+                                                <color key="backgroundColor" name="AppColor"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="50" id="2MA-V1-HGZ"/>
+                                                    <constraint firstAttribute="height" constant="30" id="vor-AZ-Me7"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="DroidArabicKufi" family="Droid Arabic Kufi" pointSize="12"/>
+                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                <state key="normal" title="Save">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="corner_radius">
+                                                        <real key="value" value="6"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="shadow_Radius">
+                                                        <real key="value" value="3"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="size" keyPath="shadow_Offset">
+                                                        <size key="value" width="0.0" height="0.0"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="shadow_Color">
+                                                        <color key="value" systemColor="systemGray2Color"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="shadow_Opacity">
+                                                        <real key="value" value="1"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <action selector="saveAction:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="bgT-lg-ZMM"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstItem="4J8-25-gf6" firstAttribute="top" secondItem="cjK-Rz-R2N" secondAttribute="top" constant="10" id="0fY-HZ-elz"/>
+                                            <constraint firstItem="hEq-BN-Lam" firstAttribute="trailing" secondItem="4J8-25-gf6" secondAttribute="trailing" constant="10" id="245-lP-hsE"/>
+                                            <constraint firstItem="PN2-qF-CYn" firstAttribute="top" secondItem="cjK-Rz-R2N" secondAttribute="top" constant="10" id="D9h-VU-Qdw"/>
+                                            <constraint firstAttribute="trailing" secondItem="4J8-25-gf6" secondAttribute="trailing" constant="10" id="Ems-03-OgX"/>
+                                            <constraint firstAttribute="trailing" secondItem="UVK-tk-UPn" secondAttribute="trailing" constant="20" id="IWb-5j-nUI"/>
+                                            <constraint firstItem="hEq-BN-Lam" firstAttribute="top" secondItem="4J8-25-gf6" secondAttribute="top" constant="10" id="MvC-DU-Moe"/>
+                                            <constraint firstItem="UVK-tk-UPn" firstAttribute="top" secondItem="4J8-25-gf6" secondAttribute="bottom" constant="10" id="VnT-n8-1AM"/>
+                                            <constraint firstItem="4J8-25-gf6" firstAttribute="leading" secondItem="PN2-qF-CYn" secondAttribute="trailing" constant="20" id="Wb2-cn-e8J"/>
+                                            <constraint firstItem="hEq-BN-Lam" firstAttribute="leading" secondItem="4J8-25-gf6" secondAttribute="leading" constant="10" id="dWn-JD-gRK"/>
+                                            <constraint firstAttribute="height" constant="100" id="m97-zN-INk"/>
+                                            <constraint firstAttribute="bottom" secondItem="UVK-tk-UPn" secondAttribute="bottom" constant="10" id="rqC-zh-sEx"/>
+                                            <constraint firstItem="PN2-qF-CYn" firstAttribute="leading" secondItem="cjK-Rz-R2N" secondAttribute="leading" constant="10" id="rvJ-yl-d3d"/>
+                                        </constraints>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="corner_radius">
+                                                <real key="value" value="8"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="shadow_Radius">
+                                                <real key="value" value="4"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="shadow_Color">
+                                                <color key="value" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="size" keyPath="shadow_Offset">
+                                                <size key="value" width="0.0" height="0.0"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="shadow_Opacity">
+                                                <real key="value" value="1"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </view>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.9371047616" green="0.9546068311" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="G8c-Sh-cXh" firstAttribute="top" secondItem="1O7-4I-j3q" secondAttribute="top" constant="20" id="6Fp-Ut-neC"/>
+                            <constraint firstItem="G8c-Sh-cXh" firstAttribute="leading" secondItem="G2R-le-L9a" secondAttribute="trailing" constant="20" id="8Nq-tb-Hko"/>
+                            <constraint firstItem="G2R-le-L9a" firstAttribute="leading" secondItem="1O7-4I-j3q" secondAttribute="leading" constant="20" id="D2m-SB-2KZ"/>
+                            <constraint firstAttribute="trailing" secondItem="G8c-Sh-cXh" secondAttribute="trailing" constant="20" id="W7m-yD-YfR"/>
+                            <constraint firstItem="G2R-le-L9a" firstAttribute="top" secondItem="1O7-4I-j3q" secondAttribute="top" constant="20" id="p8r-P2-33h"/>
+                            <constraint firstAttribute="bottom" secondItem="G8c-Sh-cXh" secondAttribute="bottom" constant="20" id="sgC-HO-li5"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="shadow_Radius">
+                                <real key="value" value="4"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="size" keyPath="shadow_Offset">
+                                <size key="value" width="0.0" height="2"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="color" keyPath="shadow_Color">
+                                <color key="value" systemColor="systemGray2Color"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="shadow_Opacity">
+                                <real key="value" value="1"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="corner_radius">
+                                <real key="value" value="10"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="1O7-4I-j3q" secondAttribute="bottom" constant="20" id="2kf-X4-HS6"/>
+                    <constraint firstItem="1O7-4I-j3q" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="ECm-Zw-VPP"/>
+                    <constraint firstAttribute="trailing" secondItem="1O7-4I-j3q" secondAttribute="trailing" constant="10" id="jlY-B5-774"/>
+                    <constraint firstItem="1O7-4I-j3q" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="p6f-7S-dHg"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <connections>
+                <outlet property="commentLabel" destination="Dn8-Vl-eBX" id="Ahh-E8-YRX"/>
+                <outlet property="dateLabel" destination="Bak-IB-Mmg" id="uh7-v4-Sr0"/>
+                <outlet property="deleteButton" destination="KaG-QM-CU2" id="fPd-fX-XYg"/>
+                <outlet property="editButton" destination="Pb9-uQ-PSe" id="aY3-2e-dt2"/>
+                <outlet property="nameLabel" destination="OdW-OV-hKd" id="5wJ-vO-ebo"/>
+                <outlet property="notTypingCommentLabel" destination="hEq-BN-Lam" id="82H-bx-EUX"/>
+                <outlet property="repliesButton" destination="Ylb-Qm-Pss" id="TdC-BI-H0i"/>
+                <outlet property="replyButton" destination="uho-Kh-qYG" id="HOK-qe-Rjh"/>
+                <outlet property="replyTextView" destination="4J8-25-gf6" id="FDm-se-qSL"/>
+                <outlet property="replyView" destination="cjK-Rz-R2N" id="PLY-Qz-XY2"/>
+                <outlet property="tableHeight" destination="1aS-7z-brN" id="PjX-JM-1F8"/>
+                <outlet property="tableView" destination="7Ne-dj-jhn" id="9sr-6K-ny4"/>
+            </connections>
+            <point key="canvasLocation" x="97.101449275362327" y="2.34375"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="avatar" width="100" height="100"/>
+        <image name="default1" width="512" height="512"/>
+        <namedColor name="AppColor">
+            <color red="0.098039215686274508" green="0.21176470588235294" blue="0.396078431372549" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+        </namedColor>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemGray2Color">
+            <color red="0.68235294117647061" green="0.68235294117647061" blue="0.69803921568627447" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

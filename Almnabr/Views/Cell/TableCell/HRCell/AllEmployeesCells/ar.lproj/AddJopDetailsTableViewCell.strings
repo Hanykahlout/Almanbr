@@ -1,0 +1,18 @@
+
+/* Class = "UITextField"; placeholder = "Expiry Date English"; ObjectID = "ExO-d9-Nnh"; */
+"ExO-d9-Nnh.placeholder" = "تاريخ انتهاء الصلاحية بالإنجليزية";
+
+/* Class = "UITextField"; placeholder = "Licence Name"; ObjectID = "FS5-ec-pcq"; */
+"FS5-ec-pcq.placeholder" = "اسم الرخصة";
+
+/* Class = "UITextField"; placeholder = "Expiry Date Arabic"; ObjectID = "Tlr-3B-UTp"; */
+"Tlr-3B-UTp.placeholder" = "تاريخ انتهاء الصلاحية بالعربية";
+
+/* Class = "UITextField"; placeholder = "Licence Number"; ObjectID = "VdK-DF-Bw7"; */
+"VdK-DF-Bw7.placeholder" = "رقم الرخصة";
+
+/* Class = "UITextField"; placeholder = "Issue Date English"; ObjectID = "aFQ-Cs-RWL"; */
+"aFQ-Cs-RWL.placeholder" = "تاريخ الإصدار بالإنجليزية";
+
+/* Class = "UITextField"; placeholder = "Issue Date Arabic"; ObjectID = "lYS-er-rfQ"; */
+"lYS-er-rfQ.placeholder" = "تاريخ الإصدار بالعربية";

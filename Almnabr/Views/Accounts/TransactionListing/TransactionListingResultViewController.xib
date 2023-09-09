@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="DroidKufi-Regular.ttf">
+            <string>DroidArabicKufi</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="TransactionListingResultViewController" customModule="Almnabr" customModuleProvider="target">
+            <connections>
+                <outlet property="emptyDataLabel" destination="xCc-mb-Z0H" id="im6-Lo-DQA"/>
+                <outlet property="tableView" destination="Qbr-rz-Mh5" id="cLP-cc-Kbp"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="03c-rh-qkz">
+                    <rect key="frame" x="0.0" y="59" width="393" height="793"/>
+                    <subviews>
+                        <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="Qbr-rz-Mh5">
+                            <rect key="frame" x="0.0" y="20" width="393" height="743"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <color key="sectionIndexBackgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </tableView>
+                        <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="There is no data" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xCc-mb-Z0H">
+                            <rect key="frame" x="0.0" y="372.66666666666669" width="393" height="38"/>
+                            <fontDescription key="fontDescription" name="DroidArabicKufi" family="Droid Arabic Kufi" pointSize="20"/>
+                            <color key="textColor" name="AppColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" red="0.90608113999999995" green="0.91750472780000003" blue="0.92941385509999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="Qbr-rz-Mh5" secondAttribute="trailing" id="Efj-aL-lkR"/>
+                        <constraint firstItem="Qbr-rz-Mh5" firstAttribute="top" secondItem="03c-rh-qkz" secondAttribute="top" constant="20" id="KcC-OJ-k6P"/>
+                        <constraint firstAttribute="bottom" secondItem="Qbr-rz-Mh5" secondAttribute="bottom" constant="30" id="TPQ-nu-zQC"/>
+                        <constraint firstItem="xCc-mb-Z0H" firstAttribute="centerY" secondItem="Qbr-rz-Mh5" secondAttribute="centerY" id="XWK-bE-e1K"/>
+                        <constraint firstItem="Qbr-rz-Mh5" firstAttribute="leading" secondItem="03c-rh-qkz" secondAttribute="leading" id="p6C-ZE-9G5"/>
+                        <constraint firstItem="xCc-mb-Z0H" firstAttribute="leading" secondItem="Qbr-rz-Mh5" secondAttribute="leading" id="r6Q-NI-de4"/>
+                        <constraint firstItem="xCc-mb-Z0H" firstAttribute="trailing" secondItem="Qbr-rz-Mh5" secondAttribute="trailing" id="rHb-Zq-STh"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" name="AppColor"/>
+            <constraints>
+                <constraint firstItem="03c-rh-qkz" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="4GM-Ym-5aQ"/>
+                <constraint firstItem="03c-rh-qkz" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="L9L-Gl-8qI"/>
+                <constraint firstAttribute="bottom" secondItem="03c-rh-qkz" secondAttribute="bottom" id="cml-St-SU1"/>
+                <constraint firstItem="03c-rh-qkz" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="wOa-a3-jnL"/>
+            </constraints>
+            <point key="canvasLocation" x="136.64122137404578" y="19.718309859154932"/>
+        </view>
+    </objects>
+    <resources>
+        <namedColor name="AppColor">
+            <color red="0.10196078431372549" green="0.21176470588235294" blue="0.396078431372549" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+        </namedColor>
+    </resources>
+</document>

@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="Stack View standard spacing" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="DroidKufi-Regular.ttf">
+            <string>DroidArabicKufi</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="EducationDetailsViewController" customModule="Almnabr" customModuleProvider="target">
+            <connections>
+                <outlet property="graduationArrow" destination="wmh-5h-07u" id="jeh-hH-upD"/>
+                <outlet property="graduationTextField" destination="ujy-ST-CYJ" id="76b-ww-zJM"/>
+                <outlet property="graduationYearTextField" destination="tMn-Wf-VEU" id="mhR-ou-aRV"/>
+                <outlet property="lang_humanArrow" destination="hd5-4L-M8r" id="RdL-Ac-Mei"/>
+                <outlet property="lang_humanTextField" destination="qnv-II-BbN" id="RuQ-c2-Q4K"/>
+                <outlet property="membershipExpiryDateArTextField" destination="jnJ-7c-laH" id="yPw-G9-Wae"/>
+                <outlet property="membershipExpiryEnTextField" destination="uW2-hS-mi2" id="ycD-Fj-JKY"/>
+                <outlet property="membershipNumberTextField" destination="Rsr-l7-SbC" id="6m5-jO-KZz"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Education Details" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bdE-RE-s6m">
+                    <rect key="frame" x="16" y="54" width="141.5" height="34.5"/>
+                    <fontDescription key="fontDescription" name="DroidArabicKufi" family="Droid Arabic Kufi" pointSize="18"/>
+                    <color key="textColor" red="0.054546527560000002" green="0.21474048500000001" blue="0.40836769340000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZaD-kR-WjN">
+                    <rect key="frame" x="0.0" y="98.5" width="414" height="763.5"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2mg-0O-Qc3">
+                            <rect key="frame" x="0.0" y="0.0" width="414" height="310"/>
+                            <subviews>
+                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="nfI-lc-mtQ">
+                                    <rect key="frame" x="20" y="10" width="374" height="280"/>
+                                    <subviews>
+                                        <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Graduation" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ujy-ST-CYJ">
+                                            <rect key="frame" x="0.0" y="0.0" width="374" height="40"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="40" id="Lb6-r1-vWP"/>
+                                            </constraints>
+                                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                            <textInputTraits key="textInputTraits"/>
+                                        </textField>
+                                        <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="lang_human_resources_rating_degree" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="qnv-II-BbN">
+                                            <rect key="frame" x="0.0" y="48" width="374" height="40"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="40" id="R9a-7n-t1M"/>
+                                            </constraints>
+                                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                            <textInputTraits key="textInputTraits"/>
+                                        </textField>
+                                        <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Graduation Year" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="tMn-Wf-VEU">
+                                            <rect key="frame" x="0.0" y="96" width="374" height="40"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="40" id="ZKo-zb-q8W"/>
+                                            </constraints>
+                                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                            <textInputTraits key="textInputTraits"/>
+                                        </textField>
+                                        <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Membership Number" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Rsr-l7-SbC">
+                                            <rect key="frame" x="0.0" y="144" width="374" height="40"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="40" id="mRc-Qv-knd"/>
+                                            </constraints>
+                                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                            <textInputTraits key="textInputTraits"/>
+                                        </textField>
+                                        <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Membership Expiry Date English" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="uW2-hS-mi2">
+                                            <rect key="frame" x="0.0" y="192" width="374" height="40"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="40" id="544-xp-69K"/>
+                                            </constraints>
+                                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                            <textInputTraits key="textInputTraits"/>
+                                        </textField>
+                                        <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Membership Expiry Date Arabic" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="jnJ-7c-laH">
+                                            <rect key="frame" x="0.0" y="240" width="374" height="40"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="40" id="nmB-FB-5IS"/>
+                                            </constraints>
+                                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                            <textInputTraits key="textInputTraits"/>
+                                        </textField>
+                                    </subviews>
+                                </stackView>
+                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="downward-arrow" translatesAutoresizingMaskIntoConstraints="NO" id="wmh-5h-07u">
+                                    <rect key="frame" x="359" y="22.5" width="15" height="15"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="15" id="G0k-yQ-q3t"/>
+                                        <constraint firstAttribute="width" constant="15" id="q9g-RY-Cap"/>
+                                    </constraints>
+                                </imageView>
+                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="downward-arrow" translatesAutoresizingMaskIntoConstraints="NO" id="hd5-4L-M8r">
+                                    <rect key="frame" x="359" y="70.5" width="15" height="15"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="15" id="30g-bl-nCx"/>
+                                        <constraint firstAttribute="height" constant="15" id="q24-iA-DMX"/>
+                                    </constraints>
+                                </imageView>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bAT-Vs-2uT">
+                                    <rect key="frame" x="353" y="211" width="21" height="22"/>
+                                    <color key="tintColor" red="0.054546527560000002" green="0.21474048500000001" blue="0.40836769340000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                    <state key="normal" image="calendar" catalog="system"/>
+                                    <connections>
+                                        <action selector="dateEnAction:" destination="-1" eventType="touchUpInside" id="pAp-lb-PwU"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstItem="nfI-lc-mtQ" firstAttribute="leading" secondItem="2mg-0O-Qc3" secondAttribute="leading" constant="20" id="Afr-aG-nVF"/>
+                                <constraint firstItem="wmh-5h-07u" firstAttribute="centerY" secondItem="ujy-ST-CYJ" secondAttribute="centerY" id="E2A-QZ-Tsj"/>
+                                <constraint firstAttribute="bottom" secondItem="nfI-lc-mtQ" secondAttribute="bottom" constant="20" id="FAY-iM-jlX"/>
+                                <constraint firstItem="nfI-lc-mtQ" firstAttribute="top" secondItem="2mg-0O-Qc3" secondAttribute="top" constant="10" id="QUn-gB-9wa"/>
+                                <constraint firstItem="wmh-5h-07u" firstAttribute="trailing" secondItem="ujy-ST-CYJ" secondAttribute="trailing" constant="-20" id="es4-mu-JbW"/>
+                                <constraint firstItem="hd5-4L-M8r" firstAttribute="centerY" secondItem="qnv-II-BbN" secondAttribute="centerY" id="kT8-fs-Zix"/>
+                                <constraint firstItem="bAT-Vs-2uT" firstAttribute="trailing" secondItem="uW2-hS-mi2" secondAttribute="trailing" constant="-20" id="pZc-D0-oUN"/>
+                                <constraint firstAttribute="trailing" secondItem="nfI-lc-mtQ" secondAttribute="trailing" constant="20" id="rpk-qS-iS7"/>
+                                <constraint firstItem="bAT-Vs-2uT" firstAttribute="centerY" secondItem="uW2-hS-mi2" secondAttribute="centerY" id="u8N-tP-PTq"/>
+                                <constraint firstItem="hd5-4L-M8r" firstAttribute="trailing" secondItem="qnv-II-BbN" secondAttribute="trailing" constant="-20" id="xvb-jD-Sgl"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <constraints>
+                        <constraint firstAttribute="bottom" secondItem="2mg-0O-Qc3" secondAttribute="bottom" id="Ha5-MK-Ogq"/>
+                        <constraint firstItem="2mg-0O-Qc3" firstAttribute="height" secondItem="ZaD-kR-WjN" secondAttribute="height" priority="250" id="Ot4-kZ-DrY"/>
+                        <constraint firstItem="2mg-0O-Qc3" firstAttribute="top" secondItem="ZaD-kR-WjN" secondAttribute="top" id="POt-8e-z5E"/>
+                        <constraint firstItem="2mg-0O-Qc3" firstAttribute="width" secondItem="ZaD-kR-WjN" secondAttribute="width" id="R8D-Kl-0nO"/>
+                        <constraint firstAttribute="trailing" secondItem="2mg-0O-Qc3" secondAttribute="trailing" id="RwR-zj-fCu"/>
+                        <constraint firstItem="2mg-0O-Qc3" firstAttribute="leading" secondItem="ZaD-kR-WjN" secondAttribute="leading" id="kQO-JV-LTI"/>
+                    </constraints>
+                </scrollView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="bdE-RE-s6m" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="10" id="OrA-Wn-gdd"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="ZaD-kR-WjN" secondAttribute="trailing" id="U0X-V7-fzJ"/>
+                <constraint firstItem="ZaD-kR-WjN" firstAttribute="top" secondItem="bdE-RE-s6m" secondAttribute="bottom" constant="10" id="VZ3-H9-4TZ"/>
+                <constraint firstItem="ZaD-kR-WjN" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="ojn-x1-hOK"/>
+                <constraint firstItem="bdE-RE-s6m" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="16" id="tLU-6h-LwM"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="ZaD-kR-WjN" secondAttribute="bottom" id="vqS-SL-ldq"/>
+            </constraints>
+            <point key="canvasLocation" x="131.8840579710145" y="99.776785714285708"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="calendar" catalog="system" width="128" height="106"/>
+        <image name="downward-arrow" width="170.5" height="170.5"/>
+    </resources>
+</document>

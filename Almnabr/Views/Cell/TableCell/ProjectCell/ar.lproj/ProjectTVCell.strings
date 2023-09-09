@@ -1,0 +1,21 @@
+
+/* Class = "UILabel"; text = "Branch:testt"; ObjectID = "5ET-mK-AsC"; */
+"5ET-mK-AsC.text" = "فرع:";
+
+/* Class = "UILabel"; text = "Title : demo3"; ObjectID = "HBB-Iy-2gR"; */
+"HBB-Iy-2gR.text" = "عنوان:";
+
+/* Class = "UILabel"; text = "ID: 23"; ObjectID = "PI1-Kr-I9Z"; */
+"PI1-Kr-I9Z.text" = "رقم الموظف:";
+
+/* Class = "UILabel"; text = "By :ijii"; ObjectID = "YcD-KN-LaG"; */
+"YcD-KN-LaG.text" = "بواسطة:";
+
+/* Class = "UILabel"; text = "By :ijii"; ObjectID = "cWV-uB-30r"; */
+"cWV-uB-30r.text" = "بواسطة :";
+
+/* Class = "UILabel"; text = "ID: 23"; ObjectID = "gLk-vt-j3o"; */
+"gLk-vt-j3o.text" = "رقم:";
+
+/* Class = "UILabel"; text = "ID: 23"; ObjectID = "uJ9-ns-bYn"; */
+"uJ9-ns-bYn.text" = "رقم:";

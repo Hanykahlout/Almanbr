@@ -1,0 +1,36 @@
+
+/* Class = "UILabel"; text = "Date & Time"; ObjectID = "0kC-S7-IfB"; */
+"0kC-S7-IfB.text" = "التاريخ والوقت";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "30H-eH-dgQ"; */
+"30H-eH-dgQ.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "47a-h8-exv"; */
+"47a-h8-exv.text" = "Label";
+
+/* Class = "UILabel"; text = "Last View Time"; ObjectID = "Rc4-uh-use"; */
+"Rc4-uh-use.text" = "وقت آخر مشاهدة";
+
+/* Class = "UILabel"; text = "View"; ObjectID = "V7e-bh-s5H"; */
+"V7e-bh-s5H.text" = "مشاهدة";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "Zxj-lT-0cx"; */
+"Zxj-lT-0cx.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "b0o-4h-QHS"; */
+"b0o-4h-QHS.text" = "Label";
+
+/* Class = "UILabel"; text = "Name"; ObjectID = "hD7-M2-Kf9"; */
+"hD7-M2-Kf9.text" = "اسم";
+
+/* Class = "UILabel"; text = "Action"; ObjectID = "iIp-NQ-ohg"; */
+"iIp-NQ-ohg.text" = "الإجراءات";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "jYX-Fj-0hY"; */
+"jYX-Fj-0hY.text" = "Label";
+
+/* Class = "UILabel"; text = "View Time"; ObjectID = "scr-To-wV8"; */
+"scr-To-wV8.text" = "مشاهدة الوقت";
+
+/* Class = "UILabel"; text = "Type"; ObjectID = "woe-Aw-NCr"; */
+"woe-Aw-NCr.text" = "النوع";

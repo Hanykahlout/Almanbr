@@ -1,0 +1,18 @@
+
+/* Class = "UITextField"; placeholder = "Education Title"; ObjectID = "Ac0-UH-dcs"; */
+"Ac0-UH-dcs.placeholder" = "عنوان التعليم";
+
+/* Class = "UIButton"; normalTitle = "Submit"; ObjectID = "WVW-fL-OTu"; */
+"WVW-fL-OTu.normalTitle" = "اعتماد";
+
+/* Class = "UITextField"; placeholder = "End Date"; ObjectID = "ZsW-uI-TfM"; */
+"ZsW-uI-TfM.placeholder" = "تاريخ الانتهاء";
+
+/* Class = "UITextView"; text = "Description"; ObjectID = "cXk-4V-0fv"; */
+"cXk-4V-0fv.text" = "وصف";
+
+/* Class = "UITextField"; placeholder = "Start Date"; ObjectID = "ceZ-Ph-CG0"; */
+"ceZ-Ph-CG0.placeholder" = "تاريخ البدء";
+
+/* Class = "UILabel"; text = "Education Details"; ObjectID = "o8V-0A-CdA"; */
+"o8V-0A-CdA.text" = "تفاصيل التعليم";

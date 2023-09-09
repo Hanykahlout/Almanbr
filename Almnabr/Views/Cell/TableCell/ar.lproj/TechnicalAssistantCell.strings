@@ -1,0 +1,42 @@
+
+/* Class = "UILabel"; text = "1"; ObjectID = "0iD-bH-BCr"; */
+"0iD-bH-BCr.text" = "1";
+
+/* Class = "UIButton"; configuration.title = " "; ObjectID = "P6p-Ba-8Ab"; */
+"P6p-Ba-8Ab.configuration.title" = " ";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "P6p-Ba-8Ab"; */
+"P6p-Ba-8Ab.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "ZoE-qY-Ddg"; */
+"ZoE-qY-Ddg.text" = "Label";
+
+/* Class = "UILabel"; text = " Choose"; ObjectID = "hAU-VF-Vhj"; */
+"hAU-VF-Vhj.text" = "اختر";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "iIP-vB-nii"; */
+"iIP-vB-nii.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "jSw-ep-eo0"; */
+"jSw-ep-eo0.text" = "Label";
+
+/* Class = "UILabel"; text = "LabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabel"; ObjectID = "oKr-Qh-NRY"; */
+"oKr-Qh-NRY.text" = "LabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabel";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "r7Y-IK-Eyh"; */
+"r7Y-IK-Eyh.text" = "Label";
+
+/* Class = "UIButton"; configuration.title = " "; ObjectID = "rfh-W9-2Yu"; */
+"rfh-W9-2Yu.configuration.title" = " ";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "rfh-W9-2Yu"; */
+"rfh-W9-2Yu.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "xA6-rF-lhg"; */
+"xA6-rF-lhg.text" = "Label";
+
+/* Class = "UIButton"; configuration.title = " "; ObjectID = "yxg-uT-uZ4"; */
+"yxg-uT-uZ4.configuration.title" = " ";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "yxg-uT-uZ4"; */
+"yxg-uT-uZ4.normalTitle" = "Button";

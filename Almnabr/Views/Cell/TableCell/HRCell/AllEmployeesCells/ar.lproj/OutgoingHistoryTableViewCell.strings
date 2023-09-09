@@ -1,0 +1,18 @@
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "4Ky-cq-7vj"; */
+"4Ky-cq-7vj.text" = "Label";
+
+/* Class = "UILabel"; text = "Notes:"; ObjectID = "GfZ-cu-8iv"; */
+"GfZ-cu-8iv.text" = "ملحوظات:";
+
+/* Class = "UILabel"; text = "On Date:"; ObjectID = "S7s-24-1Mk"; */
+"S7s-24-1Mk.text" = "في تاريخ:";
+
+/* Class = "UILabel"; text = "Name:\t"; ObjectID = "TF0-oy-Dq5"; */
+"TF0-oy-Dq5.text" = "اسم:";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "VOJ-di-z3T"; */
+"VOJ-di-z3T.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "pe6-Lz-aAx"; */
+"pe6-Lz-aAx.text" = "Label";

@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="Stack View standard spacing" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" rowHeight="226" id="KGk-i7-Jjw" customClass="AddJopDetailsTableViewCell" customModule="Almnabr" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="437" height="220"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="437" height="220"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="M6o-zX-h4t">
+                        <rect key="frame" x="10" y="59" width="417" height="151"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="7" translatesAutoresizingMaskIntoConstraints="NO" id="Lj1-bM-2q6">
+                                <rect key="frame" x="0.0" y="0.0" width="417" height="45"/>
+                                <subviews>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Licence Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="FS5-ec-pcq">
+                                        <rect key="frame" x="0.0" y="0.0" width="205" height="45"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Licence Number" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="VdK-DF-Bw7">
+                                        <rect key="frame" x="212" y="0.0" width="205" height="45"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="45" id="gju-SW-t1y"/>
+                                </constraints>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="7" translatesAutoresizingMaskIntoConstraints="NO" id="vBd-WY-BkU">
+                                <rect key="frame" x="0.0" y="53" width="417" height="45"/>
+                                <subviews>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Issue Date English" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="aFQ-Cs-RWL">
+                                        <rect key="frame" x="0.0" y="0.0" width="205" height="45"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Issue Date Arabic" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="lYS-er-rfQ">
+                                        <rect key="frame" x="212" y="0.0" width="205" height="45"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="45" id="Zao-ON-JgO"/>
+                                </constraints>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="ek1-XM-qdt">
+                                <rect key="frame" x="0.0" y="106" width="417" height="45"/>
+                                <subviews>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Expiry Date English" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ExO-d9-Nnh">
+                                        <rect key="frame" x="0.0" y="0.0" width="204.5" height="45"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Expiry Date Arabic" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Tlr-3B-UTp">
+                                        <rect key="frame" x="212.5" y="0.0" width="204.5" height="45"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="45" id="DcH-Ux-pOV"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                    </stackView>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bzr-Ba-VxK">
+                        <rect key="frame" x="10" y="27" width="19.5" height="22"/>
+                        <color key="tintColor" systemColor="systemRedColor"/>
+                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                        <state key="normal" image="minus.square.fill" catalog="system"/>
+                        <connections>
+                            <action selector="deleteAction:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="t3f-83-OuW"/>
+                        </connections>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0P5-O1-vzR">
+                        <rect key="frame" x="184" y="123.5" width="21" height="22"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="tintColor" red="0.054546527560000002" green="0.21474048500000001" blue="0.40836769340000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                        <state key="normal" image="calendar" catalog="system"/>
+                        <connections>
+                            <action selector="issueDateEnAction:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="Wsb-7K-4Fa"/>
+                        </connections>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="74M-r3-rvn">
+                        <rect key="frame" x="183.5" y="176.5" width="21" height="22"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="tintColor" red="0.054546527560000002" green="0.21474048500000001" blue="0.40836769340000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                        <state key="normal" image="calendar" catalog="system"/>
+                        <connections>
+                            <action selector="expiryDateEnAction:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="3um-Qx-Azb"/>
+                        </connections>
+                    </button>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstItem="M6o-zX-h4t" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="45Y-Yn-Bdo"/>
+                    <constraint firstItem="M6o-zX-h4t" firstAttribute="top" secondItem="bzr-Ba-VxK" secondAttribute="bottom" constant="10" id="4KK-LI-o2F"/>
+                    <constraint firstItem="bzr-Ba-VxK" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="5Ed-Kw-9eh"/>
+                    <constraint firstAttribute="bottom" secondItem="M6o-zX-h4t" secondAttribute="bottom" constant="10" id="7Ao-c1-8fl"/>
+                    <constraint firstItem="74M-r3-rvn" firstAttribute="centerY" secondItem="ExO-d9-Nnh" secondAttribute="centerY" id="9Ju-us-jvf"/>
+                    <constraint firstAttribute="trailing" secondItem="M6o-zX-h4t" secondAttribute="trailing" constant="10" id="Dgz-hP-xVz"/>
+                    <constraint firstItem="74M-r3-rvn" firstAttribute="trailing" secondItem="ExO-d9-Nnh" secondAttribute="trailing" constant="-10" id="eGr-Co-AmJ"/>
+                    <constraint firstItem="0P5-O1-vzR" firstAttribute="centerY" secondItem="aFQ-Cs-RWL" secondAttribute="centerY" id="qOj-Dh-fa6"/>
+                    <constraint firstItem="0P5-O1-vzR" firstAttribute="trailing" secondItem="aFQ-Cs-RWL" secondAttribute="trailing" constant="-10" id="qXP-dN-PTh"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <connections>
+                <outlet property="expiryDateArTextField" destination="Tlr-3B-UTp" id="QjR-2G-HYe"/>
+                <outlet property="expiryDateEnTextField" destination="ExO-d9-Nnh" id="OET-Zd-pOD"/>
+                <outlet property="issueDateArTextField" destination="lYS-er-rfQ" id="EFq-uI-TDC"/>
+                <outlet property="issueDateEnTextField" destination="aFQ-Cs-RWL" id="Y86-u5-kSi"/>
+                <outlet property="licenceNameTextField" destination="FS5-ec-pcq" id="OCj-P2-5HG"/>
+                <outlet property="licenceNumberTextField" destination="VdK-DF-Bw7" id="hBk-T4-TRQ"/>
+            </connections>
+            <point key="canvasLocation" x="150" y="127.90178571428571"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="calendar" catalog="system" width="128" height="106"/>
+        <image name="minus.square.fill" catalog="system" width="128" height="114"/>
+        <systemColor name="systemRedColor">
+            <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

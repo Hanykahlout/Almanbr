@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="DroidKufi-Bold.ttf">
+            <string>DroidArabicKufi-Bold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="UsersViewController" customModule="Almnabr" customModuleProvider="target">
+            <connections>
+                <outlet property="backButton" destination="f3h-pY-Lta" id="q7h-tY-NlD"/>
+                <outlet property="emptyDataImageView" destination="OuE-xB-SqH" id="qAe-Tq-SlJ"/>
+                <outlet property="tableView" destination="CIr-j6-XhZ" id="JTT-8M-0Lj"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sz2-yX-yFX">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="80"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f3h-pY-Lta">
+                            <rect key="frame" x="20" y="47" width="28" height="28"/>
+                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                            <state key="normal" image="Icon-previous"/>
+                            <connections>
+                                <action selector="backAction:" destination="-1" eventType="touchUpInside" id="UKU-7l-9Ka"/>
+                            </connections>
+                        </button>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Users" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BLF-5h-qMx">
+                            <rect key="frame" x="185" y="44" width="44.5" height="31"/>
+                            <fontDescription key="fontDescription" name="DroidArabicKufi-Bold" family="Droid Arabic Kufi" pointSize="16"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" red="0.1019607843" green="0.21176470589999999" blue="0.39607843139999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    <constraints>
+                        <constraint firstAttribute="bottom" secondItem="BLF-5h-qMx" secondAttribute="bottom" constant="5" id="3Na-Oi-I81"/>
+                        <constraint firstItem="BLF-5h-qMx" firstAttribute="centerX" secondItem="sz2-yX-yFX" secondAttribute="centerX" id="4m9-iQ-tyT"/>
+                        <constraint firstItem="f3h-pY-Lta" firstAttribute="leading" secondItem="sz2-yX-yFX" secondAttribute="leading" constant="20" id="AFE-rZ-pnw"/>
+                        <constraint firstAttribute="height" constant="80" id="APW-aD-7xm"/>
+                        <constraint firstAttribute="bottom" secondItem="f3h-pY-Lta" secondAttribute="bottom" constant="5" id="KPO-2E-0Yh"/>
+                    </constraints>
+                </view>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="CIr-j6-XhZ">
+                    <rect key="frame" x="0.0" y="100" width="414" height="762"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                </tableView>
+                <imageView hidden="YES" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon_empty" translatesAutoresizingMaskIntoConstraints="NO" id="OuE-xB-SqH">
+                    <rect key="frame" x="64" y="100" width="286" height="150"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="150" id="7i0-WP-noz"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="CIr-j6-XhZ" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="97u-vP-jSc"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="OuE-xB-SqH" secondAttribute="trailing" constant="64" id="ABm-CD-FSa"/>
+                <constraint firstItem="OuE-xB-SqH" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="64" id="Lnk-Bw-jd2"/>
+                <constraint firstItem="sz2-yX-yFX" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="Os1-MQ-od0"/>
+                <constraint firstItem="CIr-j6-XhZ" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="g2h-fo-yqN"/>
+                <constraint firstItem="CIr-j6-XhZ" firstAttribute="top" secondItem="sz2-yX-yFX" secondAttribute="bottom" constant="20" id="kxk-g8-mRG"/>
+                <constraint firstItem="OuE-xB-SqH" firstAttribute="top" secondItem="sz2-yX-yFX" secondAttribute="bottom" constant="20" id="n4J-8B-VCc"/>
+                <constraint firstItem="sz2-yX-yFX" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="oq1-y6-8aU"/>
+                <constraint firstItem="sz2-yX-yFX" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="vHt-4b-qyu"/>
+                <constraint firstItem="CIr-j6-XhZ" firstAttribute="bottom" secondItem="fnl-2z-Ty3" secondAttribute="bottom" id="ztR-Gg-hkx"/>
+            </constraints>
+            <point key="canvasLocation" x="131.8840579710145" y="99.776785714285708"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="Icon-previous" width="28" height="28"/>
+        <image name="icon_empty" width="512" height="256"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

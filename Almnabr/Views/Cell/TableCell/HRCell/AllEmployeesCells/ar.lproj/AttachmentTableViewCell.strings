@@ -1,0 +1,39 @@
+
+/* Class = "UILabel"; text = "On Date"; ObjectID = "4iH-va-Ehh"; */
+"4iH-va-Ehh.text" = "في تاريخ";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "CHs-eM-fgz"; */
+"CHs-eM-fgz.text" = "Label";
+
+/* Class = "UILabel"; text = "File Level"; ObjectID = "Ea3-nh-1qg"; */
+"Ea3-nh-1qg.text" = "مستوى الملف";
+
+/* Class = "UILabel"; text = "Action"; ObjectID = "EfO-I6-WIj"; */
+"EfO-I6-WIj.text" = "الإجراءات";
+
+/* Class = "UILabel"; text = "File Extention"; ObjectID = "IfZ-WR-8qW"; */
+"IfZ-WR-8qW.text" = "امتداد الملف";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "LhF-7u-omi"; */
+"LhF-7u-omi.text" = "Label";
+
+/* Class = "UILabel"; text = "Type"; ObjectID = "VFm-vP-LHJ"; */
+"VFm-vP-LHJ.text" = "نوع";
+
+/* Class = "UILabel"; text = "Writer"; ObjectID = "bAX-Un-Y4G"; */
+"bAX-Un-Y4G.text" = "كاتب";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "iu1-9C-yMI"; */
+"iu1-9C-yMI.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "kOZ-Jf-IlP"; */
+"kOZ-Jf-IlP.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "kbb-iy-eB4"; */
+"kbb-iy-eB4.text" = "Label";
+
+/* Class = "UILabel"; text = "Subject"; ObjectID = "oGK-CO-tS1"; */
+"oGK-CO-tS1.text" = "موضوع";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "orD-KI-ALD"; */
+"orD-KI-ALD.text" = "Label";

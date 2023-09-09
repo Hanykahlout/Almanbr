@@ -1,0 +1,48 @@
+
+/* Class = "UITextField"; placeholder = "lang_iqama_expiry_date"; ObjectID = "3yU-8v-Axp"; */
+"3yU-8v-Axp.placeholder" = "تاريخ انتهاء الإقامة";
+
+/* Class = "UITextField"; placeholder = "lang_passport_expiry_date"; ObjectID = "6ze-x2-DTw"; */
+"6ze-x2-DTw.placeholder" = "وقت نفاذ صلاحيه جواز السفر";
+
+/* Class = "UILabel"; text = "Nationality"; ObjectID = "7tN-Yy-pTo"; */
+"7tN-Yy-pTo.text" = "جنسية";
+
+/* Class = "UIButton"; normalTitle = "Reset"; ObjectID = "G3p-OO-nXP"; */
+"G3p-OO-nXP.normalTitle" = "إعادة ضبط";
+
+/* Class = "UITextField"; placeholder = "Employee Name"; ObjectID = "N6i-bP-ysv"; */
+"N6i-bP-ysv.placeholder" = "اسم الموظف";
+
+/* Class = "UITextField"; placeholder = "lang_membership_expiry_date"; ObjectID = "U9F-If-bRz"; */
+"U9F-If-bRz.placeholder" = "تاريخ انتهاء العضوية";
+
+/* Class = "UILabel"; text = "lang_nationality_type"; ObjectID = "Us6-zI-vKR"; */
+"Us6-zI-vKR.text" = "نوع الجنسية";
+
+/* Class = "UITextField"; placeholder = "lang_contract_expiry_date"; ObjectID = "Vc5-a9-BYk"; */
+"Vc5-a9-BYk.placeholder" = "تاريخ انتهاء العقد";
+
+/* Class = "UILabel"; text = "Branch"; ObjectID = "awg-4x-wq9"; */
+"awg-4x-wq9.text" = "فرع";
+
+/* Class = "UILabel"; text = "Status"; ObjectID = "b7e-zT-FYB"; */
+"b7e-zT-FYB.text" = "حالة";
+
+/* Class = "UILabel"; text = "Filter"; ObjectID = "e00-Jw-FCW"; */
+"e00-Jw-FCW.text" = "فلتر";
+
+/* Class = "UITextField"; placeholder = "Passport Number"; ObjectID = "odp-y8-K6c"; */
+"odp-y8-K6c.placeholder" = "رقم جواز السفر";
+
+/* Class = "UILabel"; text = "Project Name English"; ObjectID = "qCM-Xr-KE2"; */
+"qCM-Xr-KE2.text" = "اسم المشروع انجليزي";
+
+/* Class = "UILabel"; text = "Positions"; ObjectID = "qQ0-WA-R3n"; */
+"qQ0-WA-R3n.text" = "المناصب";
+
+/* Class = "UITextField"; placeholder = "ID Number"; ObjectID = "sDR-MM-HLd"; */
+"sDR-MM-HLd.placeholder" = "رقم الهوية";
+
+/* Class = "UIButton"; normalTitle = "Save"; ObjectID = "vMh-nI-F7w"; */
+"vMh-nI-F7w.normalTitle" = "حفظ";

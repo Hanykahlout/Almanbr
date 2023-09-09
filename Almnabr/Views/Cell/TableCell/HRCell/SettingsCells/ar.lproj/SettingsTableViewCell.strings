@@ -1,0 +1,36 @@
+
+/* Class = "UILabel"; text = "On Date:"; ObjectID = "0td-2F-Aqj"; */
+"0td-2F-Aqj.text" = "في تاريخ:";
+
+/* Class = "UILabel"; text = "Branch"; ObjectID = "2I7-In-mjb"; */
+"2I7-In-mjb.text" = "فرع";
+
+/* Class = "UILabel"; text = "Permissions"; ObjectID = "2Jh-R1-Bhx"; */
+"2Jh-R1-Bhx.text" = "أذونات";
+
+/* Class = "UILabel"; text = "Groups:"; ObjectID = "6LA-2E-dAu"; */
+"6LA-2E-dAu.text" = "مجموعات:";
+
+/* Class = "UILabel"; text = "User Name:"; ObjectID = "Vs6-Fa-p8C"; */
+"Vs6-Fa-p8C.text" = "اسم االمستخدم:";
+
+/* Class = "UILabel"; text = "On Date"; ObjectID = "eK7-JJ-GuG"; */
+"eK7-JJ-GuG.text" = "في تاريخ";
+
+/* Class = "UILabel"; text = "Writer"; ObjectID = "gGx-pK-H2K"; */
+"gGx-pK-H2K.text" = "كاتب";
+
+/* Class = "UILabel"; text = "User Name:"; ObjectID = "gge-mi-HjJ"; */
+"gge-mi-HjJ.text" = "اسم االمستخدم:";
+
+/* Class = "UILabel"; text = "Permissions:"; ObjectID = "hPC-Wo-Cbc"; */
+"hPC-Wo-Cbc.text" = "أذونات:";
+
+/* Class = "UILabel"; text = "Branch:"; ObjectID = "jWb-eo-ewa"; */
+"jWb-eo-ewa.text" = "فرع:";
+
+/* Class = "UILabel"; text = "Writer:"; ObjectID = "sD9-1m-kPe"; */
+"sD9-1m-kPe.text" = "كاتب:";
+
+/* Class = "UILabel"; text = "Groups"; ObjectID = "xaP-y3-Le7"; */
+"xaP-y3-Le7.text" = "مجموعات";

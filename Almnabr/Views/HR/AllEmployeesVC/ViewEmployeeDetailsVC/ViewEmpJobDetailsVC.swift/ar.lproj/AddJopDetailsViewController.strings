@@ -1,0 +1,12 @@
+
+/* Class = "UIButton"; normalTitle = "Submit"; ObjectID = "LjF-zj-EEv"; */
+"LjF-zj-EEv.normalTitle" = "اعتماد";
+
+/* Class = "UITextField"; placeholder = "Positions"; ObjectID = "Oq8-eO-vJy"; */
+"Oq8-eO-vJy.placeholder" = "المناصب";
+
+/* Class = "UILabel"; text = "Positions"; ObjectID = "PUF-bV-YyK"; */
+"PUF-bV-YyK.text" = "المناصب";
+
+/* Class = "UITextView"; text = "Description"; ObjectID = "TGb-4f-att"; */
+"TGb-4f-att.text" = "وصف";

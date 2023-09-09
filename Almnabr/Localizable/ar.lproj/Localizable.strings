@@ -1,0 +1,458 @@
+/* 
+  Localizable.strings
+  Almnabr
+
+  Created by MacBook on 23/09/2021.
+  Copyright © 2021 Samar Akkila. All rights reserved.
+*/
+
+"txt_username_address" = "اسم المستخدم";
+"txt_email_address" = "البريد الالكتروني";
+"txt_password" = "كلمة المرور";
+"btn_forget_password" = "هل نسيت كلمة المرور";
+"btn_login" = "تسجيل الدخول";
+"btn_language" = "اللغة";
+"btn_submit" = "اعتماد";
+"error" = "خطأ";
+"token_missing" = "Token missing";
+"ok" = "OK";
+"are_you_sure" = "هل انت متأكد ؟";
+"btn_yes" = "نعم";
+"btn_no" = "لا";
+"btn_create_new_account" = "Create new account";
+
+"nav_settings" = "الاعدادات";
+"lbl_logout" = "تسجيل خروج";
+"lbl_settings" = "الاعدادات";
+
+"English" = "انجليزي";
+"Arabic" = "عربي";
+"Remember_me" = "تذكرني";
+"txt_Home" = "الرئيسية";
+"Home" = "الرئيسية";
+"txt_searchAdmin" = "مدير النظام";
+"txt_searchByForm" = "البحث بالنموذج";
+"txt_searchByModule" = "البحث بواسطة الوحدات";
+
+"txt_NoData" = "لا يوجد بيانات!";
+"txt_searchAll" = "الكل";
+
+"All" = "الكل";
+"Auto" = "آلي";
+"Manual" = "يدوي";
+"Empty Fields!!" = "الحقول الفارغة !!";
+
+"Last Update" = "تاريخ الصفقة";
+"Attempt" = "المدخل";
+"Form Name" = "النموذج";
+"No." = "رقم الطلب";
+
+"Admin" = "مدير النظام";
+"Users" = "فريق العمل";
+
+"Status" = "الحالة";
+"Barcode" = "الباركود";
+"Writer" = "المدخل";
+"Desc" = "وصف";
+"Description" = "وصف";
+"submitted" = "submitted";
+"New" = "New";
+"Approval" = "الموافقة";
+
+
+
+"from" = "من";
+"To" = "إلى";
+"Type" = "النوع";
+"Module" = "القسم";
+"Submitter" = "المعمد";
+
+"Form" = "النموذج";
+"Transaction Date" = "تاريخ الصفقة";
+"Approval Type" = "نوع الموافقة";
+
+
+"Project ID" = "رقم المشروع";
+"Project Title" = "اسم المشروع";
+"Branch" = "الفرع";
+"Project Type" = "    نوع المشروع";
+"Customers" = "العملاء";
+"On Date" = "التاريخ";
+
+
+"txt_searchByBranch" = "الفرع";
+"txt_searchByServices" = "الخدمات";
+
+
+"Services" = "الخدمات";
+"txt_Quotations" = "عرض سعر";
+"txt_Projects" = "المشاريع";
+
+"Project Details" = "تفاصيل المشروع";
+
+"txt_Project_Name_En" = "اسم المشروع انجليزي";
+"txt_Project_Name_Ar" = "اسم المشروع عربي";
+"txt_Project_Type" = "نوع المشروع";
+"txt_update" = "تم التحديث في";
+"txt_location" = "موقع المشروع";
+
+
+"txt_AllProjects" = "المشروع";
+"txt_MainProjectView" = "صفحة المشروع الرئيسية";
+//"txt_SupervisionOperation" = "قائمة المشاريع";
+"txt_SupervisionDashboard" = "لوحة المشروع";
+
+"Approved Date" = "تاريخ الموافقة";
+"Quotation Number" = "رقم عرض السعر";
+"Subject"  = "الموضوع";
+"Tax Amount"  = "قيمة الضريبة";
+"Grand Total"  = "المجموع الكلي";
+"Net Amount"  = "القيمة الإجمالية";
+"Submitted Date" = "تاريخ اعتماده";
+
+"txt_TemplateName"  = "اسم النموذج";
+"txt_GroupType" = "نوع المجموعة";
+"txt_Groupe1" = "مجموعات ١";
+"txt_Groupe2" = "مجموعات ٢";
+
+//"txt_Active" = "Active";
+//"txt_DocumentType" = "Document Types";
+//"txt_Division" = "Specific Item Divisions";
+//"Documents" = "Documents";
+
+"txt_Contacts" = "Contacts";
+"Contacts" = "Contacts";
+
+"txt_Position" = "التخصص";
+
+
+"All Projects" = "قائمة المشاريع";
+"Projects" = "المشاريع";
+
+"Form Transaction" = "معاملات المشروع";
+"Team Users" = "فريق العمل";
+"Contacts" = "بيانات الاتصال";
+"Documents" = "وثائق المشروع" ;
+
+"txt_SupervisionOperationDetails" = "بيانات عملية الإشراف";
+
+
+
+"Name" = "الإسم";
+"Title" = "الوصف";
+"Positions" = "التخصص";
+"Role" = "الصلاحية";
+
+"Contractors" = "مقاول";
+"Others" = "إضافة بنود أخرى";
+
+
+
+"Email" = "البريد الالكتروني";
+"Mobile" = "الجوال";
+"Whatsapp" = "ال Whatsapp";
+"Fax" = "فاكس    ";
+
+
+
+"Active" = "نشيط";
+"History" = "السجلات";
+
+"txt_Active" = "نشيط";
+"txt_DocumentType" = "أنواع المستندات";
+"txt_Division" = "أقسام عناصر محددة";
+"Document Types" = "أنواع المستندات";
+"Specific Item Divisions" = "أقسام عناصر محددة";
+"File Level" = "صلاحية الملف";
+
+"Platform Code System" = "Platform Code System";
+"Platform" = "Platform";
+"Template Name" = "اسم النموذج";
+"Group One" =  "مجموعات ١";
+"Group Type" = "نوع المجموعة";
+"Group Two" = "مجموعات ٢";
+
+"txt_config" = "خطوة تقديم طلب";
+"txt_Language" = "اللغة";
+
+"txt_SiteLevel" = "موقع العمل";
+"txt_Phases"  = "رقم المنطقة و البلوك";
+"txt_GeneralNo"  = "رقم الوحدة العام";
+"txt_AllUnits"  = "جميع الوحدات";
+"txt_WorkSite"  = "  موقع العمل ";
+"txt_No"  = "لا";
+"txt_Yes"  = "تاكيد";
+"txt_SeparateUnits"  = "هل ترغب بفصل الوحدات ؟ : ";
+
+"txt_FillWorkLevel" = " اختيار موقع العمل ";
+
+"txt_Generalnumber" = "رقم الوحدة العام";
+
+"txt_SearchGeneralNumbers" = "البحث بالرقم العام ";
+"txt_FillWorkLevels" = " اختيار موقع العمل ";
+"txt_SearchGeneralNumbers" = "البحث بالرقم العام";
+"txt_FillWorkLevels" = " اختيار موقع العمل ";
+
+
+"all_pending_need_action" = "جميع الإجراءات المعلقة";
+
+"Form Details" = "بيانات النموذج";
+"Request Number" = "رقم الطلب";
+"Project Title" =  "اسم المشروع";
+
+"Service Name" = "اسم الخدمة";
+"Form Code" = "رمز النموذج";
+"Division" = "الباب";
+"Chapter" = "الفصل";
+
+"Form Specifications" =  "المواصفات الفنية";
+"Item Name" = "اسم البند";
+"Form Versions" =  "إصدارات النموذج";
+"txt_location" = "موقع العمل";
+"Preview" = "مشاهدة";
+"Lang_drawing_file" = "drawing file";
+"Selected Step" =  "الخطوة المحددة";
+"Recipient Verification" = "Recipient Verification";
+"Last Step Opened" =  "الوضع الحالي للنموذج متوقف عند";
+"Processing" = "Processing";
+"Evaluation Result:" = "التقييم النهائي:";
+
+"Notes" = "الملاحظات";
+"Person Details" = "بيانات المشاركين";
+"Attachments" = "المرفقات";
+
+"Supervision Operations" = "المشروع";
+
+"You not have permission to access this step" = "ليس لديك صلاحية للوصول إلى هذه الخطوة";
+"step" = "الخطوة";
+ "of" = "من";
+
+
+"Configurations" = " خطوة تقديم طلب";
+"Contractor Team Approval" = "موافقة فريق العمل للمقاول";
+"Contractor Manager Approval" = "موافقة مدير المشروع عند المقاول";
+"Recipient Verification" = " إستلام الطلب" ;
+"Techinical Assistant" = "المساعد التقني" ;
+"Special Approval" = "مساعدة خاصة" ;
+"Evaluation Result" = "التقييم النهائي" ;
+"Authorized Positions Approval" = " موافقة مدقق الطلب" ;
+"Manager Approval" = "موافقة مدير المشروع عند الإستشاري" ;
+"Owners Representative" = "موافقة ممثل المالك" ;
+"Final Result" = "خطوة الإعتماد" ;
+
+"Return to technical assistant to re-submit" = "رفض و إعادة التقييم مره اخرى";
+"Approve" = "قبول";
+"Rejected Notes :" = "سبب الرفض : ";
+"Customer Representative Required !?." = "إشراك ممثل المالك في الطلب !?.";
+"No" = " لا";
+"Yes" = " تاكيد ";
+"Upload customer approved document" = "رفع مستند موجه من المالك بهذا الطلب";
+"Assign owner user for confirmation" = "إشراك إلكتروني في الطلب";
+"Customer Representative ? :" = " طريقة إشراك ممثل المالك : ";
+"Owner users" = "اسم ممثل المالك ";
+"Submit" = "اعتماد";
+"( Note : The consultant decision in this request will not be confirmed until reviewing owner representative response )" = "( ملاحظة : لا يعتد برأي الإستشاري في هذا الطلب إلا بعد الإطلاع على رد ممثل المالك )";
+
+
+"Upload attachment" = "إرفاق المستند ";
+"Description" = "وصف";
+
+"Owner Representative" = " موافقة ممثل المالك ";
+"Notes" = "الملاحظات";
+
+"Final Result" = "خطوة الإعتماد";
+"Thank you, we will review your request. wait the result soon." = "جاري إعتماد الطلب شكرا لك ";
+
+
+"Waiting for : " = "بإنتظار :";
+
+"View" = "عرض";
+"View Time" = "مشاهدة الوقت";
+"Last View Time" = "وقت آخر مشاهدة";
+"Date & Time" = "التاريخ والوقت";
+
+
+"Attachments Title" = "اسم المرفق";
+"Date" = "التاريخ";
+"Attachment Type" = "نوع المرفق";
+"File Size" = "حجم الملف";
+
+"Form Versions" = " إصدارات النموذج ";
+"Selected unites and levels" = "الوحدات المختارة";
+
+
+"Work Level" = "موقع العمل";
+"Units" = "الوحدة";
+
+"Transaction Number" = "رقم الطلب";
+"Unit" = "الوحدة";
+
+"Group Type" = "نوع المجموعة";
+"Platform Code System" = "رقم البند في النظام";
+"Platform" = "بند";
+
+"Supervision ID" = "رقم المشروع";
+"Supervision Name" = "اسم الخدمة";
+
+"Next" = "التالي";
+"Previous" = "السابق";
+"Cancel" = "تراجع";
+
+"zones" = "المنطقة";
+"Blocks" = "البلوك";
+"Clusters" = "الكلستر";
+
+
+
+"txt_ByPhase" = "رقم المنطقة و البلوك";
+"txt_Zone" = "المنطقة";
+"txt_Blocks" = "البلوك";
+"txt_Clustre" = "الكلستر";
+"txt_Unit" = "الوحدة";
+
+"txt_FormVersion" = "إصدارات النموذج";
+"txt_Relatedforms" = "نماذج مرتبطة بالنموذج الحالي";
+"txt_Attachments" = "المرفقات";
+"Related Forms : " = "نماذج مرتبطة :";
+
+"lbl_ContractorManager" = "تتطلب خطوة مدير المقاول";
+"lbl_ContractorTeamUsers" = "مستخدمي فريق المقاول";
+
+"Reject and return to update" = "رفض و إعادة";
+"Request Approval !?. " = "قبول العملية !?.";
+
+"Contractor Manager Approval" = "موافقة مدير المشروع عند المقاول";
+"Contractor Team Approval " = "موافقة فريق العمل للمقاول";
+
+"Reserve Request" = "إستلام الطلب";
+"Recipient Verification " = "إستلام الطلب";
+"Technical Assistant" = "المساعد التقني";
+"Check List" = "بنود المراجعة";
+"Saudi Bulding Code :" =   "بنود مراجعة كود البناء السعودي :";
+"Special Approvals !?" = "طلب رأي فني او موافقة من زميل !?";
+
+"add users" = "اسم المستخدم الأول والأخير";
+
+"Evaluation Result: " = "  التقييم النهائي: ";
+"Evaluation Status: " = "الحالة :";
+"Attachments" = "المرفقات";
+"Title: " = "الوصف: ";
+"Result" = "النتيجة";
+
+"Subject" = "الموضوع";
+"Signature" = "التوقيع الإلكتروني";
+"Note" = "ملاحظة";
+"Priorty" = "أولوية";
+
+"Notifications" = "الاشعارات";
+"Related Forms" = "نماذج مرتبطة";
+
+"txt_SearchGeneralNo" = "البحث بالرقم العام";
+
+"ID" = "الرقم ";
+"Name" = "الاسم ";
+"Supervision" = "المشروع";
+"Code" = "الرمز";
+"Specifications" = "المواصفات الفنية";
+"From" = "من";
+
+"My Transactions" = "معاملاتي";
+
+"Done" = "اعتماد";
+"Incoming" = "واردة";
+"Outgoing" = "صادرة";
+"Profile" = "الملف الشخصي";
+"Settings" = "الاعدادات";
+"Log out" = "تسجيل خروج";
+
+
+
+"all_pending_need_action" = "العمليات المعلقة والتي تتطلب اجراء";
+"all_pending" = "العمليات المعلقة والمرتطبة بي";
+"all_complete" = "العمليات المكتملة ";
+"all_sent" = "العمليات المرسلة";
+
+
+"Tickets" = "قائمة المهام";
+"Add Settings" = "أضف الإعدادات";
+"Choose Range" = "اختر النطاق";
+"Success" = "نجحت العملية";
+"ID Details" = "تفاصيل الهوية";
+"Contract Details" = "تفاصيل العقد";
+"Joining Details" = "تفاصيل الانضمام";
+"Job Details" = "تفاصيل الوظيفة";
+"Communications" = "مجال الاتصالات";
+"Contact Details" = "بيانات المتصل";
+"Bank Details" = "التفاصيل المصرفية";
+"Education Details" = "تفاصيل التعليم";
+"Passport Details" = "تفاصيل جواز السفر";
+"Insurance Details" = "تفاصيل التأمين";
+"Vacations" = "الاجازات";
+"Notes" = "ملحوظات";
+"Attachments" = "المرفقات";
+"Modules" = "الوحدات";
+"Financial Details" = "التفاصيل المالية";
+"Calendar View" = "عرض التقويم";
+"Full Time" = "وقت كامل";
+"Part Time" = "دوام جزئى";
+"Contract" = "عقد";
+"Others" = "آخر";
+"Age" = "العمر";
+"Male" = "ذكر";
+"FeMale" = "أنثى";
+"Active" = "نشط";
+"Inactive" = "غير نشط";
+"Single" = "غير مرتبطة";
+"Married" = "متزوج";
+"Diversed" = "مُطلّق";
+"Confirmation !!!" = "تأكيد !!!";
+"Are you sure !?" = "هل أنت واثق !؟";
+"Choose the type of connections you want to make " = "اختر نوع الاتصالات التي تريد إجراؤها";
+
+"Choose Date" = "اختر موعدا";
+"Choose Photo" = "اختر الصورة";
+"Choose Pdf" = "اختر Pdf";
+"Action has been completed successfully !!!" = "اكتمل العمل بنجاح !!!";
+"Request Details" = "تفاصيل الطلب";
+"Description" = "وصف";
+"Person Details" = "تفاصيل الشخص";
+"History" = "سجل";
+"Spouse" = "زوج";
+"Son" = "ابن";
+"Daugther" =  "ابنة";
+
+"Choose" = "اختر";
+
+"Public" = "عام";
+"Private" = "خاص";
+"Take a photo from" = "التقط صورة من";
+"Gallery" = "معرض الصور";
+"Camera" = "كاميرا";
+"Diploma" = "دبلوم";
+"Bachelor Degree" = "درجة البكالوريوس";
+"Master Degree" = "درجة الماجستير";
+"Doctorate" = "دكتوراه";
+"Associate engineer" = "معاون مهندس";
+"Professional engineer" = "مهندس محترف";
+"Consultant engineer" = "مستشار مهندس";
+"Other" = "آخر";
+"Search By Branches" = "البحث عن طريق الفروع";
+"Groups" = "مجموعات";
+"Users" = "المستخدمون";
+"Bank Name" = "اسم البنك";
+"Employee Title" = "لقب الموظف";
+"Job Positions" = "المناصب الوظيفية";
+"Update Settings" = "تحديث الإعدادات";
+"Add" = "اضافة";
+"Edit" = "تعديل";
+"Upload Signature" = "تحميل التوقيع";
+"Delete" = "حذف";
+"There Are No Data !!!" = "لا توجد بيانات !!!";
+
+"Select File" = "اختر ملف";
+"You can see your account logged in from the website." = "يمكنك أن ترى حسابك مسجلاً الدخول من الموقع.";
+"Successfully Scanned" = "تم فحصها بنجاح";
+"Failed Scanned" = "فشل المسح";
+"Vaction From" = "نموذج الاجازة";
+"Finance Information" = "المعلومات المالية";
+"Comments" = "التعليقات";

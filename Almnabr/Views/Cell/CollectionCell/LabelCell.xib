@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="LabelCell" id="gTV-IL-0wX" customClass="LabelCell" customModule="Almnabr" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="131" height="50"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="131" height="50"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pTD-Pg-QW8">
+                        <rect key="frame" x="3" y="3" width="125" height="44"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1mV-Gv-BIf">
+                                <rect key="frame" x="5" y="11.5" width="115" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="1mV-Gv-BIf" firstAttribute="centerY" secondItem="pTD-Pg-QW8" secondAttribute="centerY" id="lCP-MD-A3y"/>
+                            <constraint firstItem="1mV-Gv-BIf" firstAttribute="leading" secondItem="pTD-Pg-QW8" secondAttribute="leading" constant="5" id="mZ7-tO-ivr"/>
+                            <constraint firstAttribute="trailing" secondItem="1mV-Gv-BIf" secondAttribute="trailing" constant="5" id="niW-ZG-vIQ"/>
+                            <constraint firstItem="1mV-Gv-BIf" firstAttribute="centerX" secondItem="pTD-Pg-QW8" secondAttribute="centerX" id="pjs-IG-b4D"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstItem="pTD-Pg-QW8" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="3" id="Asf-pe-b33"/>
+                <constraint firstItem="pTD-Pg-QW8" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="3" id="So4-Nd-YHT"/>
+                <constraint firstAttribute="bottom" secondItem="pTD-Pg-QW8" secondAttribute="bottom" constant="3" id="YNB-ND-aEK"/>
+                <constraint firstAttribute="trailing" secondItem="pTD-Pg-QW8" secondAttribute="trailing" constant="3" id="hTt-zz-o1D"/>
+            </constraints>
+            <size key="customSize" width="131" height="50"/>
+            <connections>
+                <outlet property="lblTitle" destination="1mV-Gv-BIf" id="gsM-2C-skV"/>
+                <outlet property="viewBack" destination="pTD-Pg-QW8" id="ID7-Ue-Rx5"/>
+            </connections>
+            <point key="canvasLocation" x="196.37681159420291" y="56.919642857142854"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

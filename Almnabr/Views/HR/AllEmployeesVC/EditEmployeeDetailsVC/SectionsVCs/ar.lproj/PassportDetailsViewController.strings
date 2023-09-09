@@ -1,0 +1,21 @@
+
+/* Class = "UITextField"; placeholder = "Issue Place"; ObjectID = "0XU-sR-t5a"; */
+"0XU-sR-t5a.placeholder" = "مكان القضية";
+
+/* Class = "UITextField"; placeholder = "Passport Expiry Date English"; ObjectID = "3kM-I1-Gqe"; */
+"3kM-I1-Gqe.placeholder" = "تاريخ انتهاء جواز السفر بالإنجليزية";
+
+/* Class = "UITextField"; placeholder = "Passport Issue Date Arabic"; ObjectID = "3rp-Yi-ARg"; */
+"3rp-Yi-ARg.placeholder" = "تاريخ اصدار جواز السفر بالعربية";
+
+/* Class = "UILabel"; text = "Passport Details"; ObjectID = "F4X-iB-ZE2"; */
+"F4X-iB-ZE2.text" = "تفاصيل جواز السفر";
+
+/* Class = "UITextField"; placeholder = "Passport Issue Date English"; ObjectID = "JUS-LS-tXw"; */
+"JUS-LS-tXw.placeholder" = "تاريخ إصدار جواز السفر بالإنجليزية";
+
+/* Class = "UITextField"; placeholder = "Passport Expiry Date Arabic"; ObjectID = "YQW-5M-Qlk"; */
+"YQW-5M-Qlk.placeholder" = "تاريخ انتهاء جواز السفر بالعربية";
+
+/* Class = "UITextField"; placeholder = "Passport Number"; ObjectID = "iTZ-Pp-j08"; */
+"iTZ-Pp-j08.placeholder" = "رقم جواز السفر";

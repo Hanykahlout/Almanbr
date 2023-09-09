@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="DroidKufi-Regular.ttf">
+            <string>DroidArabicKufi</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="StatementAccountsResultViewController" customModule="Almnabr" customModuleProvider="target">
+            <connections>
+                <outlet property="emptyDataLabel" destination="c4x-py-EW4" id="rVq-SW-dRq"/>
+                <outlet property="tableView" destination="SzX-UJ-fHB" id="Fbe-Al-tp3"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ReH-Aq-POy">
+                    <rect key="frame" x="0.0" y="59" width="393" height="793"/>
+                    <subviews>
+                        <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="SzX-UJ-fHB">
+                            <rect key="frame" x="0.0" y="20" width="393" height="738"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <color key="sectionIndexBackgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </tableView>
+                        <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="There is no data" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c4x-py-EW4">
+                            <rect key="frame" x="0.0" y="370" width="393" height="38"/>
+                            <fontDescription key="fontDescription" name="DroidArabicKufi" family="Droid Arabic Kufi" pointSize="20"/>
+                            <color key="textColor" name="AppColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" red="0.90608113999999995" green="0.91750472780000003" blue="0.92941385509999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    <constraints>
+                        <constraint firstItem="c4x-py-EW4" firstAttribute="centerY" secondItem="SzX-UJ-fHB" secondAttribute="centerY" id="Fc0-OJ-Fsp"/>
+                        <constraint firstAttribute="bottom" secondItem="SzX-UJ-fHB" secondAttribute="bottom" constant="35" id="Rdv-Ya-2b2"/>
+                        <constraint firstAttribute="trailing" secondItem="SzX-UJ-fHB" secondAttribute="trailing" id="UPD-bC-Hyj"/>
+                        <constraint firstItem="c4x-py-EW4" firstAttribute="leading" secondItem="SzX-UJ-fHB" secondAttribute="leading" id="Uzg-ad-upp"/>
+                        <constraint firstItem="SzX-UJ-fHB" firstAttribute="top" secondItem="ReH-Aq-POy" secondAttribute="top" constant="20" id="WaA-wf-C3Y"/>
+                        <constraint firstItem="c4x-py-EW4" firstAttribute="trailing" secondItem="SzX-UJ-fHB" secondAttribute="trailing" id="XWD-es-850"/>
+                        <constraint firstItem="SzX-UJ-fHB" firstAttribute="leading" secondItem="ReH-Aq-POy" secondAttribute="leading" id="yFJ-pA-7BP"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" name="AppColor"/>
+            <constraints>
+                <constraint firstItem="ReH-Aq-POy" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="Ck7-uI-3dx"/>
+                <constraint firstAttribute="trailing" secondItem="ReH-Aq-POy" secondAttribute="trailing" id="Ewn-dQ-ON4"/>
+                <constraint firstItem="ReH-Aq-POy" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="Pan-lq-hrn"/>
+                <constraint firstAttribute="bottom" secondItem="ReH-Aq-POy" secondAttribute="bottom" id="cuv-rQ-pwY"/>
+            </constraints>
+            <point key="canvasLocation" x="130.53435114503816" y="-12.67605633802817"/>
+        </view>
+    </objects>
+    <resources>
+        <namedColor name="AppColor">
+            <color red="0.10196078431372549" green="0.21176470588235294" blue="0.396078431372549" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+        </namedColor>
+    </resources>
+</document>

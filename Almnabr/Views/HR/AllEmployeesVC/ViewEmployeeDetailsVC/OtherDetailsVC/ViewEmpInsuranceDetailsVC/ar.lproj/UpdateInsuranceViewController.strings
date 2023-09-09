@@ -1,0 +1,21 @@
+
+/* Class = "UITextField"; placeholder = "Dependent Name"; ObjectID = "DEj-9h-AWh"; */
+"DEj-9h-AWh.placeholder" = "اسم المعال";
+
+/* Class = "UITextField"; placeholder = "Insurance Relationship"; ObjectID = "Fcy-Yo-juF"; */
+"Fcy-Yo-juF.placeholder" = "علاقة التأمين";
+
+/* Class = "UITextField"; placeholder = "Dependent ID"; ObjectID = "Hhq-gg-HGz"; */
+"Hhq-gg-HGz.placeholder" = "معرف المعال";
+
+/* Class = "UITextField"; placeholder = "Insurance Date"; ObjectID = "KXi-kb-Ume"; */
+"KXi-kb-Ume.placeholder" = "تاريخ التأمين";
+
+/* Class = "UILabel"; text = "Update Insurance"; ObjectID = "LBk-Sw-DlU"; */
+"LBk-Sw-DlU.text" = "تحديث التأمين";
+
+/* Class = "UIButton"; normalTitle = "Submit"; ObjectID = "Top-cK-nPg"; */
+"Top-cK-nPg.normalTitle" = "اعتماد";
+
+/* Class = "UITextField"; placeholder = "Insurance Number"; ObjectID = "mQh-Wg-tGX"; */
+"mQh-Wg-tGX.placeholder" = "رقم التأمين";

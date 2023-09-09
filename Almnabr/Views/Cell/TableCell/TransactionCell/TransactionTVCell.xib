@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="DroidKufi-Regular.ttf">
+            <string>DroidArabicKufi</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="TransactionTVCell" rowHeight="333" id="KGk-i7-Jjw" customClass="TransactionTVCell" customModule="Almnabr" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="329" height="333"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="329" height="333"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zvW-hv-w3h">
+                        <rect key="frame" x="10" y="10" width="309" height="313"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="1ey-le-km2">
+                                <rect key="frame" x="15" y="10" width="284" height="293"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="#No." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cGc-kq-MA1">
+                                        <rect key="frame" x="0.0" y="0.0" width="30" height="27"/>
+                                        <fontDescription key="fontDescription" name="DroidArabicKufi" family="Droid Arabic Kufi" pointSize="14"/>
+                                        <color key="textColor" red="0.52251221960000005" green="0.52251221960000005" blue="0.52251221960000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vMU-6K-dnF">
+                                        <rect key="frame" x="0.0" y="27" width="37" height="28.5"/>
+                                        <fontDescription key="fontDescription" name="DroidArabicKufi" family="Droid Arabic Kufi" pointSize="15"/>
+                                        <color key="textColor" red="0.52251221960000005" green="0.52251221960000005" blue="0.52251221960000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EOG-YV-Y01">
+                                        <rect key="frame" x="0.0" y="55.5" width="37" height="28.5"/>
+                                        <fontDescription key="fontDescription" name="DroidArabicKufi" family="Droid Arabic Kufi" pointSize="15"/>
+                                        <color key="textColor" red="0.52251221960000005" green="0.52251221960000005" blue="0.52251221960000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="z93-z2-KoF">
+                                        <rect key="frame" x="0.0" y="84" width="37" height="20"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="P8A-af-EIV">
+                                                <rect key="frame" x="0.0" y="0.0" width="37" height="20"/>
+                                                <fontDescription key="fontDescription" name="DroidArabicKufi" family="Droid Arabic Kufi" pointSize="15"/>
+                                                <color key="textColor" red="0.52251221960000005" green="0.52251221960000005" blue="0.52251221960000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <imageView hidden="YES" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="checkmark" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="4Fo-hL-MKf">
+                                                <rect key="frame" x="37" y="2" width="20" height="16.5"/>
+                                                <color key="tintColor" systemColor="systemGreenColor"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="20" id="GkI-aE-hDx"/>
+                                                    <constraint firstAttribute="height" constant="20" id="utr-O0-573"/>
+                                                </constraints>
+                                            </imageView>
+                                        </subviews>
+                                    </stackView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ttb-dR-5MV">
+                                        <rect key="frame" x="0.0" y="104" width="37" height="28.5"/>
+                                        <fontDescription key="fontDescription" name="DroidArabicKufi" family="Droid Arabic Kufi" pointSize="15"/>
+                                        <color key="textColor" red="0.52251221960000005" green="0.52251221960000005" blue="0.52251221960000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="V3u-rb-Heo">
+                                        <rect key="frame" x="0.0" y="132.5" width="37" height="28.5"/>
+                                        <fontDescription key="fontDescription" name="DroidArabicKufi" family="Droid Arabic Kufi" pointSize="15"/>
+                                        <color key="textColor" red="0.52251221960000005" green="0.52251221960000005" blue="0.52251221960000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="arv-WM-h7b">
+                                        <rect key="frame" x="0.0" y="161" width="37" height="28.5"/>
+                                        <fontDescription key="fontDescription" name="DroidArabicKufi" family="Droid Arabic Kufi" pointSize="15"/>
+                                        <color key="textColor" red="0.52251221960000005" green="0.52251221960000005" blue="0.52251221960000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Deq-ad-eqa">
+                                        <rect key="frame" x="0.0" y="189.5" width="37" height="28.5"/>
+                                        <fontDescription key="fontDescription" name="DroidArabicKufi" family="Droid Arabic Kufi" pointSize="15"/>
+                                        <color key="textColor" red="0.52251221960000005" green="0.52251221960000005" blue="0.52251221960000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="opw-r1-CWG">
+                                        <rect key="frame" x="0.0" y="218" width="37" height="28.5"/>
+                                        <fontDescription key="fontDescription" name="DroidArabicKufi" family="Droid Arabic Kufi" pointSize="15"/>
+                                        <color key="textColor" red="0.52251221960000005" green="0.52251221960000005" blue="0.52251221960000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jiN-mN-Koe">
+                                        <rect key="frame" x="0.0" y="246.5" width="37" height="28.5"/>
+                                        <fontDescription key="fontDescription" name="DroidArabicKufi" family="Droid Arabic Kufi" pointSize="15"/>
+                                        <color key="textColor" red="0.52251221960000005" green="0.52251221960000005" blue="0.52251221960000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9fJ-lu-dpy">
+                                        <rect key="frame" x="0.0" y="275" width="37" height="18"/>
+                                        <fontDescription key="fontDescription" name="DroidArabicKufi" family="Droid Arabic Kufi" pointSize="15"/>
+                                        <color key="textColor" red="0.52251221960000005" green="0.52251221960000005" blue="0.52251221960000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1uU-hU-Jb2">
+                                        <rect key="frame" x="0.0" y="293" width="37" height="0.0"/>
+                                        <fontDescription key="fontDescription" name="DroidArabicKufi" family="Droid Arabic Kufi" pointSize="15"/>
+                                        <color key="textColor" red="0.52251221960000005" green="0.52251221960000005" blue="0.52251221960000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="p2w-id-cXX">
+                                <rect key="frame" x="0.0" y="0.0" width="0.0" height="313"/>
+                                <color key="backgroundColor" systemColor="systemGray5Color"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" id="wfx-P2-hiX"/>
+                                </constraints>
+                            </view>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pQr-K9-FNj">
+                                <rect key="frame" x="280" y="5" width="24" height="24"/>
+                                <state key="normal" image="delete"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="p2w-id-cXX" firstAttribute="top" secondItem="zvW-hv-w3h" secondAttribute="top" id="4xo-t9-lMY"/>
+                            <constraint firstAttribute="trailing" secondItem="pQr-K9-FNj" secondAttribute="trailing" constant="5" id="Efx-Zi-Otu"/>
+                            <constraint firstItem="pQr-K9-FNj" firstAttribute="top" secondItem="zvW-hv-w3h" secondAttribute="top" constant="5" id="ITR-4t-zhS"/>
+                            <constraint firstItem="1ey-le-km2" firstAttribute="leading" secondItem="p2w-id-cXX" secondAttribute="trailing" constant="15" id="KAU-kh-lyv"/>
+                            <constraint firstAttribute="trailing" secondItem="1ey-le-km2" secondAttribute="trailing" constant="10" id="YIa-15-FU3"/>
+                            <constraint firstItem="p2w-id-cXX" firstAttribute="leading" secondItem="zvW-hv-w3h" secondAttribute="leading" id="Zca-Zi-BwS"/>
+                            <constraint firstAttribute="bottom" secondItem="1ey-le-km2" secondAttribute="bottom" constant="10" id="gbE-ym-Vq0"/>
+                            <constraint firstItem="1ey-le-km2" firstAttribute="top" secondItem="zvW-hv-w3h" secondAttribute="top" constant="10" id="mgf-Wc-A5n"/>
+                            <constraint firstAttribute="bottom" secondItem="p2w-id-cXX" secondAttribute="bottom" id="yDj-uu-LZQ"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="zvW-hv-w3h" secondAttribute="trailing" constant="10" id="XmD-17-ntL"/>
+                    <constraint firstItem="zvW-hv-w3h" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="q3d-4V-ms2"/>
+                    <constraint firstItem="zvW-hv-w3h" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="ql6-wF-I74"/>
+                    <constraint firstAttribute="bottom" secondItem="zvW-hv-w3h" secondAttribute="bottom" constant="10" id="z4o-Qx-KY0"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <connections>
+                <outlet property="btnDelete" destination="pQr-K9-FNj" id="4cC-4R-Tr3"/>
+                <outlet property="img_mark" destination="4Fo-hL-MKf" id="d03-Dg-Gs2"/>
+                <outlet property="lbKeylNo" destination="cGc-kq-MA1" id="Py6-tT-1U8"/>
+                <outlet property="lblKeyBarCode" destination="V3u-rb-Heo" id="RiJ-Xa-ZCF"/>
+                <outlet property="lblKeyDesc" destination="vMU-6K-dnF" id="X05-nX-2UA"/>
+                <outlet property="lblKeyForm" destination="Deq-ad-eqa" id="HsA-mW-jde"/>
+                <outlet property="lblKeyFrom" destination="EOG-YV-Y01" id="9QV-L7-0WI"/>
+                <outlet property="lblKeyLastUpdate" destination="9fJ-lu-dpy" id="b4Q-D8-cXf"/>
+                <outlet property="lblKeyModule" destination="arv-WM-h7b" id="wlA-vc-6FE"/>
+                <outlet property="lblKeyStatus" destination="1uU-hU-Jb2" id="Ies-5V-hP4"/>
+                <outlet property="lblKeySubmitter" destination="jiN-mN-Koe" id="00H-1j-QEv"/>
+                <outlet property="lblKeyTo" destination="P8A-af-EIV" id="d31-Jn-ybU"/>
+                <outlet property="lblKeyType" destination="ttb-dR-5MV" id="0qY-3g-c1E"/>
+                <outlet property="lblKeyWriter" destination="opw-r1-CWG" id="fGh-2s-JVd"/>
+                <outlet property="viewBack" destination="zvW-hv-w3h" id="6qu-Sx-n7F"/>
+            </connections>
+            <point key="canvasLocation" x="-160.1449275362319" y="-90.066964285714278"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="checkmark" catalog="system" width="128" height="114"/>
+        <image name="delete" width="24" height="24"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemGray5Color">
+            <color red="0.89803921568627454" green="0.89803921568627454" blue="0.91764705882352937" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemGreenColor">
+            <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

@@ -1,0 +1,15 @@
+
+/* Class = "UILabel"; text = "Choose Users"; ObjectID = "359-oi-lsD"; */
+"359-oi-lsD.text" = "اختر المستخدمين";
+
+/* Class = "UILabel"; text = "Choose Branch"; ObjectID = "5iq-2W-d2c"; */
+"5iq-2W-d2c.text" = "اختر الفرع";
+
+/* Class = "UILabel"; text = "Choose Groups"; ObjectID = "MTk-WN-DVH"; */
+"MTk-WN-DVH.text" = "اختر المجموعات";
+
+/* Class = "UILabel"; text = "Add Permission Mentions"; ObjectID = "vt6-9G-ymb"; */
+"vt6-9G-ymb.text" = "أضف أذونات";
+
+/* Class = "UIButton"; normalTitle = "Submit"; ObjectID = "y9h-nV-kw7"; */
+"y9h-nV-kw7.normalTitle" = "اعتماد";

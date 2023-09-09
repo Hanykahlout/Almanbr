@@ -1,0 +1,27 @@
+
+/* Class = "UILabel"; text = "Insurance Type Class"; ObjectID = "8NL-bt-IMq"; */
+"8NL-bt-IMq.text" = "فئة نوع التأمين";
+
+/* Class = "UITextField"; placeholder = "Search...."; ObjectID = "CIO-CM-Zj1"; */
+"CIO-CM-Zj1.placeholder" = "بحث....";
+
+/* Class = "UILabel"; text = "All"; ObjectID = "Dii-f6-JRe"; */
+"Dii-f6-JRe.text" = "الجميع";
+
+/* Class = "UILabel"; text = "Insurance Date"; ObjectID = "IUC-jR-r6c"; */
+"IUC-jR-r6c.text" = "تاريخ التأمين";
+
+/* Class = "UILabel"; text = "Insurance Number\n"; ObjectID = "QRW-9o-rmJ"; */
+"QRW-9o-rmJ.text" = "رقم التأمين";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "Soa-YF-4QC"; */
+"Soa-YF-4QC.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "e7n-Cw-ZXf"; */
+"e7n-Cw-ZXf.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "j62-Bo-Mcj"; */
+"j62-Bo-Mcj.text" = "Label";
+
+/* Class = "UILabel"; text = "Insurance Details"; ObjectID = "n1x-ee-Ebh"; */
+"n1x-ee-Ebh.text" = "تفاصيل التأمين";

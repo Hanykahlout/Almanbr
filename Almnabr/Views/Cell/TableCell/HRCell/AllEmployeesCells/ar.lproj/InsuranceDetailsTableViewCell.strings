@@ -1,0 +1,33 @@
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "EuE-bJ-dR2"; */
+"EuE-bJ-dR2.text" = "Label";
+
+/* Class = "UILabel"; text = "Insurance Relationship"; ObjectID = "GcT-D2-zII"; */
+"GcT-D2-zII.text" = "علاقة التأمين";
+
+/* Class = "UILabel"; text = "Dependent ID\t"; ObjectID = "W7o-Rk-rc9"; */
+"W7o-Rk-rc9.text" = "معرف المعال";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "Wk8-eN-e49"; */
+"Wk8-eN-e49.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "Zpn-98-myZ"; */
+"Zpn-98-myZ.text" = "Label";
+
+/* Class = "UILabel"; text = "Action"; ObjectID = "g75-PU-K5S"; */
+"g75-PU-K5S.text" = "الإجراءات";
+
+/* Class = "UILabel"; text = "Dependent Name"; ObjectID = "iOm-Yf-pSo"; */
+"iOm-Yf-pSo.text" = "اسم المعال";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "kCq-oA-pRh"; */
+"kCq-oA-pRh.text" = "Label";
+
+/* Class = "UILabel"; text = "Writer"; ObjectID = "lTl-3r-b8F"; */
+"lTl-3r-b8F.text" = "كاتب";
+
+/* Class = "UILabel"; text = "Insurance Number\t"; ObjectID = "nHA-1I-9NM"; */
+"nHA-1I-9NM.text" = "رقم التأمين";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "oH1-qf-nN0"; */
+"oH1-qf-nN0.text" = "Label";

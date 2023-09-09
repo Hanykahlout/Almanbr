@@ -1,0 +1,24 @@
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "1bq-Ob-Nw1"; */
+"1bq-Ob-Nw1.text" = "Label";
+
+/* Class = "UILabel"; text = "Contact Details"; ObjectID = "EYu-He-7mx"; */
+"EYu-He-7mx.text" = "بيانات المتصل";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "PbF-9a-twC"; */
+"PbF-9a-twC.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "VjY-0v-3Qg"; */
+"VjY-0v-3Qg.text" = "Label";
+
+/* Class = "UILabel"; text = "Primary Address"; ObjectID = "YsM-qy-jRr"; */
+"YsM-qy-jRr.text" = "العنوان الأساسي";
+
+/* Class = "UITextField"; placeholder = "Search...."; ObjectID = "YxS-RX-OyY"; */
+"YxS-RX-OyY.placeholder" = "بحث....";
+
+/* Class = "UILabel"; text = "Primary Mobile"; ObjectID = "akq-DO-5Nm"; */
+"akq-DO-5Nm.text" = "المحمول الأساسي";
+
+/* Class = "UILabel"; text = "Primary Email Address"; ObjectID = "qah-Er-aD2"; */
+"qah-Er-aD2.text" = "عنوان البريد الإلكتروني الرئيسي";

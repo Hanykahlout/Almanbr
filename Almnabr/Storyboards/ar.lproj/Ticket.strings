@@ -1,0 +1,216 @@
+
+/* Class = "UITextField"; placeholder = "Subject"; ObjectID = "04w-Gy-uRr"; */
+"04w-Gy-uRr.placeholder" = "الموضوع";
+
+/* Class = "UITextField"; placeholder = "Search .."; ObjectID = "0Cg-k7-Q12"; */
+"0Cg-k7-Q12.placeholder" = "بحث ..";
+
+/* Class = "UIButton"; normalTitle = "Submit"; ObjectID = "1Dw-2A-udf"; */
+"1Dw-2A-udf.normalTitle" = "اعتماد";
+
+/* Class = "UILabel"; text = "Name"; ObjectID = "2D2-Pj-la4"; */
+"2D2-Pj-la4.text" = "الاسم";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "2e8-3r-O1h"; */
+"2e8-3r-O1h.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "4lJ-t3-6l2"; */
+"4lJ-t3-6l2.text" = "Label";
+
+/* Class = "UILabel"; text = "Advanced Filter"; ObjectID = "56Q-ha-xSc"; */
+"56Q-ha-xSc.text" = "تصفية متقدم";
+
+/* Class = "UIButton"; normalTitle = "Submit"; ObjectID = "6QM-2h-iY7"; */
+"6QM-2h-iY7.normalTitle" = "اعتماد";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "7RQ-lu-guF"; */
+"7RQ-lu-guF.text" = "Label";
+
+/* Class = "UITextField"; placeholder = "End Date"; ObjectID = "7dL-se-LQr"; */
+"7dL-se-LQr.placeholder" = "تاريخ الانتهاء";
+
+/* Class = "UILabel"; text = " "; ObjectID = "7ly-ii-5Rm"; */
+"7ly-ii-5Rm.text" = " ";
+
+/* Class = "UIButton"; normalTitle = "Cancel"; ObjectID = "8aw-eb-xNI"; */
+"8aw-eb-xNI.normalTitle" = "إلغاء";
+
+/* Class = "UILabel"; text = "user"; ObjectID = "C5w-lA-JvI"; */
+"C5w-lA-JvI.text" = "المستخدم";
+
+/* Class = "UILabel"; text = " "; ObjectID = "CPx-5P-uNR"; */
+"CPx-5P-uNR.text" = " ";
+
+/* Class = "UILabel"; text = " "; ObjectID = "ClT-yX-6vt"; */
+"ClT-yX-6vt.text" = " ";
+
+/* Class = "UILabel"; text = "Advanced Filter"; ObjectID = "CsQ-FU-5s2"; */
+"CsQ-FU-5s2.text" = "تصفية متقدم";
+
+/* Class = "UILabel"; text = "Advanced Filter"; ObjectID = "DNN-YF-qb6"; */
+"DNN-YF-qb6.text" = "تصفية متقدم";
+
+/* Class = "UILabel"; text = "Activity"; ObjectID = "DYO-sN-AJb"; */
+"DYO-sN-AJb.text" = "نشاط";
+
+/* Class = "UILabel"; text = "Name"; ObjectID = "HJA-yp-35h"; */
+"HJA-yp-35h.text" = "اسم";
+
+/* Class = "UILabel"; text = "Ticket"; ObjectID = "IQT-Od-CII"; */
+"IQT-Od-CII.text" = "تذكرة";
+
+/* Class = "UILabel"; text = "Advanced Filter"; ObjectID = "KEg-hg-xSw"; */
+"KEg-hg-xSw.text" = "تصفية متقدم";
+
+/* Class = "UILabel"; text = "Advanced Filter"; ObjectID = "Kwr-DD-7Qe"; */
+"Kwr-DD-7Qe.text" = "تصفية متقدم";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "LAo-DK-ubc"; */
+"LAo-DK-ubc.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "MZf-ky-8xQ"; */
+"MZf-ky-8xQ.text" = "Label";
+
+/* Class = "UILabel"; text = "Ticket"; ObjectID = "Nwr-hg-DbX"; */
+"Nwr-hg-DbX.text" = "تذكرة";
+
+/* Class = "UITextField"; placeholder = "Reply Date"; ObjectID = "P5O-OX-kUY"; */
+"P5O-OX-kUY.placeholder" = "تاريخ الرد";
+
+/* Class = "UILabel"; text = "Advanced Filter"; ObjectID = "Q8m-CT-BMR"; */
+"Q8m-CT-BMR.text" = "تصفية متقدم";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "QN8-pf-VjA"; */
+"QN8-pf-VjA.text" = "Label";
+
+/* Class = "UILabel"; text = " "; ObjectID = "RQG-tq-YCi"; */
+"RQG-tq-YCi.text" = " ";
+
+/* Class = "UILabel"; text = "#"; ObjectID = "RlI-0W-cuk"; */
+"RlI-0W-cuk.text" = "#";
+
+/* Class = "UIButton"; normalTitle = "Add Task"; ObjectID = "TUB-eo-zMs"; */
+"TUB-eo-zMs.normalTitle" = "إضافة مهمة";
+
+/* Class = "UILabel"; text = "user"; ObjectID = "XPa-ve-znB"; */
+"XPa-ve-znB.text" = "المستخدم";
+
+/* Class = "UILabel"; text = "Add Checklist"; ObjectID = "XRX-nC-OvH"; */
+"XRX-nC-OvH.text" = "إضافة قائمة تحقق";
+
+/* Class = "UITextField"; placeholder = "Subject"; ObjectID = "YSs-Z8-PNK"; */
+"YSs-Z8-PNK.placeholder" = "موضوع";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "Z0V-U5-FUY"; */
+"Z0V-U5-FUY.text" = "عنوان";
+
+/* Class = "UILabel"; text = " "; ObjectID = "ZFa-th-Tyh"; */
+"ZFa-th-Tyh.text" = " ";
+
+/* Class = "UILabel"; text = " "; ObjectID = "ZMk-lD-n8o"; */
+"ZMk-lD-n8o.text" = " ";
+
+/* Class = "UILabel"; text = "Advanced Filter"; ObjectID = "ZYf-0B-PQL"; */
+"ZYf-0B-PQL.text" = "تصفية متقدم";
+
+/* Class = "UITextField"; placeholder = "Description"; ObjectID = "aJL-Jj-Uj6"; */
+"aJL-Jj-Uj6.placeholder" = "وصف";
+
+/* Class = "UILabel"; text = " "; ObjectID = "cDL-WX-fpG"; */
+"cDL-WX-fpG.text" = " ";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "dJH-Nq-y7t"; */
+"dJH-Nq-y7t.text" = "Label";
+
+/* Class = "UILabel"; text = " "; ObjectID = "dl8-vj-onf"; */
+"dl8-vj-onf.text" = " ";
+
+/* Class = "UIButton"; normalTitle = "Submit"; ObjectID = "dxR-ig-foK"; */
+"dxR-ig-foK.normalTitle" = "اعتماد";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "dxr-uS-5Xb"; */
+"dxr-uS-5Xb.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "dxy-vM-GXW"; */
+"dxy-vM-GXW.text" = "Label";
+
+/* Class = "UITextField"; placeholder = "Subject"; ObjectID = "e5Z-hz-ygo"; */
+"e5Z-hz-ygo.placeholder" = "موضوع";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "fxz-zp-Nwg"; */
+"fxz-zp-Nwg.text" = "Label";
+
+/* Class = "UILabel"; text = "Members"; ObjectID = "hT0-Cr-Oe8"; */
+"hT0-Cr-Oe8.text" = "أعضاء";
+
+/* Class = "UILabel"; text = "#"; ObjectID = "heF-tK-mMI"; */
+"heF-tK-mMI.text" = "#";
+
+/* Class = "UILabel"; text = "Advanced Filter"; ObjectID = "hhr-Zw-Y5J"; */
+"hhr-Zw-Y5J.text" = "تصفية متقدم";
+
+/* Class = "UILabel"; text = "First Name"; ObjectID = "huF-T9-w6a"; */
+"huF-T9-w6a.text" = "الاسم الاول";
+
+/* Class = "UIButton"; normalTitle = "Submit"; ObjectID = "jEW-mj-kyf"; */
+"jEW-mj-kyf.normalTitle" = "اعتماد";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "kwV-X9-xv4"; */
+"kwV-X9-xv4.text" = "عنوان";
+
+/* Class = "UILabel"; text = "Users"; ObjectID = "mnj-94-ttq"; */
+"mnj-94-ttq.text" = "المستخدمون";
+
+/* Class = "UILabel"; text = "Advanced Filter"; ObjectID = "o15-9i-zKA"; */
+"o15-9i-zKA.text" = "تصفية متقدم";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "odQ-Gj-0K9"; */
+"odQ-Gj-0K9.text" = "عنوان";
+
+/* Class = "UITextField"; placeholder = "Start Date"; ObjectID = "p5Y-C7-7u0"; */
+"p5Y-C7-7u0.placeholder" = "تاريخ البدء";
+
+/* Class = "UILabel"; text = "status"; ObjectID = "pFD-6v-qon"; */
+"pFD-6v-qon.text" = "الحالة";
+
+/* Class = "UILabel"; text = "Add Attachments"; ObjectID = "pNH-ue-Xz0"; */
+"pNH-ue-Xz0.text" = "أضف ملحقات";
+
+/* Class = "UITextField"; placeholder = "Subject"; ObjectID = "pb1-Ni-xW0"; */
+"pb1-Ni-xW0.placeholder" = "موضوع";
+
+/* Class = "UILabel"; text = " "; ObjectID = "q0n-ta-ejL"; */
+"q0n-ta-ejL.text" = " ";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "qcs-X6-PkL"; */
+"qcs-X6-PkL.text" = "Label";
+
+/* Class = "UILabel"; text = "Advanced Filter"; ObjectID = "r0F-VT-06h"; */
+"r0F-VT-06h.text" = "تصفية متقدم";
+
+/* Class = "UILabel"; text = "Action"; ObjectID = "rSd-r3-X9p"; */
+"rSd-r3-X9p.text" = "عمل";
+
+/* Class = "UILabel"; text = "History"; ObjectID = "tiP-Ia-DvA"; */
+"tiP-Ia-DvA.text" = "سجل";
+
+/* Class = "UILabel"; text = "Last Name"; ObjectID = "uMy-Io-Ki2"; */
+"uMy-Io-Ki2.text" = "اسم العائلة";
+
+/* Class = "UILabel"; text = "Quick Action"; ObjectID = "uX4-N6-BAT"; */
+"uX4-N6-BAT.text" = "عمل سريع";
+
+/* Class = "UILabel"; text = "File"; ObjectID = "wgH-uY-KGr"; */
+"wgH-uY-KGr.text" = "ملف";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "yHs-5k-bSx"; */
+"yHs-5k-bSx.text" = "Label";
+
+/* Class = "UILabel"; text = " "; ObjectID = "yJg-gg-fXd"; */
+"yJg-gg-fXd.text" = " ";
+
+/* Class = "UILabel"; text = "File"; ObjectID = "yMs-uu-Ncu"; */
+"yMs-uu-Ncu.text" = "ملف";
+
+/* Class = "UILabel"; text = " "; ObjectID = "zMw-NY-aRb"; */
+"zMw-NY-aRb.text" = " ";

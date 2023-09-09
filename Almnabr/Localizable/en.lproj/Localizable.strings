@@ -1,0 +1,447 @@
+/*
+  Localizable.strings
+  Almnabr
+
+  Created by MacBook on 23/09/2021.
+  Copyright © 2021 Samar Akkila. All rights reserved.
+*/
+
+"txt_username_address" = "User Name";
+"txt_email_address" = "Email Address";
+"txt_password" = "Password";
+"btn_forget_password" = "Forgot password";
+"btn_login" = "Login";
+"btn_submit" = "Submit";
+"btn_language" = "Language";
+"error" = "Error";
+"token_missing" = "Token missing";
+"ok" = "OK";
+"are_you_sure" = "Are you sure?";
+"btn_yes" = "YES";
+"btn_no" = "NO";
+"btn_create_new_account" = "Create new account";
+
+"nav_settings" = "Settings";
+"lbl_logout" = "Logout";
+"lbl_settings" = "Settings";
+
+"English" = "English";
+"Arabic" = "Arabic";
+"Remember_me" = "Remember Me";
+"txt_Home" = "Home";
+"Home" = "Home";
+"txt_searchAdmin" = "Admin";
+"txt_searchByForm" = "Search By Form";
+"txt_searchByModule" = "Search By Module";
+"txt_searchAll" = "All";
+
+"txt_searchByBranch" = "Branch";
+"txt_searchByServices" = "Search By Services";
+
+"txt_NoData" = "Ther's No Data!";
+
+"All" = "All";
+"Auto" = "Auto";
+"Manual" = "Manual";
+
+
+"Subject" = "Subject";
+"Signature" = "Signature";
+"Note" = "Note";
+"Priorty" = "Priorty";
+
+
+"Last Update" = "Last Update";
+"Attempt" = "Attempt";
+"Form Name" = "Form Name";
+"No." = "No.";
+
+"Admin" = "Admin";
+"Users" = "Users";
+
+
+
+"Status" = "Status";
+"Barcode" = "Barcode";
+"Writer" = "Writer";
+"Desc" = "Desc";
+"Description" = "Description";
+"submitted" = "submitted";
+"New" = "New";
+"Approval" = "Approval";
+
+
+"Project ID" = "Project ID";
+"Project Title" = "Project Title";
+"Branch" = "Branch";
+"Project Type" = "Project Type";
+"Customers" = "Customers";
+"On Date" = "On Date";
+
+
+"from" = "from";
+"To" = "To";
+"Type" = "Type";
+"Module" = "Module";
+"Submitter" = "Submitter";
+
+"Form" = "Form";
+"Transaction Date" = "Transaction Date";
+"Approval Type" = "Approval Type";
+
+
+"Project Details" = "Project Details" ;
+
+"txt_Project_Name_En" = "Project Name English";
+"txt_Project_Name_Ar" = "Project name Arabic";
+"txt_Project_Type" = "Project Type";
+"txt_update" = "On Updated";
+"txt_location" = "Project Location";
+
+
+"Services" = "Services";
+"txt_Quotations" = "Quotations";
+"txt_Projects" = "Projects";
+
+"txt_AllProjects" = "Supervision Operation";
+"txt_MainProjectView" = "Main Project View";
+"txt_SupervisionOperation" = "Supervision Operation";
+"txt_SupervisionDashboard" = "Supervision Dashboard";
+
+
+"txt_TemplateName"  = "Template Name";
+"txt_GroupType" = "Group Type";
+"txt_Groupe1" = "Groupe1";
+"txt_Groupe2" = "Groupe2";
+
+"txt_Active" = "Active";
+"txt_DocumentType" = "Document Types";
+"txt_Division" = "Specific Item Divisions";
+"Documents" = "Documents";
+
+"txt_Contacts" = "Contacts";
+"Contacts" = "Contacts";
+
+"txt_Position" = "Position";
+
+"All Projects" = "All Projects";
+"Projects" = "Projects";
+
+"Form Transaction" = "Form Transaction";
+"Team Users" = "Team Users";
+"Contacts" = "Contacts";
+"Documents" = "Documents" ;
+
+
+"txt_SupervisionOperationDetails" = "Supervision Operation Details";
+
+"Form Transaction" = "Form Transaction";
+
+"Name" = "Name";
+"Title" = "Title";
+"Positions" = "Positions";
+"Role" = "Role";
+
+"Contractors" = "Contractors";
+"Others" = "Others";
+
+"Email" = "Email";
+"Mobile" = "Mobile";
+"Whatsapp" = "Whatsapp";
+"Fax" = "Fax";
+
+"Active" = "Active";
+"History" = "History";
+
+"txt_Active" = "Active";
+"txt_DocumentType" = "Document Types";
+"txt_Division" = "Specific Item Divisions";
+"Document Types" = "Document Types";
+"Specific Item Divisions" = "Specific Item Divisions";
+"File Level" = "File Level";
+
+"Platform Code System" = "Platform Code System";
+"Platform" = "Platform";
+"Template Name" = "Template Name";
+"Group One" = "Group One";
+"Group Type" = "Group Type";
+"Group Two" = "Group Two";
+
+"txt_config" = "Configrations";
+"txt_Language" = "Language";
+
+"txt_SiteLevel" = "Site Level";
+"txt_Phases"  = "By Phases";
+"txt_GeneralNo"  = "General Numbers";
+"txt_AllUnits"  = "For All Units";
+"txt_WorkSite"  = "Work Site";
+"txt_No"  = "No";
+"txt_Yes"  = "Yes";
+"txt_SeparateUnits"  = "Separate Units";
+
+"txt_FillWorkLevel" = "Fill Work Level";
+
+"txt_Generalnumber" = "General number";
+
+"txt_SearchGeneralNumbers" = "Search General Numbers";
+"txt_FillWorkLevels" = "Fill Work Levels";
+"txt_SearchGeneralNumbers" = "Search General Numbers";
+"txt_FillWorkLevels" = "Fill Work Levels";
+
+"txt_ByPhase" = "By Phases";
+"txt_Zone" = "zone";
+"txt_Blocks" = "Blocks";
+"txt_Clustre" = "Clusters";
+"txt_Unit" = "Units";
+
+"txt_FormVersion" = "Form Version";
+"txt_Relatedforms" = "Related forms";
+"txt_Attachments" = "Attachments";
+
+"lbl_ContractorManager" = "Contractor manager step requires";
+"lbl_ContractorTeamUsers" = "Contractor Team Users";
+
+"all_pending_need_action" = "All pending need action";
+
+"Form Details" = "Form Details";
+"Request Number" = "Request Number";
+"Project Title" =  "Project Title";
+
+"Service Name" = "Service Name";
+"Form Code" = "Form Code";
+"Division" = "Division";
+"Chapter" = "Chapter";
+
+"Form Specifications" =  "Form Specifications";
+"Item Name" = "Item Name";
+"Form Versions" =  "Form Versions";
+"txt_location" = "location";
+"Preview" = "Preview";
+"Lang_drawing_file" = "Lang_drawing_file";
+"Selected Step" =  "Selected Step";
+"Recipient Verification" = "Recipient Verification";
+"Last Step Opened" =  "Last Step Opened";
+"Processing" = "Processing";
+"Evaluation Result:" = "Evaluation Result:";
+
+"Notes" = "Notes";
+"Person Details" = "Person Details";
+"Attachments" = "Attachments";
+"History" = "History";
+"Supervision Operations" = "Supervision Operations";
+"All Project" = "All Project";
+
+"You not have permission to access this step" = "You not have permission to access this step";
+"step" = "step";
+ "of" = "of";
+
+"Configurations" = "Configurations";
+"Contractor Team Approval" = "Contractor Team_Approval";
+"Contractor Manager Approval" = "Contractor Manager_Approval";
+"Recipient Verification" = "Recipient Verification" ;
+"Techinical Assistant" = "Techinical Assistant" ;
+"Special Approval" = "Special Approval" ;
+"Evaluation Result" = "Evaluation Result" ;
+"Authorized Positions Approval" = "Authorized Positions" ;
+"Manager Approval" = "Manager Approval" ;
+"Owners Representative" = "Owners Representative" ;
+"Final Result" = "Final Result" ;
+
+"Return to technical assistant to re-submit" = "Return to technical assistant to re-submit";
+
+
+
+"Return to technical assistant to re-submit" = "Return to technical assistant to re-submit";
+"Approve" = "Approve";
+"Rejected Notes :" = "Rejected Notes :";
+"Customer Representative Required !?." = "Customer Representative Required !?.";
+"No" = "No";
+"Yes" = "Yes";
+"Upload customer approved document" = "Upload customer approved document";
+"Assign owner user for confirmation" = "Assign owner user for confirmation";
+"Customer Representative ? :" = "Customer Representative ? :";
+"Owner users" = "Owner users";
+"Submit" = "Submit";
+"( Note : The consultant decision in this request will not be confirmed until reviewing owner representative response )" = "( Note : The consultant decision in this request will not be confirmed until reviewing owner representative response )";
+
+
+"Upload attachment" = "Upload attachment";
+"Description" = "Description" ;
+
+"Owner Representative" = "Owner Representative";
+"Notes" = "Notes";
+
+"Final Result" = "Final Result";
+"Thank you, we will review your request. wait the result soon." = "Thank you, we will review your request. wait the result soon.";
+
+"Waiting for : " = "Waiting for : ";
+
+"View" = "View";
+"View Time" = "View Time";
+"Last View Time" = "Last View Time";
+"Date & Time" = "Date & Time";
+
+"Attachments Title" = "Attachments Title";
+"Date" = "Date";
+"Attachment Type" = "Attachment Type";
+"File Size" = "File Size";
+
+"Form Versions" = "Form Versions";
+"Selected unites and levels" = "Selected unites and levels";
+
+"Work Level" = "Work Level";
+"Units" = "Units";
+
+"Transaction Number" = "Transaction Number";
+"Unit" = "Unit";
+
+"Group Type" = "Group Type";
+"Platform Code System" = "Platform Code System";
+"Platform" = "Platform";
+
+"Supervision ID" = "Supervision ID";
+"Supervision Name" = "Supervision Name";
+"Next" = "Next";
+
+"Previous" = "Previous";
+"Cancel" = "Cancel";
+
+"zones" = "zones";
+"Blocks" = "Blocks";
+"Clusters" = "Clusters";
+
+
+"Related Forms : " = "Related Forms : ";
+"lbl_ContractorManager" = "Contractor Manager";
+"lbl_ContractorTeamUsers" = "Contractor Team Users";
+
+
+"Reject and return to update" = "Reject and return to update";
+"Request Approval !?. " = "Request Approval !?. ";
+
+"Contractor Manager Approval" = "Contractor Manager Approval";
+"Contractor Team Approval " = "Contractor Team Approval ";
+
+"Reserve Request" = "Reserve Request";
+"Recipient Verification " = "Recipient Verification";
+
+"Technical Assistant" = "Technical Assistant";
+"Check List" = "Check List";
+"Saudi Bulding Code :" = "Saudi Bulding Code :";
+"Special Approvals !?" = "Special Approvals !?" ;
+
+"add users" = "add users";
+"Evaluation Result: " = "Evaluation Result: ";
+"Evaluation Status: " = "Evaluation Status: ";
+
+"Title: " = "Title: ";
+"Result" =  "Result";
+"Notifications" = "Notifications";
+"Related Forms" = "Related Forms";
+
+"txt_units" = "Units";
+"txt_workLevels" = "work Levels";
+"txt_Location" = "Location";
+
+
+"txt_SearchGeneralNo" = "search By General Number";
+
+"ID" = "ID";
+"Name" = "Name";
+"Specifications" = "Specifications";
+"My Transactions" = "My Transactions";
+"Done" = "Done";
+
+"Incoming" = "Incoming";
+"Outgoing" = "Outgoing";
+"Profile" = "Profile";
+"Settings" = "Settings";
+"Log out" = "Log out";
+
+
+"all_pending_need_action" =  "All pending need action";
+"all_pending" =  "All pending";
+"all_complete" = "All complete";
+"all_sent" = "All sent";
+
+"Tickets" = "All Ticket";
+"Add Settings" = "Add Settings";
+"Choose Range" = "Choose Range";
+"Success" = "Success";
+"ID Details" = "ID Details";
+"Contract Details" = "Contract Details";
+"Joining Details" = "Joining Details";
+"Job Details" = "Job Details";
+"Communications" = "Communications";
+"Contact Details" = "Contact Details";
+"Bank Details" = "Bank Details";
+"Education Details" = "Education Details";
+"Passport Details" = "Passport Details";
+"Insurance Details" = "Insurance Details";
+"Vacations" = "Vacations";
+"Notes" = "Notes";
+"Modules" = "Modules";
+"Financial Details" = "Financial Details";
+"Calendar View" = "Calendar View";
+"Full Time" = "Full Time";
+"Part Time" = "Part Time";
+"Contract" = "Contract";
+"Others" = "Others";
+"Age" = "Age";
+"Male" = "Male";
+"FeMale" = "FeMale";
+"Active" = "Active";
+"Inactive" = "Inactive";
+"Single" = "Single";
+"Married" = "Married";
+"Diversed" = "Diversed";
+"Others" = "Others";
+"Confirmation !!!" = "Confirmation !!!";
+"Are you sure !?" = "Are you sure !?";
+"Choose the type of connections you want to make " = "Choose the type of connections you want to make ";
+"Choose Date" = "Choose Date";
+"Choose Photo" = "Choose Photo";
+"Choose Pdf" = "Choose Pdf";
+"Action has been completed successfully !!!" = "Action has been completed successfully !!!";
+"Request Details" = "Request Details";
+"Description" = "Description";
+"Person Details" = "Person Details";
+"History" = "History";
+"Spouse" = "Spouse";
+"Son" = "Son";
+"Daugther" =  "Daugther";
+"Choose" = "Choose";
+"Public" = "Public";
+"Private" = "Private";
+"Take a photo from" = "Take a photo from" ;
+"Gallery" = "Gallery";
+"Camera" = "Camera";
+"Diploma" = "Diploma";
+"Bachelor Degree" = "Bachelor Degree";
+"Master Degree" = "Master Degree";
+"Doctorate" = "Doctorate";
+"Associate engineer" = "Associate engineer";
+"Professional engineer" = "Professional engineer";
+"Consultant engineer" = "Consultant engineer";
+"Other" = "Other";
+"Search By Branches" = "Search By Branches";
+"Groups" = "Groups";
+"Users" = "Users";
+"Bank Name" = "Bank Name";
+"Employee Title" = "Employee Title";
+"Job Positions" = "Job Positions";
+"Update Settings" = "Update Settings";
+"Add" = "Add";
+
+"Edit" = "Edit";
+"Upload Signature" = "Upload Signature";
+"Delete" = "Delete";
+"There Are No Data !!!" = "There Are No Data !!!";
+"Select File" = "Select File";
+"You can see your account logged in from the website." = "You can see your account logged in from the website.";
+"Successfully Scanned" = "Successfully Scanned";
+"Failed Scanned" = "Failed Scanned";
+"Empty Fields!!" = "Empty Fields!!";
+"Vaction From" = "Vaction From";
+"Finance Information" = "Finance Information";
+"Comments" = "Comments";

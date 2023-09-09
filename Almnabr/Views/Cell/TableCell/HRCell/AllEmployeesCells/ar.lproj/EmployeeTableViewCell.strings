@@ -1,0 +1,51 @@
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "1Q1-7E-EXa"; */
+"1Q1-7E-EXa.text" = "Label";
+
+/* Class = "UILabel"; text = "Job Title"; ObjectID = "9mf-xb-rFC"; */
+"9mf-xb-rFC.text" = "مسمى وظيفي";
+
+/* Class = "UILabel"; text = "Nationality"; ObjectID = "9zi-WE-KSk"; */
+"9zi-WE-KSk.text" = "جنسية";
+
+/* Class = "UILabel"; text = "Writer"; ObjectID = "CS1-Ew-fyS"; */
+"CS1-Ew-fyS.text" = "كاتب";
+
+/* Class = "UILabel"; text = "Employee Number"; ObjectID = "EA1-v7-lXq"; */
+"EA1-v7-lXq.text" = "رقم الموظف";
+
+/* Class = "UILabel"; text = "Nationality"; ObjectID = "RDn-c2-Xvl"; */
+"RDn-c2-Xvl.text" = "جنسية";
+
+/* Class = "UILabel"; text = "Status "; ObjectID = "Tme-pk-tCW"; */
+"Tme-pk-tCW.text" = "حالة";
+
+/* Class = "UILabel"; text = "Writer"; ObjectID = "XYc-3K-ePU"; */
+"XYc-3K-ePU.text" = "كاتب";
+
+/* Class = "UILabel"; text = "Job Title"; ObjectID = "ZH6-Hb-LdH"; */
+"ZH6-Hb-LdH.text" = "مسمى وظيفي";
+
+/* Class = "UILabel"; text = "ID Number"; ObjectID = "bRy-t2-VDO"; */
+"bRy-t2-VDO.text" = "رقم الهوية";
+
+/* Class = "UILabel"; text = "ID Number"; ObjectID = "cNd-yC-odS"; */
+"cNd-yC-odS.text" = "رقم الهوية";
+
+/* Class = "UILabel"; text = "Reference No"; ObjectID = "g7b-hY-RAF"; */
+"g7b-hY-RAF.text" = "رقم المرجع";
+
+/* Class = "UILabel"; text = "ID Details"; ObjectID = "iZF-Fr-vh7"; */
+"iZF-Fr-vh7.text" = "تفاصيل الهوية";
+
+/* Class = "UILabel"; text = "Employee Number"; ObjectID = "jzz-L8-Wsr"; */
+"jzz-L8-Wsr.text" = "رقم الموظف";
+
+/* Class = "UILabel"; text = "ID Details"; ObjectID = "k9o-xK-zBF"; */
+"k9o-xK-zBF.text" = "تفاصيل الهوية";
+
+/* Class = "UILabel"; text = "Status "; ObjectID = "nhg-GS-WF7"; */
+"nhg-GS-WF7.text" = "حالة";
+
+/* Class = "UILabel"; text = "Reference No"; ObjectID = "xKU-r7-lQh"; */
+"xKU-r7-lQh.text" = "رقم المرجع";

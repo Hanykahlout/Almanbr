@@ -1,0 +1,6 @@
+
+/* Class = "UITextField"; placeholder = "Licence Name Arabic"; ObjectID = "WQ1-RR-eb8"; */
+"WQ1-RR-eb8.placeholder" = "اسم الرخصة بالعربية";
+
+/* Class = "UITextField"; placeholder = "Licence Name English"; ObjectID = "z9G-wJ-Ecf"; */
+"z9G-wJ-Ecf.placeholder" = "اسم الرخصة بالانجليزية";

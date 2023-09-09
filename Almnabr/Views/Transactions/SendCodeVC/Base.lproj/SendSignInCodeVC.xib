@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="DroidKufi-Bold.ttf">
+            <string>DroidArabicKufi-Bold</string>
+        </array>
+        <array key="DroidKufi-Regular.ttf">
+            <string>DroidArabicKufi</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SendSignInCodeVC" customModule="Almnabr" customModuleProvider="target">
+            <connections>
+                <outlet property="codeStackView" destination="eUB-ub-nEr" id="iba-3T-7lO"/>
+                <outlet property="codeTextField" destination="rA7-Kf-iZp" id="gRp-bZ-ASu"/>
+                <outlet property="emailCheckImageView" destination="UOV-yK-ql7" id="weI-pb-Ep3"/>
+                <outlet property="emailStackView" destination="YcB-me-Quy" id="lO8-2t-ghd"/>
+                <outlet property="mobileCheckImageView" destination="iQq-ID-6aZ" id="Ahf-Jo-77T"/>
+                <outlet property="mobileStackView" destination="mY3-dA-v8X" id="y7M-kj-7UM"/>
+                <outlet property="sendCodeButton" destination="erF-Z9-Vdy" id="fcO-D1-9v1"/>
+                <outlet property="sendCodeView" destination="KS9-UW-051" id="zkX-By-CDR"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+                <outlet property="whatsappCheckImageView" destination="GSO-6a-FDA" id="aKT-9Y-TBw"/>
+                <outlet property="whatsappStackView" destination="XbI-Jh-FDQ" id="GMu-jc-Okb"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uBj-EZ-0cZ">
+                    <rect key="frame" x="0.0" y="48" width="414" height="848"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Select Varification Code Method" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dmf-AE-QKv">
+                            <rect key="frame" x="16" y="40" width="382" height="19"/>
+                            <fontDescription key="fontDescription" name="DroidArabicKufi-Bold" family="Droid Arabic Kufi" pointSize="16"/>
+                            <color key="textColor" name="AppColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="Mbt-Xf-aGH">
+                            <rect key="frame" x="16" y="79" width="382" height="85"/>
+                            <subviews>
+                                <stackView opaque="NO" contentMode="scaleToFill" spacing="26" translatesAutoresizingMaskIntoConstraints="NO" id="YcB-me-Quy">
+                                    <rect key="frame" x="0.0" y="0.0" width="382" height="15"/>
+                                    <subviews>
+                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="uncheck" translatesAutoresizingMaskIntoConstraints="NO" id="UOV-yK-ql7">
+                                            <rect key="frame" x="0.0" y="0.0" width="15" height="15"/>
+                                            <color key="tintColor" name="AppColor"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="15" id="f70-VE-PSM"/>
+                                                <constraint firstAttribute="height" constant="15" id="mL9-Dp-rpt"/>
+                                            </constraints>
+                                        </imageView>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Email" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="10r-BD-DAd">
+                                            <rect key="frame" x="41" y="0.0" width="341" height="15"/>
+                                            <fontDescription key="fontDescription" name="DroidArabicKufi" family="Droid Arabic Kufi" pointSize="14"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                </stackView>
+                                <stackView opaque="NO" contentMode="scaleToFill" spacing="26" translatesAutoresizingMaskIntoConstraints="NO" id="mY3-dA-v8X">
+                                    <rect key="frame" x="0.0" y="35" width="382" height="15"/>
+                                    <subviews>
+                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="uncheck" translatesAutoresizingMaskIntoConstraints="NO" id="iQq-ID-6aZ">
+                                            <rect key="frame" x="0.0" y="0.0" width="15" height="15"/>
+                                            <color key="tintColor" name="AppColor"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="15" id="fzP-x7-vgw"/>
+                                                <constraint firstAttribute="width" constant="15" id="nhF-ed-qpb"/>
+                                            </constraints>
+                                        </imageView>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mobile" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tYm-dN-XX9">
+                                            <rect key="frame" x="41" y="0.0" width="341" height="15"/>
+                                            <fontDescription key="fontDescription" name="DroidArabicKufi" family="Droid Arabic Kufi" pointSize="14"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                </stackView>
+                                <stackView opaque="NO" contentMode="scaleToFill" spacing="26" translatesAutoresizingMaskIntoConstraints="NO" id="XbI-Jh-FDQ">
+                                    <rect key="frame" x="0.0" y="70" width="382" height="15"/>
+                                    <subviews>
+                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="uncheck" translatesAutoresizingMaskIntoConstraints="NO" id="GSO-6a-FDA">
+                                            <rect key="frame" x="0.0" y="0.0" width="15" height="15"/>
+                                            <color key="tintColor" name="AppColor"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="15" id="Aee-Ll-QS8"/>
+                                                <constraint firstAttribute="width" constant="15" id="jDY-RE-zE3"/>
+                                            </constraints>
+                                        </imageView>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Whatsapp" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XOd-EE-dV6">
+                                            <rect key="frame" x="41" y="0.0" width="341" height="15"/>
+                                            <fontDescription key="fontDescription" name="DroidArabicKufi" family="Droid Arabic Kufi" pointSize="14"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                </stackView>
+                                <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KS9-UW-051">
+                                    <rect key="frame" x="0.0" y="85" width="382" height="40"/>
+                                    <subviews>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="erF-Z9-Vdy">
+                                            <rect key="frame" x="306" y="0.0" width="76" height="40"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="40" id="lXT-97-cwN"/>
+                                            </constraints>
+                                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                            <state key="normal" title="Send Code">
+                                                <color key="titleColor" name="AccentColor"/>
+                                            </state>
+                                            <connections>
+                                                <action selector="sendCodeAction:" destination="-1" eventType="touchUpInside" id="u9q-VC-gbG"/>
+                                            </connections>
+                                        </button>
+                                    </subviews>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <constraints>
+                                        <constraint firstItem="erF-Z9-Vdy" firstAttribute="top" secondItem="KS9-UW-051" secondAttribute="top" id="Exc-pj-35C"/>
+                                        <constraint firstAttribute="trailing" secondItem="erF-Z9-Vdy" secondAttribute="trailing" id="MDE-xk-nyi"/>
+                                        <constraint firstAttribute="bottom" secondItem="erF-Z9-Vdy" secondAttribute="bottom" id="ye0-wJ-vkI"/>
+                                    </constraints>
+                                </view>
+                            </subviews>
+                        </stackView>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="EBV-cT-R3N">
+                            <rect key="frame" x="16" y="184" width="382" height="1"/>
+                            <color key="backgroundColor" systemColor="systemGray4Color"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="1" id="AYz-wI-uth"/>
+                            </constraints>
+                        </view>
+                        <stackView hidden="YES" opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="eUB-ub-nEr">
+                            <rect key="frame" x="16" y="215" width="382" height="115"/>
+                            <subviews>
+                                <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="COq-rY-f07">
+                                    <rect key="frame" x="0.0" y="0.0" width="382" height="50"/>
+                                    <subviews>
+                                        <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Enter code here..." textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="rA7-Kf-iZp">
+                                            <rect key="frame" x="10" y="0.0" width="372" height="50"/>
+                                            <fontDescription key="fontDescription" name="DroidArabicKufi" family="Droid Arabic Kufi" pointSize="16"/>
+                                            <textInputTraits key="textInputTraits"/>
+                                        </textField>
+                                    </subviews>
+                                    <color key="backgroundColor" red="0.88664900972326854" green="0.90387154593168806" blue="0.9259251338077964" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="50" id="CcE-be-xly"/>
+                                        <constraint firstAttribute="bottom" secondItem="rA7-Kf-iZp" secondAttribute="bottom" id="RJZ-uq-Qay"/>
+                                        <constraint firstItem="rA7-Kf-iZp" firstAttribute="top" secondItem="COq-rY-f07" secondAttribute="top" id="VAI-tn-UJ0"/>
+                                        <constraint firstItem="rA7-Kf-iZp" firstAttribute="leading" secondItem="COq-rY-f07" secondAttribute="leading" constant="10" id="nC1-1x-L5D"/>
+                                        <constraint firstAttribute="trailing" secondItem="rA7-Kf-iZp" secondAttribute="trailing" id="vRP-Oo-eIB"/>
+                                    </constraints>
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="corner_radius">
+                                            <real key="value" value="10"/>
+                                        </userDefinedRuntimeAttribute>
+                                    </userDefinedRuntimeAttributes>
+                                </view>
+                                <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XYV-Sl-dTz">
+                                    <rect key="frame" x="0.0" y="70" width="382" height="45"/>
+                                    <color key="backgroundColor" name="AppColor"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="45" id="QXE-gW-RAa"/>
+                                    </constraints>
+                                    <fontDescription key="fontDescription" name="DroidArabicKufi" family="Droid Arabic Kufi" pointSize="16"/>
+                                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                    <state key="normal" title="Submit">
+                                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </state>
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="corner_radius">
+                                            <real key="value" value="10"/>
+                                        </userDefinedRuntimeAttribute>
+                                    </userDefinedRuntimeAttributes>
+                                    <connections>
+                                        <action selector="submitTextFiled:" destination="-1" eventType="touchUpInside" id="aMz-Bi-V6U"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                        </stackView>
+                    </subviews>
+                    <color key="backgroundColor" red="0.9371047616" green="0.9546068311" blue="0.9720847011" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="EBV-cT-R3N" secondAttribute="trailing" constant="16" id="1VV-VC-1No"/>
+                        <constraint firstItem="Mbt-Xf-aGH" firstAttribute="leading" secondItem="uBj-EZ-0cZ" secondAttribute="leading" constant="16" id="3c7-3n-MIm"/>
+                        <constraint firstItem="dmf-AE-QKv" firstAttribute="leading" secondItem="uBj-EZ-0cZ" secondAttribute="leading" constant="16" id="4Pw-DL-FTG"/>
+                        <constraint firstItem="EBV-cT-R3N" firstAttribute="leading" secondItem="uBj-EZ-0cZ" secondAttribute="leading" constant="16" id="Br6-0w-jjs"/>
+                        <constraint firstItem="Mbt-Xf-aGH" firstAttribute="top" secondItem="dmf-AE-QKv" secondAttribute="bottom" constant="20" id="Hh1-Pe-hgz"/>
+                        <constraint firstAttribute="trailing" secondItem="eUB-ub-nEr" secondAttribute="trailing" constant="16" id="Izb-6U-2Y4"/>
+                        <constraint firstItem="eUB-ub-nEr" firstAttribute="leading" secondItem="uBj-EZ-0cZ" secondAttribute="leading" constant="16" id="MYW-aQ-MJD"/>
+                        <constraint firstItem="EBV-cT-R3N" firstAttribute="top" secondItem="Mbt-Xf-aGH" secondAttribute="bottom" constant="20" id="Pye-9z-dtP"/>
+                        <constraint firstItem="dmf-AE-QKv" firstAttribute="top" secondItem="uBj-EZ-0cZ" secondAttribute="top" constant="40" id="fqR-U5-OkM"/>
+                        <constraint firstItem="eUB-ub-nEr" firstAttribute="top" secondItem="EBV-cT-R3N" secondAttribute="bottom" constant="30" id="h2h-62-wCr"/>
+                        <constraint firstAttribute="trailing" secondItem="Mbt-Xf-aGH" secondAttribute="trailing" constant="16" id="mIY-Dv-NYS"/>
+                        <constraint firstAttribute="trailing" secondItem="dmf-AE-QKv" secondAttribute="trailing" constant="16" id="xqY-bH-JHR"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" name="AppColor"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="uBj-EZ-0cZ" secondAttribute="bottom" id="77l-OW-2hY"/>
+                <constraint firstItem="uBj-EZ-0cZ" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="9Mo-Kw-Nig"/>
+                <constraint firstItem="uBj-EZ-0cZ" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="UCj-g5-D4c"/>
+                <constraint firstItem="uBj-EZ-0cZ" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="rYZ-r9-Xal"/>
+            </constraints>
+            <point key="canvasLocation" x="137.68115942028987" y="99.776785714285708"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="uncheck" width="24" height="24"/>
+        <namedColor name="AccentColor">
+            <color red="0.10199999809265137" green="0.21199999749660492" blue="0.39599999785423279" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+        </namedColor>
+        <namedColor name="AppColor">
+            <color red="0.10196078431372549" green="0.21176470588235294" blue="0.396078431372549" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+        </namedColor>
+        <systemColor name="systemGray4Color">
+            <color red="0.81960784313725488" green="0.81960784313725488" blue="0.83921568627450982" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

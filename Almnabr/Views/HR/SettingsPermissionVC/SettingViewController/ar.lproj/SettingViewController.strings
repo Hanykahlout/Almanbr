@@ -1,0 +1,9 @@
+
+/* Class = "UITextField"; placeholder = "Search"; ObjectID = "1Fs-ia-d49"; */
+"1Fs-ia-d49.placeholder" = "بحث";
+
+/* Class = "UILabel"; text = "message"; ObjectID = "oFw-Sg-xzI"; */
+"oFw-Sg-xzI.text" = "رسالة";
+
+/* Class = "UILabel"; text = "All"; ObjectID = "rna-vF-eFi"; */
+"rna-vF-eFi.text" = "الجميع";

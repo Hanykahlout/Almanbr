@@ -1,0 +1,24 @@
+
+/* Class = "UILabel"; text = "Status"; ObjectID = "2NB-aH-UOT"; */
+"2NB-aH-UOT.text" = "حالة";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "56Q-4E-IFn"; */
+"56Q-4E-IFn.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "Fse-jP-oZE"; */
+"Fse-jP-oZE.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "Im4-Js-0Py"; */
+"Im4-Js-0Py.text" = "Label";
+
+/* Class = "UILabel"; text = "Action"; ObjectID = "Nue-Sx-lTg"; */
+"Nue-Sx-lTg.text" = "أجراءات";
+
+/* Class = "UILabel"; text = "Settings Type"; ObjectID = "ZWS-oK-ulF"; */
+"ZWS-oK-ulF.text" = "نوع الإعدادات";
+
+/* Class = "UILabel"; text = "Title English"; ObjectID = "d54-Ob-2Si"; */
+"d54-Ob-2Si.text" = "العنوان بالإنجليزية";
+
+/* Class = "UILabel"; text = "Title Arabic"; ObjectID = "hzL-Gr-Cnc"; */
+"hzL-Gr-Cnc.text" = "العنوان بالعربية";

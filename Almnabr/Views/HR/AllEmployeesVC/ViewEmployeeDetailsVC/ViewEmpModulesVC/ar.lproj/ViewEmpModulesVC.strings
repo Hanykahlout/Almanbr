@@ -1,0 +1,9 @@
+
+/* Class = "UITextField"; placeholder = "Search...."; ObjectID = "DhU-ei-wra"; */
+"DhU-ei-wra.placeholder" = "بحث....";
+
+/* Class = "UILabel"; text = "Modules"; ObjectID = "Ual-xW-9GC"; */
+"Ual-xW-9GC.text" = "الوحدات";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "txN-yV-LeG"; */
+"txN-yV-LeG.text" = "Label";

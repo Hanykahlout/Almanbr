@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Stack View standard spacing" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="DroidKufi-Regular.ttf">
+            <string>DroidArabicKufi</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="StatementsView" customModule="Almnabr" customModuleProvider="target">
+            <connections>
+                <outlet property="collecitonView" destination="MoE-tG-1w2" id="3ey-dP-FT9"/>
+                <outlet property="mainView" destination="R78-L0-1sy" id="uDn-cb-yxe"/>
+                <outlet property="titleLabel" destination="v9l-TC-ycD" id="MbE-rg-6B0"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="445" height="310"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="R78-L0-1sy">
+                    <rect key="frame" x="5" y="5" width="435" height="300"/>
+                    <subviews>
+                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="85u-iT-T2a">
+                            <rect key="frame" x="5" y="5" width="425" height="290"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Statements" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="v9l-TC-ycD">
+                                    <rect key="frame" x="0.0" y="0.0" width="425" height="30.666666666666668"/>
+                                    <fontDescription key="fontDescription" name="DroidArabicKufi" family="Droid Arabic Kufi" pointSize="16"/>
+                                    <color key="textColor" name="AppColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" semanticContentAttribute="forceLeftToRight" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="MoE-tG-1w2">
+                                    <rect key="frame" x="0.0" y="38.666666666666671" width="425" height="251.33333333333331"/>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="SwR-6H-vOE">
+                                        <size key="itemSize" width="128" height="128"/>
+                                        <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                        <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                        <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                    </collectionViewFlowLayout>
+                                </collectionView>
+                            </subviews>
+                        </stackView>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="85u-iT-T2a" firstAttribute="leading" secondItem="R78-L0-1sy" secondAttribute="leading" constant="5" id="76Z-Vy-zcD"/>
+                        <constraint firstAttribute="height" constant="300" id="CMS-ez-5N9"/>
+                        <constraint firstAttribute="trailing" secondItem="85u-iT-T2a" secondAttribute="trailing" constant="5" id="DR4-0N-S09"/>
+                        <constraint firstItem="85u-iT-T2a" firstAttribute="top" secondItem="R78-L0-1sy" secondAttribute="top" constant="5" id="ELi-PS-YGl"/>
+                        <constraint firstAttribute="bottom" secondItem="85u-iT-T2a" secondAttribute="bottom" constant="5" id="Tam-s2-7zL"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="R78-L0-1sy" secondAttribute="trailing" constant="5" id="50I-N3-NY9"/>
+                <constraint firstAttribute="bottom" secondItem="R78-L0-1sy" secondAttribute="bottom" constant="5" id="agV-xx-Dlh"/>
+                <constraint firstItem="R78-L0-1sy" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="5" id="cY3-Uc-atb"/>
+                <constraint firstItem="R78-L0-1sy" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="5" id="j7F-Ef-buV"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="191.6030534351145" y="-73.239436619718319"/>
+        </view>
+    </objects>
+    <resources>
+        <namedColor name="AppColor">
+            <color red="0.10196078431372549" green="0.21176470588235294" blue="0.396078431372549" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+        </namedColor>
+    </resources>
+</document>

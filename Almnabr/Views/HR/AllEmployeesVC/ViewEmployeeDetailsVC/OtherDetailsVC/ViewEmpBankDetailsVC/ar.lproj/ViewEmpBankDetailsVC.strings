@@ -1,0 +1,15 @@
+
+/* Class = "UILabel"; text = "Bank Details"; ObjectID = "acx-BW-sAk"; */
+"acx-BW-sAk.text" = "التفاصيل المصرفية";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "cEu-Si-4Wh"; */
+"cEu-Si-4Wh.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "odT-fD-qvl"; */
+"odT-fD-qvl.text" = "Label";
+
+/* Class = "UILabel"; text = "Bank Name"; ObjectID = "pFI-dW-AH2"; */
+"pFI-dW-AH2.text" = "اسم البنك";
+
+/* Class = "UILabel"; text = "Account Number"; ObjectID = "qpi-vc-45q"; */
+"qpi-vc-45q.text" = "رقم حساب";

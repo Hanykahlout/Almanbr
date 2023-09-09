@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="Stack View standard spacing" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="DroidKufi-Bold.ttf">
+            <string>DroidArabicKufi-Bold</string>
+        </array>
+        <array key="DroidKufi-Regular.ttf">
+            <string>DroidArabicKufi</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SubmitCostCenteAlertVC" customModule="Almnabr" customModuleProvider="target">
+            <connections>
+                <outlet property="mainStackView" destination="zYV-hI-tEF" id="PLH-4h-YH4"/>
+                <outlet property="totalCostsLabel" destination="vvw-qb-31G" id="2OC-YE-aXB"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KBQ-0s-ebj">
+                    <rect key="frame" x="10" y="296.66666666666663" width="373" height="258.66666666666663"/>
+                    <subviews>
+                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="zYV-hI-tEF">
+                            <rect key="frame" x="10" y="9.9999999999999858" width="353" height="238.66666666666663"/>
+                            <subviews>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Qab-Z3-UR3">
+                                    <rect key="frame" x="0.0" y="0.0" width="353" height="32"/>
+                                    <subviews>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xDX-Yu-io7">
+                                            <rect key="frame" x="325.66666666666669" y="5" width="17.333333333333314" height="22"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="22" id="DFE-rR-Dil"/>
+                                            </constraints>
+                                            <color key="tintColor" name="AppColor"/>
+                                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                            <state key="normal" image="xmark" catalog="system"/>
+                                            <connections>
+                                                <action selector="closeAction:" destination="-1" eventType="touchUpInside" id="S9b-k8-mFx"/>
+                                            </connections>
+                                        </button>
+                                    </subviews>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <constraints>
+                                        <constraint firstAttribute="bottom" secondItem="xDX-Yu-io7" secondAttribute="bottom" constant="5" id="CZm-b8-prC"/>
+                                        <constraint firstAttribute="trailing" secondItem="xDX-Yu-io7" secondAttribute="trailing" constant="10" id="R2y-Lf-MOw"/>
+                                        <constraint firstItem="xDX-Yu-io7" firstAttribute="top" secondItem="Qab-Z3-UR3" secondAttribute="top" constant="5" id="wyO-hz-f7e"/>
+                                    </constraints>
+                                </view>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cost Centers" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kGL-CF-xOC">
+                                    <rect key="frame" x="0.0" y="40" width="353" height="47.666666666666657"/>
+                                    <fontDescription key="fontDescription" name="DroidArabicKufi-Bold" family="Droid Arabic Kufi" pointSize="25"/>
+                                    <color key="textColor" name="AppColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="glM-al-sNf" customClass="GraidentView" customModule="Almnabr" customModuleProvider="target">
+                                    <rect key="frame" x="0.0" y="95.666666666666629" width="353" height="90"/>
+                                    <subviews>
+                                        <stackView opaque="NO" contentMode="scaleToFill" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="Ivu-lL-IFK">
+                                            <rect key="frame" x="8" y="8" width="337" height="74"/>
+                                            <subviews>
+                                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="lDb-5e-bVv">
+                                                    <rect key="frame" x="0.0" y="0.0" width="297.33333333333331" height="74"/>
+                                                    <subviews>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TOTAL COST" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="P5C-Fy-mEe">
+                                                            <rect key="frame" x="97.666666666666686" y="0.0" width="102" height="43.333333333333336"/>
+                                                            <fontDescription key="fontDescription" name="DroidArabicKufi-Bold" family="Droid Arabic Kufi" pointSize="16"/>
+                                                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vvw-qb-31G">
+                                                            <rect key="frame" x="139.66666666666666" y="43.333333333333371" width="18" height="30.666666666666671"/>
+                                                            <fontDescription key="fontDescription" name="DroidArabicKufi" family="Droid Arabic Kufi" pointSize="16"/>
+                                                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                    </subviews>
+                                                </stackView>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="creditcard.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="97w-9N-OQQ">
+                                                    <rect key="frame" x="313.33333333333331" y="2" width="23.666666666666686" height="70"/>
+                                                    <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </imageView>
+                                            </subviews>
+                                        </stackView>
+                                    </subviews>
+                                    <color key="backgroundColor" red="0.35686274509999999" green="0.22352941179999999" blue="0.61176470589999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <constraints>
+                                        <constraint firstAttribute="bottom" secondItem="Ivu-lL-IFK" secondAttribute="bottom" constant="8" id="Ek8-Yk-J5C"/>
+                                        <constraint firstItem="Ivu-lL-IFK" firstAttribute="top" secondItem="glM-al-sNf" secondAttribute="top" constant="8" id="Gai-WU-U7I"/>
+                                        <constraint firstItem="Ivu-lL-IFK" firstAttribute="leading" secondItem="glM-al-sNf" secondAttribute="leading" constant="8" id="kqL-6P-H5A"/>
+                                        <constraint firstAttribute="trailing" secondItem="Ivu-lL-IFK" secondAttribute="trailing" constant="8" id="nvb-jc-yKx"/>
+                                    </constraints>
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="color" keyPath="firstColor">
+                                            <color key="value" red="0.5568627451" green="0.56862745100000001" blue="0.80784313730000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </userDefinedRuntimeAttribute>
+                                        <userDefinedRuntimeAttribute type="color" keyPath="secondColor">
+                                            <color key="value" red="0.35686274509999999" green="0.22352941179999999" blue="0.61176470589999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </userDefinedRuntimeAttribute>
+                                        <userDefinedRuntimeAttribute type="point" keyPath="startPoint">
+                                            <point key="value" x="1" y="0.5"/>
+                                        </userDefinedRuntimeAttribute>
+                                        <userDefinedRuntimeAttribute type="point" keyPath="endPoint">
+                                            <point key="value" x="0.0" y="0.5"/>
+                                        </userDefinedRuntimeAttribute>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="corner_radius">
+                                            <real key="value" value="10"/>
+                                        </userDefinedRuntimeAttribute>
+                                    </userDefinedRuntimeAttributes>
+                                </view>
+                                <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BDr-E4-Pw7">
+                                    <rect key="frame" x="0.0" y="193.66666666666663" width="353" height="45"/>
+                                    <color key="backgroundColor" name="AppColor"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="45" id="0o7-Xx-dJo"/>
+                                    </constraints>
+                                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                    <state key="normal" title="Submit">
+                                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </state>
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="corner_radius">
+                                            <real key="value" value="10"/>
+                                        </userDefinedRuntimeAttribute>
+                                    </userDefinedRuntimeAttributes>
+                                    <connections>
+                                        <action selector="submitAction:" destination="-1" eventType="touchUpInside" id="G5g-QY-TUu"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                        </stackView>
+                    </subviews>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <constraints>
+                        <constraint firstItem="zYV-hI-tEF" firstAttribute="leading" secondItem="KBQ-0s-ebj" secondAttribute="leading" constant="10" id="2Xq-h9-CBR"/>
+                        <constraint firstItem="zYV-hI-tEF" firstAttribute="top" secondItem="KBQ-0s-ebj" secondAttribute="top" constant="10" id="C3C-Ky-kUX"/>
+                        <constraint firstAttribute="trailing" secondItem="zYV-hI-tEF" secondAttribute="trailing" constant="10" id="ar3-0J-GjG"/>
+                        <constraint firstAttribute="bottom" secondItem="zYV-hI-tEF" secondAttribute="bottom" constant="10" id="f0n-RC-TgF"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="corner_radius">
+                            <real key="value" value="10"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" white="0.0" alpha="0.34999999999999998" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="KBQ-0s-ebj" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="10" id="265-nJ-kgm"/>
+                <constraint firstItem="KBQ-0s-ebj" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="NZc-ME-pbH"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="KBQ-0s-ebj" secondAttribute="trailing" constant="10" id="lNz-tl-C6t"/>
+            </constraints>
+            <point key="canvasLocation" x="93.89312977099236" y="-12.67605633802817"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="creditcard.fill" catalog="system" width="128" height="88"/>
+        <image name="xmark" catalog="system" width="128" height="113"/>
+        <namedColor name="AppColor">
+            <color red="0.10196078431372549" green="0.21176470588235294" blue="0.396078431372549" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

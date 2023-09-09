@@ -1,0 +1,9 @@
+
+/* Class = "UILabel"; text = "Attachments"; ObjectID = "NlW-2l-87a"; */
+"NlW-2l-87a.text" = "المرفقات";
+
+/* Class = "UILabel"; text = "Document Types"; ObjectID = "ZUV-ev-lwe"; */
+"ZUV-ev-lwe.text" = "أنواع المستندات";
+
+/* Class = "UITextField"; placeholder = "Search...."; ObjectID = "kEl-h1-Pyb"; */
+"kEl-h1-Pyb.placeholder" = "بحث....";

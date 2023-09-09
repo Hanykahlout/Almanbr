@@ -1,0 +1,26 @@
+{
+  "images" : [
+    {
+      "filename" : "Iconly-Light-Arrow - Right 2-2.svg",
+      "idiom" : "universal"
+    },
+    {
+      "filename" : "Iconly-Light-Arrow - Right 2-3.svg",
+      "idiom" : "universal",
+      "locale" : "ar"
+    },
+    {
+      "filename" : "Iconly-Light-Arrow - Right 2-4.svg",
+      "idiom" : "universal",
+      "locale" : "en"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  },
+  "properties" : {
+    "localizable" : true,
+    "template-rendering-intent" : "original"
+  }
+}

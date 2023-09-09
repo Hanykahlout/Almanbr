@@ -1,0 +1,21 @@
+
+/* Class = "UILabel"; text = "Need Licences !?"; ObjectID = "742-vf-moA"; */
+"742-vf-moA.text" = "بحاجة الى تراخيص!؟";
+
+/* Class = "UILabel"; text = "Update Settings"; ObjectID = "CRu-Xb-bMj"; */
+"CRu-Xb-bMj.text" = "إعدادات التحديث";
+
+/* Class = "UITextField"; placeholder = "Short Code"; ObjectID = "InD-7s-sn1"; */
+"InD-7s-sn1.placeholder" = "كود قصير";
+
+/* Class = "UILabel"; text = "Settings Type"; ObjectID = "Kcg-Vx-sQH"; */
+"Kcg-Vx-sQH.text" = "نوع الإعدادات";
+
+/* Class = "UIButton"; normalTitle = "Update"; ObjectID = "gbd-ZN-10b"; */
+"gbd-ZN-10b.normalTitle" = "تحديث";
+
+/* Class = "UITextField"; placeholder = "Title Arabic"; ObjectID = "oBD-OX-beZ"; */
+"oBD-OX-beZ.placeholder" = "العنوان بالعربية";
+
+/* Class = "UITextField"; placeholder = "Title English"; ObjectID = "uq7-Ta-Ugp"; */
+"uq7-Ta-Ugp.placeholder" = "العنوان بالإنجليزية";

@@ -1,0 +1,168 @@
+
+/* Class = "UILabel"; text = "label"; ObjectID = "2TW-aL-HL0"; */
+"2TW-aL-HL0.text" = "label";
+
+/* Class = "UILabel"; text = "Settings"; ObjectID = "4Z5-Mm-R4s"; */
+"4Z5-Mm-R4s.text" = "الإعدادات";
+
+/* Class = "UIButton"; normalTitle = "Previous"; ObjectID = "8oL-Ig-7Jr"; */
+"8oL-Ig-7Jr.normalTitle" = "سابق";
+
+/* Class = "UILabel"; text = "Vaction used days"; ObjectID = "8qw-hf-4vh"; */
+"8qw-hf-4vh.text" = "أيام الإجازة المستخدمة";
+
+/* Class = "UILabel"; text = "Employee Details"; ObjectID = "96n-JN-tgZ"; */
+"96n-JN-tgZ.text" = "تفاصيل الموظف";
+
+/* Class = "UITextField"; placeholder = "Search .."; ObjectID = "9R6-0E-DtY"; */
+"9R6-0E-DtY.placeholder" = "بحث ..";
+
+/* Class = "UILabel"; text = "Signature"; ObjectID = "As1-B8-3Z4"; */
+"As1-B8-3Z4.text" = "التوقيع";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "BBV-a6-Hvy"; */
+"BBV-a6-Hvy.text" = "Label";
+
+/* Class = "UILabel"; text = " "; ObjectID = "F6G-VB-aW1"; */
+"F6G-VB-aW1.text" = " ";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "HOV-CL-PA0"; */
+"HOV-CL-PA0.normalTitle" = "Button";
+
+/* Class = "UITextField"; placeholder = "Search .."; ObjectID = "HSF-4t-Sr4"; */
+"HSF-4t-Sr4.placeholder" = "بحث ..";
+
+/* Class = "UILabel"; text = "issue place"; ObjectID = "Kzc-nL-JrX"; */
+"Kzc-nL-JrX.text" = "مكان القضية";
+
+/* Class = "UITextField"; placeholder = "Search .."; ObjectID = "M2u-qX-jQo"; */
+"M2u-qX-jQo.placeholder" = "بحث ..";
+
+/* Class = "UITextField"; placeholder = "Search .."; ObjectID = "QwO-NC-7Fk"; */
+"QwO-NC-7Fk.placeholder" = "بحث ..";
+
+/* Class = "UILabel"; text = "Graduation"; ObjectID = "REG-FH-xYS"; */
+"REG-FH-xYS.text" = "تخرُّج";
+
+/* Class = "UILabel"; text = "Last Joining Date"; ObjectID = "RSh-ei-RZq"; */
+"RSh-ei-RZq.text" = "تاريخ الالتحاق الأخير";
+
+/* Class = "UIButton"; normalTitle = "Next"; ObjectID = "Rjy-OK-9Mj"; */
+"Rjy-OK-9Mj.normalTitle" = "التالي";
+
+/* Class = "UILabel"; text = "Graduation Year"; ObjectID = "Uqe-b1-bKp"; */
+"Uqe-b1-bKp.text" = "سنة التخرج";
+
+/* Class = "UILabel"; text = "label"; ObjectID = "VDE-M8-gtA"; */
+"VDE-M8-gtA.text" = "label";
+
+/* Class = "UILabel"; text = "label"; ObjectID = "Veu-QV-MHj"; */
+"Veu-QV-MHj.text" = "label";
+
+/* Class = "UITextField"; placeholder = "Search .."; ObjectID = "Wr6-Ud-hU6"; */
+"Wr6-Ud-hU6.placeholder" = "يبحث ..";
+
+/* Class = "UILabel"; text = "Expiry Date"; ObjectID = "Wzq-qO-sRt"; */
+"Wzq-qO-sRt.text" = "تاريخ انتهاء الصلاحية";
+
+/* Class = "UIButton"; normalTitle = "clear"; ObjectID = "X0j-uF-n90"; */
+"X0j-uF-n90.normalTitle" = "مسح";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "XZi-oC-Qgf"; */
+"XZi-oC-Qgf.normalTitle" = "Button";
+
+/* Class = "UITextField"; placeholder = "Search .."; ObjectID = "a0f-WH-d0j"; */
+"a0f-WH-d0j.placeholder" = "بحث ..";
+
+/* Class = "UILabel"; text = "Bank Name:"; ObjectID = "aES-aY-paX"; */
+"aES-aY-paX.text" = "اسم البنك:";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "aam-0J-50m"; */
+"aam-0J-50m.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = " "; ObjectID = "aeL-XR-5hr"; */
+"aeL-XR-5hr.text" = " ";
+
+/* Class = "UITextField"; placeholder = "Search .."; ObjectID = "bAE-1M-28d"; */
+"bAE-1M-28d.placeholder" = "بحث ..";
+
+/* Class = "UILabel"; text = "How to send a verification code"; ObjectID = "bOl-EX-i5m"; */
+"bOl-EX-i5m.text" = "كيفية إرسال رمز التحقق";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "bPM-fL-oxD"; */
+"bPM-fL-oxD.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Permission Mentions"; ObjectID = "bPo-es-fQW"; */
+"bPo-es-fQW.text" = "الصلاحيات";
+
+/* Class = "UILabel"; text = "Mark\n"; ObjectID = "cad-rY-irf"; */
+"cad-rY-irf.text" = "علامة";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "dHD-iC-9Is"; */
+"dHD-iC-9Is.normalTitle" = "Button";
+
+/* Class = "UITextField"; placeholder = "Search .."; ObjectID = "gYO-PP-Eoe"; */
+"gYO-PP-Eoe.placeholder" = "بحث ..";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "h5S-SQ-aEg"; */
+"h5S-SQ-aEg.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Account Number:"; ObjectID = "jGH-Es-EeP"; */
+"jGH-Es-EeP.text" = "رقم حساب:";
+
+/* Class = "UILabel"; text = "label"; ObjectID = "jkO-Lx-qyA"; */
+"jkO-Lx-qyA.text" = "label";
+
+/* Class = "UILabel"; text = "Edit Employee Details"; ObjectID = "jyV-XS-DHR"; */
+"jyV-XS-DHR.text" = "تحرير تفاصيل الموظف";
+
+/* Class = "UILabel"; text = "Primary Info."; ObjectID = "kBj-B1-KgS"; */
+"kBj-B1-KgS.text" = "المعلومات الأساسية";
+
+/* Class = "UILabel"; text = "Mark"; ObjectID = "lbO-3D-YkF"; */
+"lbO-3D-YkF.text" = "علامة";
+
+/* Class = "UILabel"; text = "Vaction Balance"; ObjectID = "lqv-Lm-jsy"; */
+"lqv-Lm-jsy.text" = "رصيد الاجازة";
+
+/* Class = "UILabel"; text = " "; ObjectID = "lrJ-Dz-ljj"; */
+"lrJ-Dz-ljj.text" = " ";
+
+/* Class = "UILabel"; text = "label"; ObjectID = "m4k-oO-oE2"; */
+"m4k-oO-oE2.text" = "label";
+
+/* Class = "UILabel"; text = "Vaction Unused days"; ObjectID = "okC-YV-Odj"; */
+"okC-YV-Odj.text" = "أيام الإجازة غير المستخدمة";
+
+/* Class = "UILabel"; text = "Settings"; ObjectID = "p6u-F6-6Nc"; */
+"p6u-F6-6Nc.text" = "الإعدادات";
+
+/* Class = "UILabel"; text = "Signature"; ObjectID = "qnF-t9-GC5"; */
+"qnF-t9-GC5.text" = "التوقيع";
+
+/* Class = "UITextField"; placeholder = "Search .."; ObjectID = "qwQ-c0-JCz"; */
+"qwQ-c0-JCz.placeholder" = "بحث ..";
+
+/* Class = "UILabel"; text = "label"; ObjectID = "rjs-YL-7uU"; */
+"rjs-YL-7uU.text" = "label";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "t5O-51-Rfk"; */
+"t5O-51-Rfk.normalTitle" = "Button";
+
+/* Class = "UITextField"; placeholder = "Search .."; ObjectID = "uAi-g4-GE4"; */
+"uAi-g4-GE4.placeholder" = "بحث ..";
+
+/* Class = "UILabel"; text = " "; ObjectID = "vJp-I4-tlE"; */
+"vJp-I4-tlE.text" = " ";
+
+/* Class = "UILabel"; text = "Please enter your verification code:"; ObjectID = "vTb-QQ-NeT"; */
+"vTb-QQ-NeT.text" = "الرجاء إدخال رمز التحقق الخاص بك:";
+
+/* Class = "UILabel"; text = "Membership Number"; ObjectID = "vvU-eh-Med"; */
+"vvU-eh-Med.text" = "رقم العضوية";
+
+/* Class = "UIButton"; normalTitle = "clear"; ObjectID = "vzb-a5-wjT"; */
+"vzb-a5-wjT.normalTitle" = "مسح";
+
+/* Class = "UILabel"; text = "Details"; ObjectID = "yPE-7y-Vf4"; */
+"yPE-7y-Vf4.text" = "تفاصيل";

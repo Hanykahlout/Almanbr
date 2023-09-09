@@ -1,0 +1,9 @@
+
+/* Class = "UILabel"; text = "Bank Details"; ObjectID = "B5I-pa-NDu"; */
+"B5I-pa-NDu.text" = "التفاصيل المصرفية";
+
+/* Class = "UITextField"; placeholder = "Account Number"; ObjectID = "dKv-Dj-I1o"; */
+"dKv-Dj-I1o.placeholder" = "رقم حساب";
+
+/* Class = "UITextField"; placeholder = "Bank Name"; ObjectID = "wT8-17-unb"; */
+"wT8-17-unb.placeholder" = "اسم البنك";

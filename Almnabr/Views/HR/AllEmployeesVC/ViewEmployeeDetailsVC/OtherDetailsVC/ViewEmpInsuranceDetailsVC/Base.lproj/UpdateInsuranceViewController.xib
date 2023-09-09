@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="Stack View standard spacing" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="DroidKufi-Bold.ttf">
+            <string>DroidArabicKufi-Bold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="UpdateInsuranceViewController" customModule="Almnabr" customModuleProvider="target">
+            <connections>
+                <outlet property="backButton" destination="JCM-2h-yUk" id="uJP-0b-FBr"/>
+                <outlet property="dependentIDTextField" destination="Hhq-gg-HGz" id="I4F-l4-XVU"/>
+                <outlet property="dependentNameTextField" destination="DEj-9h-AWh" id="rgR-qv-Jvq"/>
+                <outlet property="insuranceDateTextField" destination="KXi-kb-Ume" id="p5U-UE-l8h"/>
+                <outlet property="insuranceNumberTextField" destination="mQh-Wg-tGX" id="fVM-HT-ig9"/>
+                <outlet property="insuranceRelationshipTextField" destination="Fcy-Yo-juF" id="5DU-uc-cHt"/>
+                <outlet property="relationArrow" destination="isL-W2-ZJI" id="2GX-NB-dey"/>
+                <outlet property="submitButton" destination="Top-cK-nPg" id="cRK-Nm-dTY"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cfD-a7-TFl">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="80"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JCM-2h-yUk">
+                            <rect key="frame" x="20" y="47" width="28" height="28"/>
+                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                            <state key="normal" image="Icon-previous"/>
+                            <connections>
+                                <action selector="backAction:" destination="-1" eventType="touchUpInside" id="ruH-qV-f1M"/>
+                            </connections>
+                        </button>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Update Insurance" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LBk-Sw-DlU">
+                            <rect key="frame" x="139.5" y="44.5" width="135.5" height="30.5"/>
+                            <fontDescription key="fontDescription" name="DroidArabicKufi-Bold" family="Droid Arabic Kufi" pointSize="16"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" red="0.1019607843" green="0.21176470589999999" blue="0.39607843139999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    <constraints>
+                        <constraint firstAttribute="bottom" secondItem="JCM-2h-yUk" secondAttribute="bottom" constant="5" id="SEM-Zj-FDX"/>
+                        <constraint firstItem="JCM-2h-yUk" firstAttribute="leading" secondItem="cfD-a7-TFl" secondAttribute="leading" constant="20" id="ckr-xH-RFe"/>
+                        <constraint firstItem="LBk-Sw-DlU" firstAttribute="centerX" secondItem="cfD-a7-TFl" secondAttribute="centerX" id="ehv-B0-BfJ"/>
+                        <constraint firstAttribute="height" constant="80" id="n6W-Bf-5Fd"/>
+                        <constraint firstAttribute="bottom" secondItem="LBk-Sw-DlU" secondAttribute="bottom" constant="5" id="s8V-vB-Bkr"/>
+                    </constraints>
+                </view>
+                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="pXn-Mz-SXK">
+                    <rect key="frame" x="16" y="100" width="382" height="257"/>
+                    <subviews>
+                        <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Dependent Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="DEj-9h-AWh">
+                            <rect key="frame" x="0.0" y="0.0" width="382" height="45"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="45" id="DPJ-6O-w5N"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <textInputTraits key="textInputTraits"/>
+                        </textField>
+                        <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Dependent ID" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Hhq-gg-HGz">
+                            <rect key="frame" x="0.0" y="53" width="382" height="45"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="45" id="4JN-I2-V9t"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <textInputTraits key="textInputTraits"/>
+                        </textField>
+                        <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Insurance Number" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="mQh-Wg-tGX">
+                            <rect key="frame" x="0.0" y="106" width="382" height="45"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="45" id="rmH-G0-RS6"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <textInputTraits key="textInputTraits"/>
+                        </textField>
+                        <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Insurance Relationship" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Fcy-Yo-juF">
+                            <rect key="frame" x="0.0" y="159" width="382" height="45"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="45" id="yCs-40-c7k"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <textInputTraits key="textInputTraits"/>
+                        </textField>
+                        <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Insurance Date" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="KXi-kb-Ume">
+                            <rect key="frame" x="0.0" y="212" width="382" height="45"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="45" id="JU6-Pb-oEJ"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <textInputTraits key="textInputTraits"/>
+                        </textField>
+                    </subviews>
+                </stackView>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="downward-arrow" translatesAutoresizingMaskIntoConstraints="NO" id="isL-W2-ZJI">
+                    <rect key="frame" x="363" y="274" width="15" height="15"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="15" id="7ao-PQ-YFy"/>
+                        <constraint firstAttribute="width" constant="15" id="qnB-pI-ggz"/>
+                    </constraints>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ib8-l0-vMd">
+                    <rect key="frame" x="357" y="323.5" width="21" height="22"/>
+                    <color key="tintColor" red="0.1019607843" green="0.21176470589999999" blue="0.39607843139999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" image="calendar" catalog="system"/>
+                    <connections>
+                        <action selector="insuranceDateAction:" destination="-1" eventType="touchUpInside" id="Lrd-j8-e02"/>
+                    </connections>
+                </button>
+                <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Top-cK-nPg">
+                    <rect key="frame" x="16" y="797" width="382" height="45"/>
+                    <color key="backgroundColor" red="0.1019607843" green="0.21176470589999999" blue="0.39607843139999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="45" id="o5i-lb-Gwf"/>
+                    </constraints>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" title="Submit">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="corner_radius">
+                            <real key="value" value="22.5"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="submitAction:" destination="-1" eventType="touchUpInside" id="C0v-h1-fNZ"/>
+                    </connections>
+                </button>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="cfD-a7-TFl" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="BjH-jh-6I2"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="Top-cK-nPg" secondAttribute="trailing" constant="16" id="ExM-pI-fwS"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="pXn-Mz-SXK" secondAttribute="trailing" constant="16" id="FpR-MX-1tL"/>
+                <constraint firstItem="ib8-l0-vMd" firstAttribute="trailing" secondItem="KXi-kb-Ume" secondAttribute="trailing" constant="-20" id="JnQ-6W-KwQ"/>
+                <constraint firstItem="isL-W2-ZJI" firstAttribute="trailing" secondItem="Fcy-Yo-juF" secondAttribute="trailing" constant="-20" id="O1q-e8-NqF"/>
+                <constraint firstItem="Top-cK-nPg" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="16" id="YtD-ZO-8PR"/>
+                <constraint firstItem="isL-W2-ZJI" firstAttribute="centerY" secondItem="Fcy-Yo-juF" secondAttribute="centerY" id="cd1-Dg-YRA"/>
+                <constraint firstItem="pXn-Mz-SXK" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="16" id="dyt-c0-eus"/>
+                <constraint firstItem="cfD-a7-TFl" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="ht5-dM-vWa"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="cfD-a7-TFl" secondAttribute="trailing" id="huB-51-eqP"/>
+                <constraint firstItem="pXn-Mz-SXK" firstAttribute="top" secondItem="cfD-a7-TFl" secondAttribute="bottom" constant="20" id="mEX-i4-fo9"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="Top-cK-nPg" secondAttribute="bottom" constant="20" id="oQY-qB-dis"/>
+                <constraint firstItem="ib8-l0-vMd" firstAttribute="centerY" secondItem="KXi-kb-Ume" secondAttribute="centerY" id="wcE-uu-F0d"/>
+            </constraints>
+            <point key="canvasLocation" x="132" y="100"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="Icon-previous" width="28" height="28"/>
+        <image name="calendar" catalog="system" width="128" height="106"/>
+        <image name="downward-arrow" width="170.5" height="170.5"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

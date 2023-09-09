@@ -1,0 +1,81 @@
+
+/* Class = "UITextField"; placeholder = "Third Name Arabic"; ObjectID = "0Vj-Mx-O2X"; */
+"0Vj-Mx-O2X.placeholder" = "الاسم الثالث بالعربية";
+
+/* Class = "UITextField"; placeholder = "Religion"; ObjectID = "4dj-Vb-in8"; */
+"4dj-Vb-in8.placeholder" = "دِين";
+
+/* Class = "UITextField"; placeholder = "Last Name Arabic "; ObjectID = "AWa-Eo-9xg"; */
+"AWa-Eo-9xg.placeholder" = "الاسم الاخير بالعربية";
+
+/* Class = "UITextField"; placeholder = "Group Name English"; ObjectID = "F3o-cg-wVg"; */
+"F3o-cg-wVg.placeholder" = "اسم المجموعة بالانجليزية";
+
+/* Class = "UILabel"; text = "ID Details"; ObjectID = "Kvg-za-v0I"; */
+"Kvg-za-v0I.text" = "تفاصيل الهوية";
+
+/* Class = "UITextField"; placeholder = "Branch"; ObjectID = "LGq-4t-2DH"; */
+"LGq-4t-2DH.placeholder" = "فرع";
+
+/* Class = "UITextField"; placeholder = "Birth Date English"; ObjectID = "MW1-Lf-eNk"; */
+"MW1-Lf-eNk.placeholder" = "تاريخ الميلاد بالإنجليزية";
+
+/* Class = "UITextField"; placeholder = "Work Location"; ObjectID = "McT-bp-WOJ"; */
+"McT-bp-WOJ.placeholder" = "مكان العمل";
+
+/* Class = "UITextField"; placeholder = "Last Name English"; ObjectID = "OTb-m4-oZA"; */
+"OTb-m4-oZA.placeholder" = "الاسم الأخير بالإنجليزية";
+
+/* Class = "UITextField"; placeholder = "Nationality"; ObjectID = "PnB-mp-JQZ"; */
+"PnB-mp-JQZ.placeholder" = "جنسية";
+
+/* Class = "UITextField"; placeholder = "Third Name English"; ObjectID = "Qj2-Mv-KZM"; */
+"Qj2-Mv-KZM.placeholder" = "الاسم الثالث الانجليزية";
+
+/* Class = "UITextField"; placeholder = "ID Expiry Date English"; ObjectID = "Y5i-vB-amZ"; */
+"Y5i-vB-amZ.placeholder" = "تاريخ انتهاء بطاقة الهوية بالإنجليزية";
+
+/* Class = "UITextField"; placeholder = "Marital Status"; ObjectID = "Ypu-WJ-PI8"; */
+"Ypu-WJ-PI8.placeholder" = "الحالة الإجتماعية";
+
+/* Class = "UITextField"; placeholder = "Gender"; ObjectID = "aLg-nH-Nwl"; */
+"aLg-nH-Nwl.placeholder" = "جنس";
+
+/* Class = "UITextField"; placeholder = "ID Number"; ObjectID = "atn-E5-BID"; */
+"atn-E5-BID.placeholder" = "رقم الهوية";
+
+/* Class = "UILabel"; text = "Profile Image"; ObjectID = "cYc-og-aIT"; */
+"cYc-og-aIT.text" = "صورة الملف الشخصي";
+
+/* Class = "UITextField"; placeholder = "ID Expiry Date Arabic"; ObjectID = "gYH-ZL-WLz"; */
+"gYH-ZL-WLz.placeholder" = "تاريخ انتهاء الهوية بالعربية";
+
+/* Class = "UITextField"; placeholder = "First Name Arabic"; ObjectID = "kM6-nN-v6x"; */
+"kM6-nN-v6x.placeholder" = "الاسم الاول بالعربية";
+
+/* Class = "UITextField"; placeholder = "Employee Title"; ObjectID = "kj7-W7-vbi"; */
+"kj7-W7-vbi.placeholder" = "لقب الموظف";
+
+/* Class = "UITextField"; placeholder = "Work Type"; ObjectID = "lXg-0k-e2d"; */
+"lXg-0k-e2d.placeholder" = "نوع العمل";
+
+/* Class = "UITextField"; placeholder = "Job Title"; ObjectID = "lbq-pq-qyw"; */
+"lbq-pq-qyw.placeholder" = "مسمى وظيفي";
+
+/* Class = "UITextField"; placeholder = "Second Name Arabic"; ObjectID = "lpU-W3-B8j"; */
+"lpU-W3-B8j.placeholder" = "الاسم الثاني بالعربية";
+
+/* Class = "UITextField"; placeholder = "Copy Number"; ObjectID = "mFT-6p-KX0"; */
+"mFT-6p-KX0.placeholder" = "رقم النسخ";
+
+/* Class = "UITextField"; placeholder = "Work Domain"; ObjectID = "mm7-UB-Zem"; */
+"mm7-UB-Zem.placeholder" = "مجال العمل";
+
+/* Class = "UITextField"; placeholder = "First Name English"; ObjectID = "tOw-Se-XR9"; */
+"tOw-Se-XR9.placeholder" = "الاسم الاول بالانجليزية";
+
+/* Class = "UITextField"; placeholder = "Birth Date Arabic"; ObjectID = "udZ-NA-KBw"; */
+"udZ-NA-KBw.placeholder" = "تاريخ الميلاد بالعربية";
+
+/* Class = "UITextField"; placeholder = "Second Name English"; ObjectID = "vmQ-RZ-Oeg"; */
+"vmQ-RZ-Oeg.placeholder" = "الاسم الثاني بالانجليزية";

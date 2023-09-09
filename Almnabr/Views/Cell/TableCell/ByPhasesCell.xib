@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="DroidKufi-Regular.ttf">
+            <string>DroidArabicKufi</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="ByPhasesCell" rowHeight="285" id="KGk-i7-Jjw" customClass="ByPhasesCell" customModule="Almnabr" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="543" height="285"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="543" height="285"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Kdh-VM-NZS">
+                        <rect key="frame" x="6" y="6" width="527" height="273"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="Guq-VT-NVI">
+                                <rect key="frame" x="35" y="10" width="482" height="253"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="#No." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Msm-ZD-wsw">
+                                        <rect key="frame" x="0.0" y="0.0" width="30" height="82"/>
+                                        <fontDescription key="fontDescription" name="DroidArabicKufi" family="Droid Arabic Kufi" pointSize="14"/>
+                                        <color key="textColor" red="0.52251221960000005" green="0.52251221960000005" blue="0.52251221960000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="zones" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="u2e-hA-GZW">
+                                        <rect key="frame" x="0.0" y="82" width="40.5" height="28.5"/>
+                                        <fontDescription key="fontDescription" name="DroidArabicKufi" family="Droid Arabic Kufi" pointSize="15"/>
+                                        <color key="textColor" red="0.52251221960000005" green="0.52251221960000005" blue="0.52251221960000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Blocks" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="m0l-W1-QnA">
+                                        <rect key="frame" x="0.0" y="110.5" width="44.5" height="28.5"/>
+                                        <fontDescription key="fontDescription" name="DroidArabicKufi" family="Droid Arabic Kufi" pointSize="15"/>
+                                        <color key="textColor" red="0.52251221960000005" green="0.52251221960000005" blue="0.52251221960000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Clusters" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RHO-ZE-PLZ">
+                                        <rect key="frame" x="0.0" y="139" width="55.5" height="28.5"/>
+                                        <fontDescription key="fontDescription" name="DroidArabicKufi" family="Droid Arabic Kufi" pointSize="15"/>
+                                        <color key="textColor" red="0.52251221960000005" green="0.52251221960000005" blue="0.52251221960000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Units" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VtB-ue-2mE">
+                                        <rect key="frame" x="0.0" y="167.5" width="34.5" height="28.5"/>
+                                        <fontDescription key="fontDescription" name="DroidArabicKufi" family="Droid Arabic Kufi" pointSize="15"/>
+                                        <color key="textColor" red="0.52251221960000005" green="0.52251221960000005" blue="0.52251221960000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="byn-EJ-vZu">
+                                        <rect key="frame" x="0.0" y="196" width="76" height="57"/>
+                                        <string key="text">Work Level
+</string>
+                                        <fontDescription key="fontDescription" name="DroidArabicKufi" family="Droid Arabic Kufi" pointSize="15"/>
+                                        <color key="textColor" red="0.52251221960000005" green="0.52251221960000005" blue="0.52251221960000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="usF-Ul-RCf">
+                                <rect key="frame" x="497" y="10" width="20" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="20" id="B5x-qM-Abg"/>
+                                    <constraint firstAttribute="width" constant="20" id="s7O-Ey-PFh"/>
+                                </constraints>
+                                <state key="normal" image="delete"/>
+                                <connections>
+                                    <action selector="didReCancelButtonPressd:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="OUz-Ta-gjo"/>
+                                </connections>
+                            </button>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="acc-Aj-uyP">
+                                <rect key="frame" x="0.0" y="0.0" width="20" height="273"/>
+                                <color key="backgroundColor" systemColor="systemGray5Color"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="20" id="3UL-5Z-pdI"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="usF-Ul-RCf" firstAttribute="top" secondItem="Kdh-VM-NZS" secondAttribute="top" constant="10" id="0n6-Vh-rBe"/>
+                            <constraint firstItem="acc-Aj-uyP" firstAttribute="leading" secondItem="Kdh-VM-NZS" secondAttribute="leading" id="6cc-rc-Qpc"/>
+                            <constraint firstItem="acc-Aj-uyP" firstAttribute="top" secondItem="Kdh-VM-NZS" secondAttribute="top" id="8Ez-zQ-vnV"/>
+                            <constraint firstItem="Guq-VT-NVI" firstAttribute="leading" secondItem="acc-Aj-uyP" secondAttribute="trailing" constant="15" id="Bjp-Mq-veZ"/>
+                            <constraint firstAttribute="trailing" secondItem="Guq-VT-NVI" secondAttribute="trailing" constant="10" id="RvF-sN-yiX"/>
+                            <constraint firstAttribute="bottom" secondItem="acc-Aj-uyP" secondAttribute="bottom" id="Tqm-bk-8pT"/>
+                            <constraint firstItem="Guq-VT-NVI" firstAttribute="top" secondItem="Kdh-VM-NZS" secondAttribute="top" constant="10" id="sqI-Jq-e6X"/>
+                            <constraint firstAttribute="trailing" secondItem="usF-Ul-RCf" secondAttribute="trailing" constant="10" id="wrK-Ql-TXK"/>
+                            <constraint firstAttribute="bottom" secondItem="Guq-VT-NVI" secondAttribute="bottom" constant="10" id="yYk-BW-0CI"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="Kdh-VM-NZS" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="6" id="4ql-Pr-nlj"/>
+                    <constraint firstAttribute="trailing" secondItem="Kdh-VM-NZS" secondAttribute="trailing" constant="10" id="cbc-5b-2zq"/>
+                    <constraint firstAttribute="bottom" secondItem="Kdh-VM-NZS" secondAttribute="bottom" constant="6" id="feO-RK-64x"/>
+                    <constraint firstItem="Kdh-VM-NZS" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="6" id="zfR-F0-YDx"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="backgroundView" destination="Kdh-VM-NZS" id="gJg-Ff-b26"/>
+                <outlet property="btnDelete" destination="usF-Ul-RCf" id="gC3-71-990"/>
+                <outlet property="lblBlocks" destination="m0l-W1-QnA" id="k8n-Cb-T4Z"/>
+                <outlet property="lblClusters" destination="RHO-ZE-PLZ" id="5y8-ze-sC6"/>
+                <outlet property="lblNo" destination="Msm-ZD-wsw" id="zbP-Gv-ZsX"/>
+                <outlet property="lblUnits" destination="VtB-ue-2mE" id="YoW-AT-BMD"/>
+                <outlet property="lblWorklevels" destination="byn-EJ-vZu" id="1YJ-no-tIU"/>
+                <outlet property="lblzones" destination="u2e-hA-GZW" id="n6e-YN-oYk"/>
+                <outlet property="viewBack" destination="Kdh-VM-NZS" id="dsz-eX-HrP"/>
+            </connections>
+            <point key="canvasLocation" x="-105.07246376811595" y="21.09375"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="delete" width="24" height="24"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemGray5Color">
+            <color red="0.89803921568627454" green="0.89803921568627454" blue="0.91764705882352937" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

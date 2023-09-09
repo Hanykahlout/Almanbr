@@ -1,0 +1,21 @@
+
+/* Class = "UITextField"; placeholder = "Remainder Date"; ObjectID = "Nol-ky-sMe"; */
+"Nol-ky-sMe.placeholder" = "التاريخ المتبقي";
+
+/* Class = "UITextView"; text = "Description"; ObjectID = "T2F-wv-mR8"; */
+"T2F-wv-mR8.text" = "وصف";
+
+/* Class = "UIButton"; normalTitle = "Submit"; ObjectID = "TaY-Qw-bco"; */
+"TaY-Qw-bco.normalTitle" = "اعتماد";
+
+/* Class = "UITextField"; placeholder = "Status"; ObjectID = "eh3-T7-cWE"; */
+"eh3-T7-cWE.placeholder" = "حالة";
+
+/* Class = "UITextField"; placeholder = "Link with Lists"; ObjectID = "hUW-0L-OjB"; */
+"hUW-0L-OjB.placeholder" = "ارتباط مع القوائم";
+
+/* Class = "UITextField"; placeholder = "Remainder status"; ObjectID = "nv8-r7-7L3"; */
+"nv8-r7-7L3.placeholder" = "الوضع المتبقي";
+
+/* Class = "UILabel"; text = "Notes"; ObjectID = "yIH-Kr-eeT"; */
+"yIH-Kr-eeT.text" = "ملحوظات";

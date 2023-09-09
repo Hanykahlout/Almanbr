@@ -1,0 +1,15 @@
+
+/* Class = "UILabel"; text = "Add Insurance"; ObjectID = "Adk-PA-FWK"; */
+"Adk-PA-FWK.text" = "أضف التأمين";
+
+/* Class = "UITextField"; placeholder = "Insurance Number"; ObjectID = "dQu-dT-ynB"; */
+"dQu-dT-ynB.placeholder" = "رقم التأمين";
+
+/* Class = "UIButton"; normalTitle = "Submit"; ObjectID = "hCM-VR-84o"; */
+"hCM-VR-84o.normalTitle" = "اعتماد";
+
+/* Class = "UITextField"; placeholder = "Insurance Date"; ObjectID = "mJU-kK-dHm"; */
+"mJU-kK-dHm.placeholder" = "تاريخ التأمين";
+
+/* Class = "UITextField"; placeholder = "Insurance Type Class"; ObjectID = "wbK-Ab-Yvr"; */
+"wbK-Ab-Yvr.placeholder" = "فئة نوع التأمين";

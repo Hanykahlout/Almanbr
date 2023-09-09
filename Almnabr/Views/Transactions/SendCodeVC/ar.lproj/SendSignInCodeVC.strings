@@ -1,0 +1,26 @@
+
+/* Class = "UILabel"; text = "Email"; ObjectID = "10r-BD-DAd"; */
+"10r-BD-DAd.text" = "ايميل";
+
+/* Class = "UILabel"; text = "Whatsapp"; ObjectID = "XOd-EE-dV6"; */
+"XOd-EE-dV6.text" = "واتس آب";
+
+/* Class = "UIButton"; normalTitle = "Submit"; ObjectID = "XYV-Sl-dTz"; */
+"XYV-Sl-dTz.normalTitle" = "اعتماد";
+
+/* Class = "UILabel"; text = "Select Varification Code Method"; ObjectID = "dmf-AE-QKv"; */
+"dmf-AE-QKv.text" = "حدد طريقة التي تريد ان يصلك رمز التحقق اليها";
+
+/* Class = "UITextField"; placeholder = "Enter code here..."; ObjectID = "rA7-Kf-iZp"; */
+"rA7-Kf-iZp.placeholder" = "أدخل الرمز هنا...";
+
+/* Class = "UILabel"; text = "Send Code"; ObjectID = "rdS-uz-wr8"; */
+"rdS-uz-wr8.text" = "إرسال الرمز";
+
+/* Class = "UILabel"; text = "Mobile"; ObjectID = "tYm-dN-XX9"; */
+"tYm-dN-XX9.text" = "موبايل";
+
+
+"erF-Z9-Vdy.normalTitle" = "ارسل الكود";
+
+

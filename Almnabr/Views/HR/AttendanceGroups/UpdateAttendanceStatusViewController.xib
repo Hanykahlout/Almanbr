@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21225" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="Stack View standard spacing" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="DroidKufi-Bold.ttf">
+            <string>DroidArabicKufi-Bold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="UpdateAttendanceStatusViewController" customModule="Almnabr" customModuleProvider="target">
+            <connections>
+                <outlet property="dateTextField" destination="t1z-1f-aFM" id="rcP-nT-PIy"/>
+                <outlet property="mainStackView" destination="T5c-fR-IT1" id="4kR-Am-ncN"/>
+                <outlet property="statusArrow" destination="16y-Z1-PoI" id="DuP-ll-cfh"/>
+                <outlet property="statusTextField" destination="fLJ-PF-RD8" id="nO1-At-a8e"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PNC-SN-sxd">
+                    <rect key="frame" x="16" y="322.66666666666669" width="358" height="198.66666666666669"/>
+                    <subviews>
+                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="T5c-fR-IT1">
+                            <rect key="frame" x="5" y="10" width="348" height="178.66666666666666"/>
+                            <subviews>
+                                <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="3gN-d3-puB">
+                                    <rect key="frame" x="0.0" y="0.0" width="348" height="30.666666666666668"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Update Status" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mTm-Qn-IxK">
+                                            <rect key="frame" x="0.0" y="0.0" width="108.66666666666667" height="30.666666666666668"/>
+                                            <fontDescription key="fontDescription" name="DroidArabicKufi-Bold" family="Droid Arabic Kufi" pointSize="16"/>
+                                            <color key="textColor" name="AppColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a3o-fQ-fIt">
+                                            <rect key="frame" x="308.33333333333331" y="0.0" width="39.666666666666686" height="30.666666666666668"/>
+                                            <color key="tintColor" name="AppColor"/>
+                                            <inset key="contentEdgeInsets" minX="10" minY="0.0" maxX="10" maxY="0.0"/>
+                                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                            <state key="normal" image="xmark.circle.fill" catalog="system"/>
+                                            <connections>
+                                                <action selector="closeAction:" destination="-1" eventType="touchUpInside" id="oAb-Lq-LAz"/>
+                                            </connections>
+                                        </button>
+                                    </subviews>
+                                </stackView>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6Bu-4d-N8Y">
+                                    <rect key="frame" x="0.0" y="38.666666666666629" width="348" height="1"/>
+                                    <color key="backgroundColor" systemColor="systemGray5Color"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="1" id="Esa-Pb-sau"/>
+                                    </constraints>
+                                </view>
+                                <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Status" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="fLJ-PF-RD8">
+                                    <rect key="frame" x="0.0" y="47.666666666666629" width="348" height="40"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="40" id="hdB-1M-D3N"/>
+                                    </constraints>
+                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                    <textInputTraits key="textInputTraits"/>
+                                </textField>
+                                <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Date" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="t1z-1f-aFM">
+                                    <rect key="frame" x="0.0" y="95.666666666666629" width="348" height="40"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="40" id="V3D-Bk-26E"/>
+                                    </constraints>
+                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                    <textInputTraits key="textInputTraits"/>
+                                </textField>
+                                <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YuL-dn-1hr">
+                                    <rect key="frame" x="0.0" y="143.66666666666663" width="348" height="35"/>
+                                    <color key="backgroundColor" name="AppColor"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="35" id="P0N-6L-geh"/>
+                                    </constraints>
+                                    <fontDescription key="fontDescription" name="DroidArabicKufi-Bold" family="Droid Arabic Kufi" pointSize="14"/>
+                                    <inset key="contentEdgeInsets" minX="10" minY="10" maxX="10" maxY="10"/>
+                                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                    <state key="normal" title="Submit">
+                                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </state>
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="corner_radius">
+                                            <real key="value" value="10"/>
+                                        </userDefinedRuntimeAttribute>
+                                    </userDefinedRuntimeAttributes>
+                                    <connections>
+                                        <action selector="submitAction:" destination="-1" eventType="touchUpInside" id="Oh6-cP-2CU"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                        </stackView>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="down-arrow" translatesAutoresizingMaskIntoConstraints="NO" id="16y-Z1-PoI">
+                            <rect key="frame" x="323" y="70.333333333333314" width="15" height="15"/>
+                            <color key="tintColor" name="AppColor"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="15" id="Jcl-U9-wW8"/>
+                                <constraint firstAttribute="width" constant="15" id="Lb5-4k-rij"/>
+                            </constraints>
+                        </imageView>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="calendar" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="P5g-01-Aik">
+                            <rect key="frame" x="317.33333333333331" y="117.33333333333329" width="20.666666666666686" height="17.333333333333343"/>
+                            <color key="tintColor" name="AppColor"/>
+                        </imageView>
+                    </subviews>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <constraints>
+                        <constraint firstItem="T5c-fR-IT1" firstAttribute="top" secondItem="PNC-SN-sxd" secondAttribute="top" constant="10" id="8LA-5U-lYy"/>
+                        <constraint firstAttribute="trailing" secondItem="T5c-fR-IT1" secondAttribute="trailing" constant="5" id="9aI-Pf-dwy"/>
+                        <constraint firstItem="P5g-01-Aik" firstAttribute="trailing" secondItem="t1z-1f-aFM" secondAttribute="trailing" constant="-15" id="DKs-Sn-cII"/>
+                        <constraint firstItem="P5g-01-Aik" firstAttribute="centerY" secondItem="t1z-1f-aFM" secondAttribute="centerY" id="SfG-M0-79F"/>
+                        <constraint firstItem="16y-Z1-PoI" firstAttribute="trailing" secondItem="fLJ-PF-RD8" secondAttribute="trailing" constant="-15" id="ZJm-J1-hOX"/>
+                        <constraint firstItem="16y-Z1-PoI" firstAttribute="centerY" secondItem="fLJ-PF-RD8" secondAttribute="centerY" id="blK-ln-sPx"/>
+                        <constraint firstItem="T5c-fR-IT1" firstAttribute="leading" secondItem="PNC-SN-sxd" secondAttribute="leading" constant="5" id="hNI-qb-cA4"/>
+                        <constraint firstAttribute="bottom" secondItem="T5c-fR-IT1" secondAttribute="bottom" constant="10" id="xJz-Ja-JNd"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="corner_radius">
+                            <real key="value" value="10"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="color" keyPath="border_color">
+                            <color key="value" name="AppColor"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="border_width">
+                            <real key="value" value="1"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" white="0.0" alpha="0.40000000000000002" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="PNC-SN-sxd" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="ECw-0z-Lfc"/>
+                <constraint firstItem="PNC-SN-sxd" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="16" id="JFt-3h-5id"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="PNC-SN-sxd" secondAttribute="trailing" constant="16" id="adI-iC-EMT"/>
+            </constraints>
+            <point key="canvasLocation" x="-29.23076923076923" y="-12.085308056872037"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="calendar" catalog="system" width="128" height="107"/>
+        <image name="down-arrow" width="170.66667175292969" height="170.66667175292969"/>
+        <image name="xmark.circle.fill" catalog="system" width="128" height="123"/>
+        <namedColor name="AppColor">
+            <color red="0.098039215686274508" green="0.21176470588235294" blue="0.396078431372549" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemGray5Color">
+            <color red="0.89803921568627454" green="0.89803921568627454" blue="0.91764705882352937" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

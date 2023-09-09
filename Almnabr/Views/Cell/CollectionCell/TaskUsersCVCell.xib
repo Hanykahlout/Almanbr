@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="DroidKufi-Regular.ttf">
+            <string>DroidArabicKufi</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="TaskUsersCVCell" id="gTV-IL-0wX" customClass="TaskUsersCVCell" customModule="Almnabr" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="86" height="24"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="86" height="24"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Tz6-JY-L9q">
+                        <rect key="frame" x="3" y="0.0" width="80" height="24"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="fzZ-zh-dh9">
+                                <rect key="frame" x="0.0" y="0.0" width="80" height="24"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="avatar" translatesAutoresizingMaskIntoConstraints="NO" id="t3r-F4-od2">
+                                        <rect key="frame" x="0.0" y="0.0" width="20" height="24"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="20" id="E5C-EI-q8E"/>
+                                        </constraints>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                <integer key="value" value="10"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RKl-y1-Hgy">
+                                        <rect key="frame" x="25" y="0.0" width="55" height="24"/>
+                                        <fontDescription key="fontDescription" name="DroidArabicKufi" family="Droid Arabic Kufi" pointSize="8"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="fzZ-zh-dh9" firstAttribute="centerY" secondItem="Tz6-JY-L9q" secondAttribute="centerY" id="AwQ-8K-dk8"/>
+                            <constraint firstItem="fzZ-zh-dh9" firstAttribute="top" secondItem="Tz6-JY-L9q" secondAttribute="top" id="RYZ-WA-wKe"/>
+                            <constraint firstAttribute="trailing" secondItem="fzZ-zh-dh9" secondAttribute="trailing" id="V2z-1D-Olw"/>
+                            <constraint firstAttribute="bottom" secondItem="fzZ-zh-dh9" secondAttribute="bottom" id="biA-Kx-8zR"/>
+                            <constraint firstItem="fzZ-zh-dh9" firstAttribute="leading" secondItem="Tz6-JY-L9q" secondAttribute="leading" id="l9e-Kb-zIO"/>
+                            <constraint firstAttribute="height" constant="24" id="y8D-FL-Fcw"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstItem="Tz6-JY-L9q" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="3" id="T3D-Xo-m1a"/>
+                <constraint firstAttribute="trailing" secondItem="Tz6-JY-L9q" secondAttribute="trailing" constant="3" id="TT9-D0-nWY"/>
+                <constraint firstAttribute="bottom" secondItem="Tz6-JY-L9q" secondAttribute="bottom" id="U6h-hh-LRa"/>
+                <constraint firstItem="Tz6-JY-L9q" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="YuO-Fr-kI8"/>
+            </constraints>
+            <size key="customSize" width="86" height="24"/>
+            <connections>
+                <outlet property="img_user" destination="t3r-F4-od2" id="ulM-0r-al7"/>
+                <outlet property="lblTitle" destination="RKl-y1-Hgy" id="Mzd-uY-FvD"/>
+                <outlet property="viewBack" destination="Tz6-JY-L9q" id="Lew-d3-Jme"/>
+            </connections>
+            <point key="canvasLocation" x="163.768115942029" y="44.866071428571423"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="avatar" width="100" height="100"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

@@ -1,0 +1,30 @@
+
+/* Class = "UILabel"; text = "desc"; ObjectID = "4S4-MH-nJd"; */
+"4S4-MH-nJd.text" = "وصف";
+
+/* Class = "UILabel"; text = "Submiter"; ObjectID = "5dR-tN-chI"; */
+"5dR-tN-chI.text" = "المرسل";
+
+/* Class = "UILabel"; text = "From:"; ObjectID = "Dv7-Ug-A3T"; */
+"Dv7-Ug-A3T.text" = "من:";
+
+/* Class = "UILabel"; text = "Module:"; ObjectID = "JmV-Yz-DbN"; */
+"JmV-Yz-DbN.text" = "وحدة:";
+
+/* Class = "UILabel"; text = "By :ijii"; ObjectID = "Y4q-mq-gdO"; */
+"Y4q-mq-gdO.text" = "وحدة:";
+
+/* Class = "UILabel"; text = "Type:"; ObjectID = "fZV-l7-h6F"; */
+"fZV-l7-h6F.text" = "نوع:";
+
+/* Class = "UILabel"; text = "To:"; ObjectID = "gWY-Wd-4uR"; */
+"gWY-Wd-4uR.text" = "إلى:";
+
+/* Class = "UILabel"; text = "By :ijii"; ObjectID = "lLq-cx-0jW"; */
+"lLq-cx-0jW.text" = "بواسطة:";
+
+/* Class = "UILabel"; text = "Writer:"; ObjectID = "rTF-ue-aQm"; */
+"rTF-ue-aQm.text" = "كاتب:";
+
+/* Class = "UILabel"; text = "107"; ObjectID = "x2h-t5-haA"; */
+"x2h-t5-haA.text" = "107";

@@ -1,0 +1,21 @@
+
+/* Class = "UILabel"; text = "Action"; ObjectID = "3nD-XU-XBF"; */
+"3nD-XU-XBF.text" = "الإجراءات";
+
+/* Class = "UILabel"; text = "Official paper"; ObjectID = "QX7-eo-eOP"; */
+"QX7-eo-eOP.text" = "ورقة رسمية";
+
+/* Class = "UIButton"; normalTitle = "Select File"; ObjectID = "cFv-QT-gXS"; */
+"cFv-QT-gXS.normalTitle" = "اختر ملف";
+
+/* Class = "UILabel"; text = "File"; ObjectID = "fKg-XS-rGa"; */
+"fKg-XS-rGa.text" = "ملف";
+
+/* Class = "UITextField"; placeholder = "Description"; ObjectID = "g0B-EW-DoD"; */
+"g0B-EW-DoD.placeholder" = "وصف";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "uHK-mw-NOd"; */
+"uHK-mw-NOd.text" = "عنوان";
+
+/* Class = "UILabel"; text = "Attach with Pdf"; ObjectID = "y4O-dX-wXT"; */
+"y4O-dX-wXT.text" = "إرفاق مع ملف PDF";

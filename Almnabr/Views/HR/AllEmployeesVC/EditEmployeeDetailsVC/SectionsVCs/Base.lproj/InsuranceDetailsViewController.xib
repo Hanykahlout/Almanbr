@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="DroidKufi-Regular.ttf">
+            <string>DroidArabicKufi</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="InsuranceDetailsViewController" customModule="Almnabr" customModuleProvider="target">
+            <connections>
+                <outlet property="insuranceDateTextField" destination="CMY-9y-hKd" id="pcZ-M6-a5y"/>
+                <outlet property="insuranceNumberTextField" destination="rud-O2-1oh" id="DE9-lP-8MK"/>
+                <outlet property="insuranceTypeClassTextField" destination="yyU-lw-HyH" id="LWH-Wu-lGM"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Insurance Details" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rr4-7i-bZA">
+                    <rect key="frame" x="16" y="54" width="140.5" height="34.5"/>
+                    <fontDescription key="fontDescription" name="DroidArabicKufi" family="Droid Arabic Kufi" pointSize="18"/>
+                    <color key="textColor" red="0.054546527560000002" green="0.21474048500000001" blue="0.40836769340000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="23" translatesAutoresizingMaskIntoConstraints="NO" id="JDl-MP-MN6">
+                    <rect key="frame" x="20" y="108.5" width="374" height="166"/>
+                    <subviews>
+                        <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Insurance Number" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="rud-O2-1oh">
+                            <rect key="frame" x="0.0" y="0.0" width="374" height="40"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="40" id="JKE-LT-UA3"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <textInputTraits key="textInputTraits"/>
+                        </textField>
+                        <textField opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Insurance Date" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="CMY-9y-hKd">
+                            <rect key="frame" x="0.0" y="63" width="374" height="40"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="40" id="4Hd-WZ-5Ch"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <textInputTraits key="textInputTraits"/>
+                        </textField>
+                        <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Insurance Type Class" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="yyU-lw-HyH">
+                            <rect key="frame" x="0.0" y="126" width="374" height="40"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="40" id="TdU-Nc-ply"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <textInputTraits key="textInputTraits"/>
+                        </textField>
+                    </subviews>
+                </stackView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ATe-J8-Ubt">
+                    <rect key="frame" x="353" y="180.5" width="21" height="22"/>
+                    <color key="tintColor" red="0.054546527560000002" green="0.21474048500000001" blue="0.40836769340000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" image="calendar" catalog="system"/>
+                    <connections>
+                        <action selector="insuranceDateAction:" destination="-1" eventType="touchUpInside" id="jhu-fm-7jI"/>
+                    </connections>
+                </button>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="JDl-MP-MN6" firstAttribute="top" secondItem="Rr4-7i-bZA" secondAttribute="bottom" constant="20" id="4Sw-rM-CWf"/>
+                <constraint firstItem="ATe-J8-Ubt" firstAttribute="centerY" secondItem="CMY-9y-hKd" secondAttribute="centerY" id="A2W-Mr-ODc"/>
+                <constraint firstItem="ATe-J8-Ubt" firstAttribute="trailing" secondItem="CMY-9y-hKd" secondAttribute="trailing" constant="-20" id="CNe-LF-5pN"/>
+                <constraint firstItem="Rr4-7i-bZA" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="10" id="Fwx-zS-8aB"/>
+                <constraint firstItem="JDl-MP-MN6" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="Inu-Wn-oUq"/>
+                <constraint firstItem="Rr4-7i-bZA" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="16" id="Q4W-Yz-pQh"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="JDl-MP-MN6" secondAttribute="trailing" constant="20" id="sD3-UC-Tgq"/>
+            </constraints>
+            <point key="canvasLocation" x="131.8840579710145" y="99.776785714285708"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="calendar" catalog="system" width="128" height="106"/>
+    </resources>
+</document>

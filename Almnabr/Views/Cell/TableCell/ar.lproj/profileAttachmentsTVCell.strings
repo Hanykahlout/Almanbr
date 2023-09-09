@@ -1,0 +1,18 @@
+
+/* Class = "UILabel"; text = "By :ijii"; ObjectID = "67o-mO-bP7"; */
+"67o-mO-bP7.text" = "بواسطة";
+
+/* Class = "UILabel"; text = "File Extention"; ObjectID = "8gt-PL-GeA"; */
+"8gt-PL-GeA.text" = "امتداد الملف";
+
+/* Class = "UILabel"; text = "Writer"; ObjectID = "a9v-k1-2fg"; */
+"a9v-k1-2fg.text" = "كاتب";
+
+/* Class = "UILabel"; text = "Type"; ObjectID = "dn1-3M-yoJ"; */
+"dn1-3M-yoJ.text" = "نوع";
+
+/* Class = "UILabel"; text = "Subject"; ObjectID = "sqj-ud-4Zo"; */
+"sqj-ud-4Zo.text" = "موضوع";
+
+/* Class = "UILabel"; text = "File Level"; ObjectID = "xWP-O0-rF5"; */
+"xWP-O0-rF5.text" = "مستوى الملف";

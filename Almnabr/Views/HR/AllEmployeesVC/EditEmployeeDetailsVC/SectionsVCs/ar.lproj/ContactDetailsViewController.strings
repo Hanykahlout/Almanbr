@@ -1,0 +1,12 @@
+
+/* Class = "UITextField"; placeholder = "Primary Email Address"; ObjectID = "EuD-4D-lTS"; */
+"EuD-4D-lTS.placeholder" = "عنوان البريد الإلكتروني الرئيسي";
+
+/* Class = "UILabel"; text = "Contact Details"; ObjectID = "FgN-q5-0a1"; */
+"FgN-q5-0a1.text" = "بيانات المتصل";
+
+/* Class = "UITextView"; text = "Primary Address"; ObjectID = "H4K-5h-5eU"; */
+"H4K-5h-5eU.text" = "العنوان الأساسي";
+
+/* Class = "UITextField"; placeholder = "Primary Mobile (EX : 966555555555)"; ObjectID = "ag4-8l-oBG"; */
+"ag4-8l-oBG.placeholder" = "الجوال الأساسي (مثال: 966555555555)";

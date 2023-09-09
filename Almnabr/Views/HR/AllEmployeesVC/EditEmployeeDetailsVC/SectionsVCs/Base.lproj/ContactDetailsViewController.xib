@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="Stack View standard spacing" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="DroidKufi-Regular.ttf">
+            <string>DroidArabicKufi</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ContactDetailsViewController" customModule="Almnabr" customModuleProvider="target">
+            <connections>
+                <outlet property="primaryAddressTextView" destination="H4K-5h-5eU" id="Ph5-3t-cM3"/>
+                <outlet property="primaryEmailAddressTextField" destination="EuD-4D-lTS" id="mvt-5b-yCw"/>
+                <outlet property="primaryMobileTextField" destination="ag4-8l-oBG" id="wzb-Pt-Kde"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Contact Details" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FgN-q5-0a1">
+                    <rect key="frame" x="16" y="54" width="123.5" height="34.5"/>
+                    <fontDescription key="fontDescription" name="DroidArabicKufi" family="Droid Arabic Kufi" pointSize="18"/>
+                    <color key="textColor" red="0.054546527560000002" green="0.21474048500000001" blue="0.40836769340000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SFg-ov-WZk">
+                    <rect key="frame" x="0.0" y="98.5" width="414" height="763.5"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5av-KV-9tl">
+                            <rect key="frame" x="0.0" y="0.0" width="414" height="306"/>
+                            <subviews>
+                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="1q2-Ca-sFf">
+                                    <rect key="frame" x="20" y="10" width="374" height="296"/>
+                                    <subviews>
+                                        <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Primary Mobile (EX : 966555555555)" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ag4-8l-oBG">
+                                            <rect key="frame" x="0.0" y="0.0" width="374" height="40"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="40" id="UzD-TS-MdO"/>
+                                            </constraints>
+                                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                            <textInputTraits key="textInputTraits"/>
+                                        </textField>
+                                        <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Primary Email Address" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="EuD-4D-lTS">
+                                            <rect key="frame" x="0.0" y="48" width="374" height="40"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="40" id="KRk-Ir-4Sd"/>
+                                            </constraints>
+                                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                            <textInputTraits key="textInputTraits"/>
+                                        </textField>
+                                        <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Primary Address" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="H4K-5h-5eU">
+                                            <rect key="frame" x="0.0" y="96" width="374" height="200"/>
+                                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="200" id="fQf-eb-bcQ"/>
+                                            </constraints>
+                                            <color key="textColor" systemColor="labelColor"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                            <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                        </textView>
+                                    </subviews>
+                                </stackView>
+                            </subviews>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstAttribute="bottom" secondItem="1q2-Ca-sFf" secondAttribute="bottom" id="OSV-c9-Yei"/>
+                                <constraint firstItem="1q2-Ca-sFf" firstAttribute="leading" secondItem="5av-KV-9tl" secondAttribute="leading" constant="20" id="PCn-gF-xmB"/>
+                                <constraint firstItem="1q2-Ca-sFf" firstAttribute="top" secondItem="5av-KV-9tl" secondAttribute="top" constant="10" id="Yip-wg-kHf"/>
+                                <constraint firstAttribute="trailing" secondItem="1q2-Ca-sFf" secondAttribute="trailing" constant="20" id="weU-4k-IHj"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="5av-KV-9tl" firstAttribute="leading" secondItem="SFg-ov-WZk" secondAttribute="leading" id="2Vz-25-5uj"/>
+                        <constraint firstItem="5av-KV-9tl" firstAttribute="width" secondItem="SFg-ov-WZk" secondAttribute="width" id="2fR-OL-fvv"/>
+                        <constraint firstAttribute="bottom" secondItem="5av-KV-9tl" secondAttribute="bottom" id="Bc1-sf-agu"/>
+                        <constraint firstItem="5av-KV-9tl" firstAttribute="top" secondItem="SFg-ov-WZk" secondAttribute="top" id="GTz-w5-SJ5"/>
+                        <constraint firstItem="5av-KV-9tl" firstAttribute="height" secondItem="SFg-ov-WZk" secondAttribute="height" priority="250" id="VDi-L6-Aj2"/>
+                        <constraint firstAttribute="trailing" secondItem="5av-KV-9tl" secondAttribute="trailing" id="jgz-W6-lxf"/>
+                    </constraints>
+                </scrollView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="FgN-q5-0a1" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="16" id="QtP-Uk-f2W"/>
+                <constraint firstItem="SFg-ov-WZk" firstAttribute="top" secondItem="FgN-q5-0a1" secondAttribute="bottom" constant="10" id="cdq-GA-hSD"/>
+                <constraint firstItem="SFg-ov-WZk" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="cjX-i9-JQ1"/>
+                <constraint firstItem="FgN-q5-0a1" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="10" id="dQW-MB-dct"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="SFg-ov-WZk" secondAttribute="bottom" id="hLL-87-wZD"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="SFg-ov-WZk" secondAttribute="trailing" id="hZY-Zg-D4Z"/>
+            </constraints>
+            <point key="canvasLocation" x="131.8840579710145" y="99.776785714285708"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

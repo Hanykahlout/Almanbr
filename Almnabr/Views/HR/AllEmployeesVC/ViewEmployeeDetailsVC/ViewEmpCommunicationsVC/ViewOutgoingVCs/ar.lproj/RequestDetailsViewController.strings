@@ -1,0 +1,30 @@
+
+/* Class = "UILabel"; text = "Created By:"; ObjectID = "29I-mz-8KN"; */
+"29I-mz-8KN.text" = "انشأ من قبل:";
+
+/* Class = "UILabel"; text = "Status"; ObjectID = "4B6-T9-R8v"; */
+"4B6-T9-R8v.text" = "حالة";
+
+/* Class = "UILabel"; text = "New"; ObjectID = "Btp-ye-NEw"; */
+"Btp-ye-NEw.text" = "جديد";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "hXW-Z5-2RG"; */
+"hXW-Z5-2RG.text" = "Label";
+
+/* Class = "UILabel"; text = "Request No:"; ObjectID = "lMa-2s-F5d"; */
+"lMa-2s-F5d.text" = "رقم الطلب:";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "oUR-QZ-FY6"; */
+"oUR-QZ-FY6.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "oWG-cz-h8H"; */
+"oWG-cz-h8H.text" = "Label";
+
+/* Class = "UILabel"; text = "Barcode:"; ObjectID = "p6Q-tl-Ibs"; */
+"p6Q-tl-Ibs.text" = "الرمز الشريطي:";
+
+/* Class = "UILabel"; text = "Created Date"; ObjectID = "ssV-6I-WI8"; */
+"ssV-6I-WI8.text" = "تاريخ الإنشاء";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "wKG-RH-Wpv"; */
+"wKG-RH-Wpv.text" = "Label";

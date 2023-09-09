@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="DroidKufi-Regular.ttf">
+            <string>DroidArabicKufi</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ViewEmpModulesVC" customModule="Almnabr" customModuleProvider="target">
+            <connections>
+                <outlet property="filterArrow" destination="ERO-Q3-vdx" id="Nke-80-RWs"/>
+                <outlet property="filterLabel" destination="txN-yV-LeG" id="N45-PU-PIE"/>
+                <outlet property="filterView" destination="ve1-ft-q6x" id="Eao-K6-KjC"/>
+                <outlet property="searchTextFild" destination="DhU-ei-wra" id="y4T-uZ-RJl"/>
+                <outlet property="tableView" destination="Qt5-f2-NDJ" id="gyg-Dg-cfm"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Modules" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ual-xW-9GC">
+                    <rect key="frame" x="16" y="20" width="68.5" height="34.5"/>
+                    <fontDescription key="fontDescription" name="DroidArabicKufi" family="Droid Arabic Kufi" pointSize="18"/>
+                    <color key="textColor" red="0.054546527560000002" green="0.21474048500000001" blue="0.40836769340000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="6N5-qm-6mn">
+                    <rect key="frame" x="16" y="64.5" width="382" height="98"/>
+                    <subviews>
+                        <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ve1-ft-q6x">
+                            <rect key="frame" x="0.0" y="0.0" width="382" height="45"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="txN-yV-LeG">
+                                    <rect key="frame" x="10" y="0.0" width="362" height="45"/>
+                                    <fontDescription key="fontDescription" name="DroidArabicKufi" family="Droid Arabic Kufi" pointSize="13"/>
+                                    <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            <constraints>
+                                <constraint firstItem="txN-yV-LeG" firstAttribute="leading" secondItem="ve1-ft-q6x" secondAttribute="leading" constant="10" id="Gv6-97-0ii"/>
+                                <constraint firstAttribute="height" constant="45" id="hXq-Qb-eUA"/>
+                                <constraint firstAttribute="trailing" secondItem="txN-yV-LeG" secondAttribute="trailing" constant="10" id="ht1-4j-GX9"/>
+                                <constraint firstAttribute="bottom" secondItem="txN-yV-LeG" secondAttribute="bottom" id="vfh-ca-0bN"/>
+                                <constraint firstItem="txN-yV-LeG" firstAttribute="top" secondItem="ve1-ft-q6x" secondAttribute="top" id="z5I-CI-yH8"/>
+                            </constraints>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="corner_radius">
+                                    <real key="value" value="15"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                        </view>
+                        <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Search...." textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="DhU-ei-wra">
+                            <rect key="frame" x="0.0" y="53" width="382" height="45"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="45" id="9SW-kc-gGr"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <textInputTraits key="textInputTraits"/>
+                        </textField>
+                    </subviews>
+                </stackView>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="Qt5-f2-NDJ">
+                    <rect key="frame" x="0.0" y="182.5" width="414" height="679.5"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </tableView>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="downward-arrow" translatesAutoresizingMaskIntoConstraints="NO" id="ERO-Q3-vdx">
+                    <rect key="frame" x="363" y="79.5" width="15" height="15"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="15" id="go4-Sy-eQJ"/>
+                        <constraint firstAttribute="width" constant="15" id="z59-lQ-s6W"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="ERO-Q3-vdx" firstAttribute="trailing" secondItem="ve1-ft-q6x" secondAttribute="trailing" constant="-20" id="3CF-fI-Fr5"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="Qt5-f2-NDJ" secondAttribute="bottom" id="6FP-Kf-bXS"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="Qt5-f2-NDJ" secondAttribute="trailing" id="6tf-Bd-wch"/>
+                <constraint firstItem="Ual-xW-9GC" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="20" id="6vW-f6-FBy"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="6N5-qm-6mn" secondAttribute="trailing" constant="16" id="Euo-Pe-BuV"/>
+                <constraint firstItem="Qt5-f2-NDJ" firstAttribute="top" secondItem="6N5-qm-6mn" secondAttribute="bottom" constant="20" id="Ox7-YR-g6u"/>
+                <constraint firstItem="6N5-qm-6mn" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="16" id="UiX-2m-ifW"/>
+                <constraint firstItem="6N5-qm-6mn" firstAttribute="top" secondItem="Ual-xW-9GC" secondAttribute="bottom" constant="10" id="ZId-Nw-LkV"/>
+                <constraint firstItem="Qt5-f2-NDJ" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="ivH-9F-DWJ"/>
+                <constraint firstItem="Ual-xW-9GC" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="16" id="jDd-kM-PDy"/>
+                <constraint firstItem="ERO-Q3-vdx" firstAttribute="centerY" secondItem="ve1-ft-q6x" secondAttribute="centerY" id="q4L-r7-LJc"/>
+            </constraints>
+            <point key="canvasLocation" x="131.8840579710145" y="99.776785714285708"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="downward-arrow" width="170.5" height="170.5"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

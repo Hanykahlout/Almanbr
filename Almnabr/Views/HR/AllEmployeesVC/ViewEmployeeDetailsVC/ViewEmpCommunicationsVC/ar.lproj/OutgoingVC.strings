@@ -1,0 +1,81 @@
+
+/* Class = "UILabel"; text = "Reviewers"; ObjectID = "1Hv-YE-oYj"; */
+"1Hv-YE-oYj.text" = "المراجعين";
+
+/* Class = "UITextField"; placeholder = "Attachments"; ObjectID = "246-dQ-5hE"; */
+"246-dQ-5hE.placeholder" = "المرفقات";
+
+/* Class = "UIButton"; normalTitle = "Need Mark"; ObjectID = "2b8-JZ-ghi"; */
+"2b8-JZ-ghi.normalTitle" = "اضافة تأشير";
+
+/* Class = "UITextField"; placeholder = "Job Title C"; ObjectID = "8Tz-Gg-txw"; */
+"8Tz-Gg-txw.placeholder" = "المهنة حسب الإقامة C";
+
+/* Class = "UIButton"; normalTitle = "Need Attachment"; ObjectID = "9Tz-w9-8cd"; */
+"9Tz-w9-8cd.normalTitle" = "اضافة مرفقات";
+
+/* Class = "UITextField"; placeholder = "Issued Number"; ObjectID = "9hu-7K-53O"; */
+"9hu-7K-53O.placeholder" = "رقم المصدر";
+
+/* Class = "UITextField"; placeholder = "Employee Name B"; ObjectID = "AMX-3I-APb"; */
+"AMX-3I-APb.placeholder" = "اسم الموظف B";
+
+/* Class = "UITextField"; placeholder = "Users"; ObjectID = "EhQ-35-Ngg"; */
+"EhQ-35-Ngg.placeholder" = "المستخدمون";
+
+/* Class = "UILabel"; text = "Outgoing"; ObjectID = "GQf-Jh-OCe"; */
+"GQf-Jh-OCe.text" = "صادر";
+
+/* Class = "UITextField"; placeholder = "Receipient"; ObjectID = "HBz-M1-dhh"; */
+"HBz-M1-dhh.placeholder" = "المستلم";
+
+/* Class = "UILabel"; text = "File Visiblity"; ObjectID = "KXB-tz-5qH"; */
+"KXB-tz-5qH.text" = "مستوى الخصوصة";
+
+/* Class = "UITextField"; placeholder = "Job Title B"; ObjectID = "MbJ-Zv-QjE"; */
+"MbJ-Zv-QjE.placeholder" = "المهنة حسب الإقامة B";
+
+/* Class = "UITextField"; placeholder = "Job Title A"; ObjectID = "RBj-lQ-ifa"; */
+"RBj-lQ-ifa.placeholder" = "المهنة حسب الإقامة A";
+
+/* Class = "UIButton"; normalTitle = "Need Review"; ObjectID = "VYo-yP-mnO"; */
+"VYo-yP-mnO.normalTitle" = "اضافة مراجع";
+
+/* Class = "UITextField"; placeholder = "Employee Name C"; ObjectID = "Vf5-8k-IZ3"; */
+"Vf5-8k-IZ3.placeholder" = "اسم الموظف C";
+
+/* Class = "UILabel"; text = "Signature & Stamp"; ObjectID = "Wje-Ly-5iw"; */
+"Wje-Ly-5iw.text" = "السيرة الذاتية";
+
+/* Class = "UITextField"; placeholder = "Users"; ObjectID = "aFY-LD-xo4"; */
+"aFY-LD-xo4.placeholder" = "المستخدمون";
+
+/* Class = "UITextView"; text = "Description"; ObjectID = "bTr-vv-MQ0"; */
+"bTr-vv-MQ0.text" = "وصف";
+
+/* Class = "UIButton"; normalTitle = "Submit"; ObjectID = "gpq-eF-0fW"; */
+"gpq-eF-0fW.normalTitle" = "اعتماد";
+
+/* Class = "UITextField"; placeholder = "From"; ObjectID = "hZA-YO-2Sk"; */
+"hZA-YO-2Sk.placeholder" = "من";
+
+/* Class = "UITextField"; placeholder = "Issue Date English"; ObjectID = "jSX-Ch-Ka0"; */
+"jSX-Ch-Ka0.placeholder" = "تاريخ الإصدار إنجليزي";
+
+/* Class = "UITextField"; placeholder = "Subject"; ObjectID = "nDi-Aq-zIO"; */
+"nDi-Aq-zIO.placeholder" = "موضوعات";
+
+/* Class = "UITextField"; placeholder = "Employee Name A"; ObjectID = "rLF-cA-t5E"; */
+"rLF-cA-t5E.placeholder" = "اسم الموظف A";
+
+/* Class = "UITextField"; placeholder = "To (Organization)"; ObjectID = "sOw-I5-wTQ"; */
+"sOw-I5-wTQ.placeholder" = "إلى (الجهة)";
+
+/* Class = "UITextField"; placeholder = "Languages"; ObjectID = "uG5-fz-7Xf"; */
+"uG5-fz-7Xf.placeholder" = "لغة";
+
+/* Class = "UILabel"; text = "Attachments"; ObjectID = "vwo-PN-ycb"; */
+"vwo-PN-ycb.text" = "المرفقات";
+
+/* Class = "UILabel"; text = "Markers"; ObjectID = "y3f-yZ-hT5"; */
+"y3f-yZ-hT5.text" = "علامات";

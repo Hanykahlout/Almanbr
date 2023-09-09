@@ -1,0 +1,27 @@
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "64l-Ox-SNt"; */
+"64l-Ox-SNt.text" = "Label";
+
+/* Class = "UILabel"; text = "Passport Details"; ObjectID = "AFA-OM-UfH"; */
+"AFA-OM-UfH.text" = "تفاصيل جواز السفر";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "DPZ-QB-VNF"; */
+"DPZ-QB-VNF.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "F1m-fm-IyY"; */
+"F1m-fm-IyY.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "G2u-fU-Wta"; */
+"G2u-fU-Wta.text" = "Label";
+
+/* Class = "UILabel"; text = "Expiry Date"; ObjectID = "LOh-9l-gUd"; */
+"LOh-9l-gUd.text" = "تاريخ انتهاء الصلاحية";
+
+/* Class = "UILabel"; text = "Issue Place"; ObjectID = "ZTr-Lj-G6A"; */
+"ZTr-Lj-G6A.text" = "مكان القضية";
+
+/* Class = "UILabel"; text = "Issue Date"; ObjectID = "azV-O3-jLE"; */
+"azV-O3-jLE.text" = "تاريخ الإصدار";
+
+/* Class = "UILabel"; text = "Passport Number"; ObjectID = "hHJ-9s-P4U"; */
+"hHJ-9s-P4U.text" = "رقم جواز السفر";

@@ -1,0 +1,12 @@
+
+/* Class = "UITextField"; placeholder = "Insurance Date"; ObjectID = "CMY-9y-hKd"; */
+"CMY-9y-hKd.placeholder" = "تاريخ التأمين";
+
+/* Class = "UILabel"; text = "Insurance Details"; ObjectID = "Rr4-7i-bZA"; */
+"Rr4-7i-bZA.text" = "تفاصيل التأمين";
+
+/* Class = "UITextField"; placeholder = "Insurance Number"; ObjectID = "rud-O2-1oh"; */
+"rud-O2-1oh.placeholder" = "رقم التأمين";
+
+/* Class = "UITextField"; placeholder = "Insurance Type Class"; ObjectID = "yyU-lw-HyH"; */
+"yyU-lw-HyH.placeholder" = "فئة نوع التأمين";

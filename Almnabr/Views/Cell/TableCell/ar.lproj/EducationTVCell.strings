@@ -1,0 +1,18 @@
+
+/* Class = "UILabel"; text = "Writer"; ObjectID = "Eg2-ar-Msy"; */
+"Eg2-ar-Msy.text" = "كاتب";
+
+/* Class = "UILabel"; text = "By :ijii"; ObjectID = "ZiK-cV-JiX"; */
+"ZiK-cV-JiX.text" = "بواسطة:";
+
+/* Class = "UILabel"; text = "Desc"; ObjectID = "fXD-wg-AFw"; */
+"fXD-wg-AFw.text" = "وصف";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "nNd-eq-C2c"; */
+"nNd-eq-C2c.text" = "عنوان";
+
+/* Class = "UILabel"; text = "To"; ObjectID = "oMC-Ku-7mE"; */
+"oMC-Ku-7mE.text" = "إلى";
+
+/* Class = "UILabel"; text = "From"; ObjectID = "qdK-MH-IN2"; */
+"qdK-MH-IN2.text" = "من";

@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="Stack View standard spacing" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="DroidKufi-Bold.ttf">
+            <string>DroidArabicKufi-Bold</string>
+        </array>
+        <array key="DroidKufi-Regular.ttf">
+            <string>DroidArabicKufi</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="184" id="KGk-i7-Jjw" customClass="FinanceInfoTableViewCell" customModule="Almnabr" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="366" height="184"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="366" height="184"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RUS-mG-spY">
+                        <rect key="frame" x="16" y="10" width="334" height="164"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wgK-NE-NWO">
+                                <rect key="frame" x="0.0" y="37.5" width="334" height="1"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="c8d-Dv-x6q">
+                                        <rect key="frame" x="20" y="0.0" width="294" height="1"/>
+                                        <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="c8d-Dv-x6q" firstAttribute="top" secondItem="wgK-NE-NWO" secondAttribute="top" id="Y30-cM-oeP"/>
+                                    <constraint firstAttribute="height" constant="1" id="agN-cX-g2d"/>
+                                    <constraint firstItem="c8d-Dv-x6q" firstAttribute="leading" secondItem="wgK-NE-NWO" secondAttribute="leading" constant="20" id="iIu-8u-U9k"/>
+                                    <constraint firstAttribute="bottom" secondItem="c8d-Dv-x6q" secondAttribute="bottom" id="kS0-Qz-ruM"/>
+                                    <constraint firstAttribute="trailing" secondItem="c8d-Dv-x6q" secondAttribute="trailing" constant="20" id="whi-vu-qfe"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="c1o-NG-NKi">
+                                <rect key="frame" x="0.0" y="101" width="334" height="1"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9LR-DG-OPS">
+                                        <rect key="frame" x="20" y="0.0" width="294" height="1"/>
+                                        <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="9LR-DG-OPS" firstAttribute="leading" secondItem="c1o-NG-NKi" secondAttribute="leading" constant="20" id="HM7-RO-Wax"/>
+                                    <constraint firstAttribute="bottom" secondItem="9LR-DG-OPS" secondAttribute="bottom" id="fWk-j0-vzp"/>
+                                    <constraint firstAttribute="height" constant="1" id="jwR-0N-Ns5"/>
+                                    <constraint firstAttribute="trailing" secondItem="9LR-DG-OPS" secondAttribute="trailing" constant="20" id="liL-kJ-W9C"/>
+                                    <constraint firstItem="9LR-DG-OPS" firstAttribute="top" secondItem="c1o-NG-NKi" secondAttribute="top" id="sMy-Tl-1s9"/>
+                                </constraints>
+                            </view>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="6Iv-cj-VH6">
+                                <rect key="frame" x="10" y="10" width="314" height="119"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="bsi-lQ-rCH">
+                                        <rect key="frame" x="0.0" y="0.0" width="314" height="56"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="bcO-Z5-Ttx">
+                                                <rect key="frame" x="0.0" y="0.0" width="77.5" height="56"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Paid Days" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dg4-Gb-CVx">
+                                                        <rect key="frame" x="0.0" y="0.0" width="77.5" height="23"/>
+                                                        <fontDescription key="fontDescription" name="DroidArabicKufi-Bold" family="Droid Arabic Kufi" pointSize="12"/>
+                                                        <color key="textColor" name="AppColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WkW-v7-V3l">
+                                                        <rect key="frame" x="0.0" y="33" width="77.5" height="23"/>
+                                                        <fontDescription key="fontDescription" name="DroidArabicKufi" family="Droid Arabic Kufi" pointSize="12"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                            </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="uSM-vh-4dN">
+                                                <rect key="frame" x="87.5" y="0.0" width="98" height="56"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Unpaid Days" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cGs-cp-mHM">
+                                                        <rect key="frame" x="0.0" y="0.0" width="98" height="23"/>
+                                                        <fontDescription key="fontDescription" name="DroidArabicKufi-Bold" family="Droid Arabic Kufi" pointSize="12"/>
+                                                        <color key="textColor" name="AppColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4aL-Md-6gn">
+                                                        <rect key="frame" x="0.0" y="33" width="98" height="23"/>
+                                                        <fontDescription key="fontDescription" name="DroidArabicKufi" family="Droid Arabic Kufi" pointSize="12"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                            </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="2SL-jh-4fv">
+                                                <rect key="frame" x="195.5" y="0.0" width="118.5" height="56"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Credit Amount" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="j03-SI-GF2">
+                                                        <rect key="frame" x="0.0" y="0.0" width="118.5" height="23"/>
+                                                        <fontDescription key="fontDescription" name="DroidArabicKufi-Bold" family="Droid Arabic Kufi" pointSize="12"/>
+                                                        <color key="textColor" name="AppColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ofY-Or-6Tz">
+                                                        <rect key="frame" x="0.0" y="33" width="118.5" height="23"/>
+                                                        <fontDescription key="fontDescription" name="DroidArabicKufi" family="Droid Arabic Kufi" pointSize="12"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                            </stackView>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="7Wg-ku-g6w">
+                                        <rect key="frame" x="0.0" y="64" width="314" height="55"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="8cQ-fG-Iud">
+                                                <rect key="frame" x="0.0" y="0.0" width="160" height="55"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Debit Amount" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d6E-Je-zhO">
+                                                        <rect key="frame" x="0.0" y="0.0" width="160" height="22.5"/>
+                                                        <fontDescription key="fontDescription" name="DroidArabicKufi-Bold" family="Droid Arabic Kufi" pointSize="12"/>
+                                                        <color key="textColor" name="AppColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="q3o-8j-XCM">
+                                                        <rect key="frame" x="0.0" y="32.5" width="160" height="22.5"/>
+                                                        <fontDescription key="fontDescription" name="DroidArabicKufi" family="Droid Arabic Kufi" pointSize="12"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                            </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="e7b-Cw-0Mg">
+                                                <rect key="frame" x="170" y="0.0" width="144" height="55"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Description" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VXt-qz-fZp">
+                                                        <rect key="frame" x="0.0" y="0.0" width="144" height="22.5"/>
+                                                        <fontDescription key="fontDescription" name="DroidArabicKufi-Bold" family="Droid Arabic Kufi" pointSize="12"/>
+                                                        <color key="textColor" name="AppColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ygc-87-mVr">
+                                                        <rect key="frame" x="0.0" y="32.5" width="144" height="22.5"/>
+                                                        <fontDescription key="fontDescription" name="DroidArabicKufi" family="Droid Arabic Kufi" pointSize="12"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                            </stackView>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="g0L-CS-PWl">
+                                <rect key="frame" x="10" y="139" width="52.5" height="15"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="calendar" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="Yeq-Rq-IT9">
+                                        <rect key="frame" x="0.0" y="1" width="15" height="12.5"/>
+                                        <color key="tintColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="15" id="Geu-XQ-NAf"/>
+                                            <constraint firstAttribute="height" constant="15" id="ms0-sb-0Nf"/>
+                                        </constraints>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eMF-Ra-Bir">
+                                        <rect key="frame" x="23" y="0.0" width="29.5" height="15"/>
+                                        <fontDescription key="fontDescription" name="DroidArabicKufi" family="Droid Arabic Kufi" pointSize="12"/>
+                                        <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="c1o-NG-NKi" firstAttribute="leading" secondItem="RUS-mG-spY" secondAttribute="leading" id="6EH-2c-jA2"/>
+                            <constraint firstItem="6Iv-cj-VH6" firstAttribute="leading" secondItem="RUS-mG-spY" secondAttribute="leading" constant="10" id="8Om-ev-hDd"/>
+                            <constraint firstItem="c1o-NG-NKi" firstAttribute="centerY" secondItem="7Wg-ku-g6w" secondAttribute="centerY" id="CCJ-lE-e6W"/>
+                            <constraint firstAttribute="trailing" secondItem="wgK-NE-NWO" secondAttribute="trailing" id="J2w-mf-z4a"/>
+                            <constraint firstItem="wgK-NE-NWO" firstAttribute="leading" secondItem="RUS-mG-spY" secondAttribute="leading" id="LNc-4M-eWM"/>
+                            <constraint firstItem="wgK-NE-NWO" firstAttribute="centerY" secondItem="bsi-lQ-rCH" secondAttribute="centerY" id="NsU-Rd-F8t"/>
+                            <constraint firstAttribute="bottom" secondItem="g0L-CS-PWl" secondAttribute="bottom" constant="10" id="Tm7-Oy-5CK"/>
+                            <constraint firstItem="6Iv-cj-VH6" firstAttribute="top" secondItem="RUS-mG-spY" secondAttribute="top" constant="10" id="XEF-cl-cRM"/>
+                            <constraint firstItem="g0L-CS-PWl" firstAttribute="top" secondItem="6Iv-cj-VH6" secondAttribute="bottom" constant="10" id="ZJp-QI-0xM"/>
+                            <constraint firstAttribute="trailing" secondItem="6Iv-cj-VH6" secondAttribute="trailing" constant="10" id="mBd-t2-gKd"/>
+                            <constraint firstItem="g0L-CS-PWl" firstAttribute="leading" secondItem="RUS-mG-spY" secondAttribute="leading" constant="10" id="s7Q-fL-VoE"/>
+                            <constraint firstAttribute="trailing" secondItem="c1o-NG-NKi" secondAttribute="trailing" id="yGP-xB-mAa"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="corner_radius">
+                                <real key="value" value="20"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="RUS-mG-spY" secondAttribute="trailing" constant="16" id="0kT-aZ-Hg8"/>
+                    <constraint firstItem="RUS-mG-spY" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="34H-tq-cna"/>
+                    <constraint firstItem="RUS-mG-spY" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="TpM-p5-Pv8"/>
+                    <constraint firstAttribute="bottom" secondItem="RUS-mG-spY" secondAttribute="bottom" constant="10" id="dNL-2A-EBN"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <connections>
+                <outlet property="creditAmountLabel" destination="ofY-Or-6Tz" id="ymN-t2-5m0"/>
+                <outlet property="dateLabel" destination="eMF-Ra-Bir" id="c1n-YT-UtS"/>
+                <outlet property="debitAmountLabel" destination="q3o-8j-XCM" id="CcP-A9-5bV"/>
+                <outlet property="descriptionLabel" destination="Ygc-87-mVr" id="vBj-rC-qEX"/>
+                <outlet property="paidDaysLabel" destination="WkW-v7-V3l" id="lkA-v9-1z0"/>
+                <outlet property="unpaidDayLabel" destination="4aL-Md-6gn" id="L36-hu-SHe"/>
+            </connections>
+            <point key="canvasLocation" x="214.49275362318843" y="145.3125"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="calendar" catalog="system" width="128" height="106"/>
+        <namedColor name="AppColor">
+            <color red="0.098039215686274508" green="0.21176470588235294" blue="0.396078431372549" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

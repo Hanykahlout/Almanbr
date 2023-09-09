@@ -1,0 +1,33 @@
+
+/* Class = "UIButton"; normalTitle = "Close"; ObjectID = "6m2-gr-pZl"; */
+"6m2-gr-pZl.normalTitle" = "اغلق";
+
+/* Class = "UILabel"; text = "Settings Type:"; ObjectID = "AWr-BG-Uf6"; */
+"AWr-BG-Uf6.text" = "نوع الإعدادات:";
+
+/* Class = "UILabel"; text = "Status :"; ObjectID = "Ba8-0R-jr7"; */
+"Ba8-0R-jr7.text" = "حالة :";
+
+/* Class = "UILabel"; text = "Short Code:"; ObjectID = "Fml-st-C5h"; */
+"Fml-st-C5h.text" = "كود قصير:";
+
+/* Class = "UILabel"; text = "Title Arabic :"; ObjectID = "Fry-Vh-24i"; */
+"Fry-Vh-24i.text" = "العنوان بالعربية:";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "RlX-s4-AMS"; */
+"RlX-s4-AMS.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "TQf-iX-Peh"; */
+"TQf-iX-Peh.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "hje-TB-QDH"; */
+"hje-TB-QDH.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "nmR-HV-0LH"; */
+"nmR-HV-0LH.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "xUm-3N-Xkt"; */
+"xUm-3N-Xkt.text" = "Label";
+
+/* Class = "UILabel"; text = "Title English :"; ObjectID = "yL7-oV-Y79"; */
+"yL7-oV-Y79.text" = "العنوان بالإنجليزية:";

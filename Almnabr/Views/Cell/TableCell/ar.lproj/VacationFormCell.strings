@@ -1,0 +1,15 @@
+
+/* Class = "UILabel"; text = "Vacation Type"; ObjectID = "3VP-RR-X07"; */
+"3VP-RR-X07.text" = "نوع الاجازة";
+
+/* Class = "UILabel"; text = "Total Days"; ObjectID = "4Bb-7N-Bap"; */
+"4Bb-7N-Bap.text" = "مجموع الأيام";
+
+/* Class = "UILabel"; text = "Status"; ObjectID = "4iH-8T-WVT"; */
+"4iH-8T-WVT.text" = "حالة";
+
+/* Class = "UILabel"; text = "From"; ObjectID = "HsW-u6-iiw"; */
+"HsW-u6-iiw.text" = "من";
+
+/* Class = "UILabel"; text = "To"; ObjectID = "nuS-i4-N6a"; */
+"nuS-i4-N6a.text" = "إلى";

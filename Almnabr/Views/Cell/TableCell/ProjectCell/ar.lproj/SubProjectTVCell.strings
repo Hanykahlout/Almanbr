@@ -1,0 +1,36 @@
+
+/* Class = "UILabel"; text = "ID: 23"; ObjectID = "27F-wC-Jl4"; */
+"27F-wC-Jl4.text" = "رقم:";
+
+/* Class = "UILabel"; text = "ID: 23"; ObjectID = "2bz-O8-fhw"; */
+"2bz-O8-fhw.text" = "رقم:";
+
+/* Class = "UILabel"; text = "Tax Amount"; ObjectID = "9Hp-QY-wX5"; */
+"9Hp-QY-wX5.text" = "قيمة الضريبة";
+
+/* Class = "UILabel"; text = "Approved Date : 222"; ObjectID = "MuS-4c-GcL"; */
+"MuS-4c-GcL.text" = "تاريخ الموافقة:";
+
+/* Class = "UILabel"; text = "By :ijii"; ObjectID = "asj-7q-UBL"; */
+"asj-7q-UBL.text" = "بواسطة:";
+
+/* Class = "UILabel"; text = "ID: 23"; ObjectID = "btZ-Q8-y4v"; */
+"btZ-Q8-y4v.text" = "رقم:";
+
+/* Class = "UILabel"; text = "Branch:testt"; ObjectID = "gmw-nX-TLe"; */
+"gmw-nX-TLe.text" = "فرع:";
+
+/* Class = "UILabel"; text = "ID: 23"; ObjectID = "hGi-Ut-v88"; */
+"hGi-Ut-v88.text" = "رقم:";
+
+/* Class = "UILabel"; text = "Net Amount"; ObjectID = "qZR-CK-fBF"; */
+"qZR-CK-fBF.text" = "كمية الشبكة";
+
+/* Class = "UILabel"; text = "Title : demo3"; ObjectID = "sfs-jh-f1S"; */
+"sfs-jh-f1S.text" = "عنوان:";
+
+/* Class = "UILabel"; text = "Grand Total"; ObjectID = "t9A-2K-SXr"; */
+"t9A-2K-SXr.text" = "المبلغ الإجمالي";
+
+/* Class = "UILabel"; text = "By :ijii"; ObjectID = "vNn-Gd-Mjx"; */
+"vNn-Gd-Mjx.text" = "بواسطة:";

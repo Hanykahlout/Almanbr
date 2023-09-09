@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="View_notification" customModule="Almnabr" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="51" height="44"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3Vs-kl-fOX">
+                    <rect key="frame" x="0.0" y="0.0" width="51" height="44"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sgm-bR-BeB">
+                            <rect key="frame" x="13" y="9.5" width="25" height="25"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="25" id="NQa-aq-3Il"/>
+                                <constraint firstAttribute="height" constant="25" id="OzG-va-ekJ"/>
+                            </constraints>
+                            <color key="tintColor" systemColor="systemYellowColor"/>
+                            <state key="normal" image="bell.fill" catalog="system">
+                                <color key="titleColor" red="0.84440308809999998" green="0.36923527719999999" blue="0.35684219" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </state>
+                        </button>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Eft-db-TGZ">
+                            <rect key="frame" x="-5" y="-5" width="15" height="15"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pWc-5b-5Cg">
+                                    <rect key="frame" x="4" y="-3" width="7" height="21"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                            <color key="backgroundColor" systemColor="systemRedColor"/>
+                            <constraints>
+                                <constraint firstItem="pWc-5b-5Cg" firstAttribute="top" secondItem="Eft-db-TGZ" secondAttribute="top" constant="-3" id="3b5-xv-U6V"/>
+                                <constraint firstItem="pWc-5b-5Cg" firstAttribute="centerX" secondItem="Eft-db-TGZ" secondAttribute="centerX" id="IlX-C2-cOt"/>
+                                <constraint firstItem="pWc-5b-5Cg" firstAttribute="leading" secondItem="Eft-db-TGZ" secondAttribute="leading" constant="4" id="IoZ-dd-BJx"/>
+                                <constraint firstAttribute="height" constant="15" id="Tbh-FO-7Gh"/>
+                                <constraint firstItem="pWc-5b-5Cg" firstAttribute="centerY" secondItem="Eft-db-TGZ" secondAttribute="centerY" id="jRx-nE-4bj"/>
+                                <constraint firstAttribute="width" constant="15" id="yZD-1v-5YD"/>
+                            </constraints>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                    <real key="value" value="7.5"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="Eft-db-TGZ" firstAttribute="top" secondItem="3Vs-kl-fOX" secondAttribute="top" constant="-5" id="B2q-Lr-W2X"/>
+                        <constraint firstItem="sgm-bR-BeB" firstAttribute="centerX" secondItem="3Vs-kl-fOX" secondAttribute="centerX" id="DKW-2y-Mh8"/>
+                        <constraint firstItem="Eft-db-TGZ" firstAttribute="leading" secondItem="3Vs-kl-fOX" secondAttribute="leading" constant="-5" id="Ft9-Zr-7ml"/>
+                        <constraint firstItem="sgm-bR-BeB" firstAttribute="centerY" secondItem="3Vs-kl-fOX" secondAttribute="centerY" id="qUy-iV-jxf"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="3Vs-kl-fOX" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="E4w-yT-QkQ"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="3Vs-kl-fOX" secondAttribute="bottom" id="kXk-98-3EW"/>
+                <constraint firstItem="3Vs-kl-fOX" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="reH-eq-wfW"/>
+                <constraint firstAttribute="trailing" secondItem="3Vs-kl-fOX" secondAttribute="trailing" id="vtT-fg-G9e"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="lblNotify" destination="pWc-5b-5Cg" id="TXC-6g-e4r"/>
+                <outlet property="viewNotify" destination="Eft-db-TGZ" id="kWz-QP-6QV"/>
+            </connections>
+            <point key="canvasLocation" x="226.81159420289856" y="130.58035714285714"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="bell.fill" catalog="system" width="128" height="124"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemRedColor">
+            <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemYellowColor">
+            <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

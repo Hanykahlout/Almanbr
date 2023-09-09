@@ -1,0 +1,9 @@
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "Q2A-la-v2O"; */
+"Q2A-la-v2O.text" = "Label";
+
+/* Class = "UILabel"; text = "Communications"; ObjectID = "l7x-jU-Scp"; */
+"l7x-jU-Scp.text" = "مجال الاتصالات";
+
+/* Class = "UITextField"; placeholder = "Search...."; ObjectID = "pwn-up-fny"; */
+"pwn-up-fny.placeholder" = "بحث....";

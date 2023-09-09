@@ -1,0 +1,33 @@
+
+/* Class = "UILabel"; text = "Action"; ObjectID = "2qI-AK-bJi"; */
+"2qI-AK-bJi.text" = "الإجراءات";
+
+/* Class = "UILabel"; text = "Duration"; ObjectID = "6R5-KM-pLb"; */
+"6R5-KM-pLb.text" = "مدة";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "DLQ-Kb-EAj"; */
+"DLQ-Kb-EAj.text" = "Label";
+
+/* Class = "UILabel"; text = "Description\t"; ObjectID = "Fa6-Oo-kXd"; */
+"Fa6-Oo-kXd.text" = "وصف";
+
+/* Class = "UILabel"; text = "Education Title"; ObjectID = "NfK-Qm-5yt"; */
+"NfK-Qm-5yt.text" = "عنوان التعليم";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "Nuw-vf-pmE"; */
+"Nuw-vf-pmE.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "ZAy-g5-BTX"; */
+"ZAy-g5-BTX.text" = "Label";
+
+/* Class = "UILabel"; text = "Writer\t"; ObjectID = "c5x-CK-RS4"; */
+"c5x-CK-RS4.text" = "كاتب";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "dV0-dQ-6tc"; */
+"dV0-dQ-6tc.text" = "Label";
+
+/* Class = "UILabel"; text = "On Date"; ObjectID = "iV1-fZ-9z4"; */
+"iV1-fZ-9z4.text" = "في تاريخ";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "oz1-1E-n2p"; */
+"oz1-1E-n2p.text" = "Label";

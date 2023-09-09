@@ -1,0 +1,18 @@
+
+/* Class = "UILabel"; text = "Subject"; ObjectID = "05E-aQ-iWh"; */
+"05E-aQ-iWh.text" = "موضوع";
+
+/* Class = "UILabel"; text = "priority"; ObjectID = "95Q-DN-6dA"; */
+"95Q-DN-6dA.text" = "حسب الأولية";
+
+/* Class = "UILabel"; text = "Date"; ObjectID = "Ymb-yb-sTM"; */
+"Ymb-yb-sTM.text" = "تاريخ";
+
+/* Class = "UILabel"; text = "Module"; ObjectID = "ag1-Af-TvV"; */
+"ag1-Af-TvV.text" = "وحدة";
+
+/* Class = "UILabel"; text = "Status"; ObjectID = "eYe-C9-Xuw"; */
+"eYe-C9-Xuw.text" = "حالة";
+
+/* Class = "UILabel"; text = "Type"; ObjectID = "s2g-Nt-4Vf"; */
+"s2g-Nt-4Vf.text" = "نوع";
