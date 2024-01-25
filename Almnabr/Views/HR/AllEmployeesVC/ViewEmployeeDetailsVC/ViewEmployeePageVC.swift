@@ -12,6 +12,7 @@ class ViewEmployeePageVC: UIPageViewController {
     
     private var containerVCs = [UIViewController]()
     var empID = ""
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -33,32 +34,7 @@ class ViewEmployeePageVC: UIPageViewController {
         containerVCs.append(langVacationsVC)
         containerVCs.append(modulesVC)
         containerVCs.append(langFinanialDetailsVC)
-        
-        
-//        let jobDetailsVC = ViewEmpJobDetailsVC()
-//        let communicationsVC = ViewEmpCommunicationsVC()
-//        let contactDetailsVC = ViewEmpContactDetailsVC()
-//        let bankDetailsVC = ViewEmpBankDetailsVC()
-//        let educationDetailsVC = ViewEmpEducationDetailsVC()
-//        let passportDetailsVC = ViewEmpPassportDetailsVC()
-//        let insuranceDetailsVC = ViewEmpInsuranceDetailsVC()
-//        let notesVC = ViewEmpNotesVC()
-//        let attachmentsVC = ViewEmpAttachmentsVC()
-//        let langCalenderVC = ViewLangCalenderVC()
-        
-        
-        
-        
-//        containerVCs.append(jobDetailsVC)
-//        containerVCs.append(communicationsVC)
-//        containerVCs.append(contactDetailsVC)
-//        containerVCs.append(bankDetailsVC)
-//        containerVCs.append(educationDetailsVC)
-//        containerVCs.append(passportDetailsVC)
-//        containerVCs.append(insuranceDetailsVC)
-//        containerVCs.append(notesVC)
-//        containerVCs.append(attachmentsVC)
-//        containerVCs.append(langCalenderVC)
+  
 
         if let firstVC = containerVCs.first{
             setViewControllers([firstVC], direction: .forward, animated: true)

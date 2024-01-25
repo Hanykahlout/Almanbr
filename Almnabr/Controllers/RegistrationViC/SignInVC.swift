@@ -307,12 +307,17 @@ class SignInVC: UIViewController {
     @IBAction func btnLogin_Click(_ sender: Any) {
         self.view.endEditing(true)
         showLoadingActivity()
-        APIController.shard.fetchSendCode(username: txtControlEmailAdress.txtField.text!, password: txtControlPassword.txtField.text!) { data in
+        var username = txtControlEmailAdress.txtField.text!.trimmingCharacters(in: .whitespacesAndNewlines)
+        username = username.addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed) ?? ""
+        let password = txtControlPassword.txtField.text!.addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed) ?? ""
+        
+        
+        APIController.shard.fetchSendCode(username: username, password: password) { data in
             self.hideLoadingActivity()
             if let status = data.status,status{
                 let vc = SendSignInCodeVC()
-                vc.username = self.txtControlEmailAdress.txtField.text!
-                vc.password = self.txtControlPassword.txtField.text!
+                vc.username = username
+                vc.password = password
                 self.navigationController?.pushViewController(vc, animated: true)
             }else{
                 if let _ = data.otp_need{
