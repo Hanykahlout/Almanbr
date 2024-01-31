@@ -47,49 +47,25 @@ struct LockScreenWidgetEntryView : View {
     var body: some View {
         switch widgetFamily{
         case .accessoryCircular:
-            Gauge(value: 0.5) {
-                
-                Image("qr-code")
-                    .resizable()
-                    .aspectRatio(contentMode: .fit)
-                    .frame(width: 22, height: 22, alignment: .top)
-                    .foregroundColor(.white)
-                
-            }.gaugeStyle(.accessoryCircular)
-                .widgetURL(URL(string: "widget-deeplink://")!)
-        default:
-            ZStack {
-
-                Color.init("AccentColor")
-
-                VStack{
-                    HStack{
-                        Spacer()
-
-                        Image("ItunesArtwork")
-
-                            .resizable()
-                            .aspectRatio(contentMode: .fill)
-                            .frame(width: 22, height: 22, alignment: .center)
-                            .foregroundColor(.white)
-                            .cornerRadius(4)
-                            .clipped()
-
-                    }
-                    .padding(10)
-                    Image("qr-code")
-
-                        .resizable()
-                        .frame(width: 40, height: 40, alignment: .center)
-                        .foregroundColor(.white)
-
-                    Text("Link Device").foregroundColor(.white)
-                        .font(Font.custom("DroidKufi-Regular", size: 14))
-                    Spacer()
+            if #available(iOSApplicationExtension 17.0, *) {
+                CircularWidget().containerBackground(for: .widget) {
+                    Color.init("AccentColor")
                 }
-
-            }.widgetURL(URL(string: "widget-deeplink://")!)
-        
+            }else{
+                CircularWidget()
+            }
+           
+            
+                
+        default:
+            
+            if #available(iOSApplicationExtension 17.0, *) {
+                DefaultWidget().containerBackground(for: .widget) {
+                    Color.init("AccentColor")
+                }
+            }else{
+                DefaultWidget()
+            }
         }
        
     }
@@ -114,5 +90,61 @@ struct LockScreenWidget_Previews: PreviewProvider {
     static var previews: some View {
         LockScreenWidgetEntryView(entry: SimpleEntry(date: Date()))
             .previewContext(WidgetPreviewContext(family: .systemSmall))
+    }
+}
+
+
+struct DefaultWidget: View{
+    var body: some View {
+        
+        ZStack {
+
+            Color.init("AccentColor")
+
+            VStack{
+                HStack{
+                    Spacer()
+
+                    Image("ItunesArtwork")
+
+                        .resizable()
+                        .aspectRatio(contentMode: .fill)
+                        .frame(width: 22, height: 22, alignment: .center)
+                        .foregroundColor(.white)
+                        .cornerRadius(4)
+                        .clipped()
+
+                }
+                .padding(10)
+                Image("qr-code")
+
+                    .resizable()
+                    .frame(width: 40, height: 40, alignment: .center)
+                    .foregroundColor(.white)
+
+                Text("Link Device").foregroundColor(.white)
+                    .font(Font.custom("DroidKufi-Regular", size: 14))
+                Spacer()
+            }
+
+        }.widgetURL(URL(string: "widget-deeplink://")!)
+    }
+}
+
+struct CircularWidget:View{
+    var body: some View {
+        Gauge(value: 0.5) {
+
+                    Image("qr-code")
+                        .resizable()
+                        .aspectRatio(contentMode: .fit)
+                        .frame(width: 22, height: 22, alignment: .top)
+                        .foregroundColor(.white)
+                    
+                
+        }.gaugeStyle(.accessoryCircular)
+            .widgetURL(URL(string: "widget-deeplink://")!)
+        
+        
     }
 }
