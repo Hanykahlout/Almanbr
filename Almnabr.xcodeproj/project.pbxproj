@@ -232,7 +232,6 @@
 		3FC82A4C284CD863005BCB46 /* Edit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC82A48284CD863005BCB46 /* Edit.swift */; };
 		3FC82A4E284CD863005BCB46 /* AllEmployeeResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC82A4A284CD863005BCB46 /* AllEmployeeResponse.swift */; };
 		3FC82A4F284CD863005BCB46 /* AllEmployeeRecords.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC82A4B284CD863005BCB46 /* AllEmployeeRecords.swift */; };
-		3FC9E91528914BBC000B2644 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 3FC9E91428914BBC000B2644 /* .gitignore */; };
 		3FD038D52874377000BB13C7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FD038D02874377000BB13C7 /* LaunchScreen.storyboard */; };
 		3FD039D2287437B000BB13C7 /* AllEmployeesVC.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3FD038DD287437AF00BB13C7 /* AllEmployeesVC.strings */; };
 		3FD039D3287437B000BB13C7 /* AllEmployeesVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3FD038DF287437AF00BB13C7 /* AllEmployeesVC.xib */; };
@@ -1392,7 +1391,6 @@
 		3FC82A48284CD863005BCB46 /* Edit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Edit.swift; sourceTree = "<group>"; };
 		3FC82A4A284CD863005BCB46 /* AllEmployeeResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AllEmployeeResponse.swift; sourceTree = "<group>"; };
 		3FC82A4B284CD863005BCB46 /* AllEmployeeRecords.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AllEmployeeRecords.swift; sourceTree = "<group>"; };
-		3FC9E91428914BBC000B2644 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		3FD038D02874377000BB13C7 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3FD038DE287437AF00BB13C7 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/AllEmployeesVC.strings; sourceTree = "<group>"; };
 		3FD038E0287437AF00BB13C7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/AllEmployeesVC.xib; sourceTree = "<group>"; };
@@ -4585,7 +4583,6 @@
 		FA03241926FB9BF900372EA6 = {
 			isa = PBXGroup;
 			children = (
-				3FC9E91428914BBC000B2644 /* .gitignore */,
 				FA03242426FB9BFA00372EA6 /* Almnabr */,
 				FA03243B26FB9BFE00372EA6 /* AlmnabrTests */,
 				FA03244626FB9BFE00372EA6 /* AlmnabrUITests */,
@@ -5491,7 +5488,6 @@
 				CEA3A086291A945000F79E3C /* SettingsViewController.xib in Resources */,
 				CE7A8F4C29CB51A5006A79E2 /* AppUpdateVC.xib in Resources */,
 				3F07C070286D8F9300C2CDF6 /* EducationTVCell.xib in Resources */,
-				3FC9E91528914BBC000B2644 /* .gitignore in Resources */,
 				3FD03A25287437B000BB13C7 /* UpdateInsuranceViewController.xib in Resources */,
 				3F9040F8286CB48F008D85B8 /* OutgoingHistoryTableViewCell.xib in Resources */,
 				FAAF206827DCEF9400AD255B /* Related formsTVCell.xib in Resources */,
